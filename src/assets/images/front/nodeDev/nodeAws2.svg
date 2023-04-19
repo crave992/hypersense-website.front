@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="63px" viewBox="0 0 70 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nodeAws2</title>
+    <defs>
+        <linearGradient x1="69.1338984%" y1="77.1477591%" x2="2.76354392%" y2="-30.422129%" id="linearGradient-1">
+            <stop stop-color="#FF6D6D" offset="0%"></stop>
+            <stop stop-color="#FFC0C0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="69.1338984%" y1="51.0532533%" x2="2.76354392%" y2="46.8798577%" id="linearGradient-2">
+            <stop stop-color="#FF6D6D" offset="0%"></stop>
+            <stop stop-color="#FFC0C0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="69.1338984%" y1="52.3698199%" x2="2.76354392%" y2="42.9796799%" id="linearGradient-3">
+            <stop stop-color="#FF6D6D" offset="0%"></stop>
+            <stop stop-color="#FFC0C0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="69.1338984%" y1="59.4792795%" x2="2.76354392%" y2="21.9187194%" id="linearGradient-4">
+            <stop stop-color="#FF6D6D" offset="0%"></stop>
+            <stop stop-color="#FFC0C0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="All-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Node.js-Development-Services" transform="translate(-1082.000000, -6138.000000)">
+            <g id="Group-8" transform="translate(215.000000, 5931.000000)">
+                <g id="Group-25" transform="translate(662.000000, 208.000000)">
+                    <g id="Group-11" transform="translate(21.000000, 0.000000)">
+                        <g id="nodeAws2" transform="translate(184.999988, 0.000000)">
+                            <path d="M43.1999974,34.3999989 L51.1999969,34.3999989 C60.2690934,34.3999989 60.4631543,34.3999989 67.199996,34.3999989 C67.199996,25.3309015 60.2690934,18.3999989 51.1999969,18.3999989 C44.8015933,18.3999989 39.4674852,21.8498872 36.8807496,27.0665872" id="Oval-Copy-17" stroke="#4A4A4A" stroke-width="1.99999988" stroke-linecap="round"></path>
+                            <g id="Group-40" transform="translate(0.000000, 14.399999)">
+                                <path d="M0.570621365,11.1999993 C0.215289378,9.24507886 0.138432458,7.2170434 0.340050607,5.11589294 C7.27909093,5.11589294 12.2118694,3.71150967 15.1383861,0.902743132 C15.7759247,0.290882635 16.7887631,0.311677056 17.4006373,0.949202447 C17.4045727,0.953302798 17.4084862,0.957424089 17.4123776,0.961566143 C20.014367,3.73111734 24.9902573,5.11589294 32.3400487,5.11589294 C32.3400487,23.6396465 27.3757914,37.1991428 17.4472767,45.7943817 C16.8272666,46.3311349 15.9018089,46.3122155 15.3042523,45.7505726 C12.8243615,43.4197258 11.1408082,41.6834913 10.2535922,40.541869 C8.29357471,38.0198229 6.62419515,35.2071388 5.24545354,32.1038168" id="Rectangle" stroke="#4A4A4A" stroke-width="1.99999988" stroke-linecap="round" stroke-linejoin="round" transform="translate(16.285310, 23.320913) scale(-1, 1) translate(-16.285310, -23.320913) "></path>
+                                <path d="M36.5774803,17.5311231 L40.9735626,24.970647 C41.4231041,25.7314095 41.1708096,26.7125547 40.4100471,27.1620962 C40.1635245,27.3077686 39.8824258,27.3846138 39.5960802,27.3846138 L30.8039156,27.3846138 C29.92026,27.3846138 29.2039157,26.6682694 29.2039157,25.7846138 C29.2039157,25.4982682 29.2807608,25.2171695 29.4264332,24.970647 L33.8225155,17.5311231 C34.272057,16.7703606 35.2532023,16.5180661 36.0139648,16.9676076 C36.246325,17.1049114 36.4401765,17.2987628 36.5774803,17.5311231 Z" id="Triangle" fill="url(#linearGradient-1)" transform="translate(35.199998, 21.292306) rotate(-270.000000) translate(-35.199998, -21.292306) "></path>
+                                <rect id="Rectangle" fill="url(#linearGradient-2)" x="12.7999992" y="24.7999985" width="14.3999991" height="2.39999986" rx="1.19999993"></rect>
+                                <rect id="Rectangle-Copy-20" fill="url(#linearGradient-3)" x="17.599999" y="19.9999988" width="9.59999943" height="2.39999986" rx="1.19999993"></rect>
+                                <rect id="Rectangle-Copy-21" fill="url(#linearGradient-4)" x="22.3999987" y="15.1999991" width="4.79999971" height="2.39999986" rx="1.19999993"></rect>
+                            </g>
+                            <ellipse id="Oval" stroke="#4A4A4A" stroke-width="1.99999988" cx="51.1999969" cy="6.79999959" rx="6.39999962" ry="6.79999959"></ellipse>
+                            <path d="M62.3999963,46.3999972 L62.3999963,53.686782 C62.3999963,57.6153018 59.2153017,60.7999964 55.2867819,60.7999964 L45.5999973,60.7999964 L45.5999973,60.7999964 L15.999999,60.7999964" id="Rectangle" stroke="#4A4A4A" stroke-width="1.99999988"></path>
+                            <path d="M66.5616469,54.1740083 L59.9273327,54.7396937 C59.0436772,54.7396937 58.3273328,54.0233493 58.3273328,53.1396938 L58.8930182,46.5053796" id="Rectangle" stroke="#4A4A4A" stroke-width="1.99999988" stroke-linecap="round" transform="translate(62.444490, 50.622537) rotate(-225.000000) translate(-62.444490, -50.622537) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<label>{{ config.label }}</label>
+<div>
+    <div *ngIf="!url;else imagePreview;" class="upload-form" appDragDrop (onFileDropped)="uploadFile($event)">
+                <span class="x-file-input">
+                    <input #fileInput
+                           accept="image/gif,image/jpg,image/jpeg,image/png,image/svg+xml"
+                           type="file"
+                    >
+                    <label><div class="btn" (click)="uploadImage()"><span>Upload post image</span></div></label>
+                </span>
+    </div>
+    <ng-template #imagePreview>
+        <div class="image-preview">
+            <img alt="" [src]="url" class="position-relative"/>
+            <button class="delete-file" (click)="deleteAttachment()">
+                <i class="fa fa-trash"></i>
+            </button>
+        </div>
+    </ng-template>
+</div>
+
+

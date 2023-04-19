@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="229px" height="229px" viewBox="0 0 229 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>elastic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="81.5" cy="81.5" r="81.5"></circle>
+        <filter x="-35.0%" y="-27.6%" width="169.9%" height="169.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0274509804   0 0 0 0 0.647058824   0 0 0 0 0.870588235  0 0 0 0.0513275787 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="36.5" cy="36.5" r="36.5"></circle>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="elastic" transform="translate(33.000000, 21.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="elastic-elasticsearch" transform="translate(45.000000, 45.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g mask="url(#mask-4)" fill-rule="nonzero" id="Path">
+                    <g transform="translate(-3.000000, 0.000000)">
+                        <path d="M54.8219112,20.6134479 L5.75769692,20.6134479 C4.52267093,20.6134479 3.51219512,19.5958722 3.51219512,18.3521685 L3.51219512,2.52321222 C3.51219512,1.27950852 4.52267093,0.26193276 5.75769692,0.26193276 L69.7544982,0.26193276 C70.9895242,0.26193276 72,1.27950852 72,2.52321222 L72,3.31466003 C71.8877249,12.8120338 64.2530188,20.6134479 54.8219112,20.6134479 Z" fill="#F0BF1A"></path>
+                        <path d="M72,72.8195085 L3.95121951,72.8195085 L3.95121951,52.4679934 L55.0157395,52.4679934 C64.4017782,52.4679934 72,60.1563435 72,69.6537173 L72,72.8195085 L72,72.8195085 Z" fill="#3EBEB0"></path>
+                        <path d="M50.5435925,46.7164782 L0,46.7164782 L0,26.3649631 L50.5435925,26.3649631 C56.1223555,26.3649631 60.5853659,30.887522 60.5853659,36.5407206 C60.5853659,42.1939193 56.0107802,46.7164782 50.5435925,46.7164782 Z" fill="#07A5DE"></path>
+                        <path d="M34.7730198,26.3649631 L1.75609756,26.3649631 L1.75609756,46.7164782 L34.7730198,46.7164782 C35.5538254,43.6637509 36,40.2718318 36,36.5407206 C36,32.8096095 35.5538254,29.4176903 34.7730198,26.3649631 Z" fill="#231F20"></path>
+                        <path d="M21.1996693,5.12859943 C15.1723853,8.74549834 10.1496486,14.1708467 7.02439024,20.6134479 L33.3658537,20.6134479 C30.6870608,14.3969029 26.4456387,9.19761071 21.1996693,5.12859943 Z" fill="#D7A229"></path>
+                        <path d="M22.3703704,68.3952661 C27.5230352,64.2452021 31.66757,58.7491713 34.2439024,52.4679934 L7.02439024,52.4679934 C10.3848238,59.1978269 15.7615176,64.8060215 22.3703704,68.3952661 Z" fill="#019B8F"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

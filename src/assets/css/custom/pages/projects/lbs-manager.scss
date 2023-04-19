@@ -1,0 +1,134 @@
+$lbsManagerColor: #2161A9;
+
+.customProject.lbsManager {
+
+  .colHeaderText {
+    max-width: 100%;
+
+    .headerAction {
+      background: radial-gradient(211.1% 180.46% at 123.26% 122.09%, #1F93E2 0%, #58B3F1 100%);
+      @media only screen and (max-width: 767px) {
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+
+    .headerInfo {
+      @media only screen and (max-width: 767px) {
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+
+    .headerTitle {
+      h2 {
+        text-align: left;
+        @media only screen and (max-width: 767px) {
+          text-align: center;
+        }
+      }
+    }
+    .headerText .titleAndLogo {
+      @media only screen and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
+      .headerLogo {
+        margin-left: 0;
+        margin-right: 4rem;
+        @media only screen and (max-width: 712px) {
+          margin-left: 4rem;
+        }
+      }
+    }
+
+
+
+
+  }
+
+
+
+  .topContainer {
+    overflow: hidden;
+    background: radial-gradient(81.25% 81.25% at 18.75% 21.87%, #5C5757 0%, #252323 100%);
+  }
+  .secondSection .titleSection {
+    font-size: 3.6rem;
+  }
+  .thirdSection {
+    padding-top: 0;
+
+
+    .textCol {
+      .titleHeader {
+        h4 {
+          span {
+            color: $lbsManagerColor;
+          }
+        }
+      }
+    }
+  }
+  .fourthSection {
+    text-align: center;
+    .titleSection {
+      h4 {
+        span {
+          color: $lbsManagerColor;
+        }
+      }
+    }
+    .items {
+      h2 {
+        color: $lbsManagerColor;
+      }
+      h3 {
+        color: $lbsManagerColor;
+      }
+      .item {
+
+        &:nth-child(3) {
+          background-color: $lbsManagerColor;
+          border-color: $lbsManagerColor;
+        }
+        &:nth-child(2) {
+          min-width: 175px;
+        }
+      }
+    }
+  }
+  .fifthSection {
+    .colProjects {
+      .items {
+        .item {
+          .seeMore {
+            p {
+              color: $lbsManagerColor;
+            }
+          }
+        }
+      }
+    }
+  }
+  .colHeader {
+    .titleHeader {
+      h4 {
+        span {
+          color: $lbsManagerColor;
+        }
+      }
+    }
+  }
+  .sixSection {
+    .contactContainer {
+      @include background-image("/assets/images/front/projects/lbsManager/background-contact", 'png');
+      .contactAction {
+        background: radial-gradient(211.1% 180.46% at 123.26% 122.09%, #1F93E2 0%, #58B3F1 100%);
+        a:hover{
+          text-decoration: none;
+          border: none;
+        }
+      }
+    }
+  }
+}

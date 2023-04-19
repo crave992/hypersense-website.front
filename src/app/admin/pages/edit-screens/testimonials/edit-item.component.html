@@ -1,0 +1,29 @@
+<app-editor-header
+        itemName="{{itemName}}"
+        itemCollectionUrl="{{itemCollectionUrl}}"
+        baseUrl="{{baseUrl}}"
+        itemStatus="{{itemStatus}}"
+        [state]="openedSidebar" (toggle)="openedSidebar=$event"
+        (triggerSave)="saveItem()"
+></app-editor-header>
+<form [formGroup]="createItemForm">
+    <div>
+        <fieldset *ngFor="let field of fieldsByLocation();">
+            <app-field-container *ngIf="field.type!='image' && field.display"
+                                 dynamicField
+                                 [config]="field"
+                                 [group]="createItemForm">
+            </app-field-container>
+
+            <app-upload-image
+                    [cropRatio]=1
+                    (newImage)="getNewImage($event)"
+                    *ngIf="field.type === 'image' && (!itemId || itemId && currentItem.id)"
+                    [config]="field"
+                    [initialValue]="currentItem[field.name]"
+                    [group]="createItemForm">
+            </app-upload-image>
+        </fieldset>
+
+    </div>
+</form>

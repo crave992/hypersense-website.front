@@ -1,0 +1,306 @@
+.carousel {
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 1 0;
+  flex-wrap: wrap;
+
+  @media only screen and (max-width: 1626px) {
+    justify-content: space-around;
+  }
+
+  .itemInside {
+    padding: 2.6rem 3rem;
+    border-radius: 32.71px;
+    background-color: #fff;
+    box-shadow: 0 6px 20px -7px rgba(0,0,0,.23);
+    color: #232323;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 2rem 2rem 2rem;
+    overflow: hidden;
+    display: block;
+    -webkit-transition: .5s!important;
+    transition: all .5s ease 0s!important;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    position: relative;
+    flex-grow: 1;
+    max-width: 37rem;
+
+
+    @media only screen and (max-width: 1100px) {
+      min-width: 31rem;
+    }
+
+    &:first-child {
+      margin-left: 0;
+      @media only screen and (max-width: 873px) {
+        margin-left: 2rem;
+      }
+    }
+
+
+    &:nth-child(2) {
+      @media only screen and (max-width: 1100px) {
+        margin-left: 2rem;
+      }
+    }
+
+    &:last-child {
+      margin-right: 0;
+
+      @media only screen and (max-width: 1100px) {
+        //display: none;
+      }
+
+    }
+
+    div:first-child {
+      display: inline-flex;
+      -webkit-box-align: center;
+      align-items: center;
+      text-align: left;
+    }
+
+    img.profile {
+      width: 6em;
+      margin-right: 12px;
+      border-radius: 50%;
+    }
+
+    img.clutch_logo {
+      width: 6.3rem;
+      margin-top: 1.5rem;
+    }
+
+    .name {
+      color: #2E2E2E;
+      font-family:'Mulish', sans-serif;
+      font-size: 1.7rem;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 2.2rem;
+    }
+
+    .location {
+      color: #646A83;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: 0;
+      line-height: 1.9rem;
+      text-align: justify;
+    }
+
+    .title-company {
+      color: #646A83;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: 0;
+      line-height: 1.9rem;
+      text-align: center;
+      padding-top: 1.4rem;
+      padding-bottom: 1.2rem;
+
+
+      span.gradient-color {
+        background: linear-gradient(to right, #ED6676, #F4B589 70%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+        opacity: 1;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        margin-left: 2.4rem;
+
+        @media only screen and (max-width: 767px) {
+          margin-left: 1.5rem;
+        }
+      }
+
+    }
+
+    .clientText {
+      color: #646A83;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.6rem;
+      letter-spacing: 0.1px;
+      line-height: 2.7rem;
+      padding-bottom: 1.2rem;
+      font-weight: 400;
+      flex-grow: 1;
+    }
+
+    .score {
+      color: #2E2E2E;
+      font-family: 'Roboto', sans-serif;
+      font-size: 2.9rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 3.5rem;
+      text-align: center;
+    }
+
+    & > a {
+      position: relative;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .starsRow {
+      padding-top: 1rem;
+      .clutch_logo {
+        padding-top: 1rem;
+      }
+    }
+  }
+
+
+
+
+
+  &.single {
+
+     .owl-stage {
+      display: flex;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    .owl-carousel {
+      .owl-stage {
+
+
+        .owl-item {
+          .itemInside {
+            box-shadow: none;
+            padding: 0;
+            border-radius: 0;
+            margin: 0;
+
+            .starsRow {
+              padding-top: 1rem;
+              .clutch_logo {
+                padding-top: 1rem;
+              }
+            }
+
+
+          }
+
+          &.active.center .itemInside {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+          }
+
+        }
+      }
+    }
+
+    .profile {
+      .name {
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+      }
+      .location {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+      }
+    }
+
+    .rating {
+      .clutch_logo {
+        padding-top: 2rem;
+      }
+    }
+
+
+
+  }
+
+}
+
+
+.backgroundImage .firstSection .container {
+  .testimonialTop.blue-badge {
+    background: white;
+    padding: 4rem 6rem;
+    box-shadow: 20px 20px 56px 0 rgba(0,0,0,0.1);
+    max-width: 50rem;
+
+    margin-left: 1.5rem;
+
+    .carousel {
+      padding: 0;
+
+      .itemInside {
+        max-width: 100%;
+        box-shadow: none;
+        padding: 0;
+
+        img {
+          margin-bottom: 0;
+          min-width: inherit;
+          min-height: inherit;
+        }
+
+        .name {
+          color: #2E2E2E;
+          font-family: 'Mulish', sans-serif;
+          font-size: 2.2rem;
+          font-weight: bold;
+          letter-spacing: 0;
+          line-height: 2.8rem;
+        }
+
+        .location {
+          color: #646A83;
+          font-family: 'Roboto', sans-serif;
+          font-size: 1.7rem;
+          letter-spacing: 0;
+          line-height: 2.3rem;
+          text-align: justify;
+        }
+
+        .clientText {
+          color: #646A83;
+          font-family: 'Roboto', sans-serif;
+          font-size: 2rem;
+          letter-spacing: 0.13px;
+          line-height: 3.2rem;
+          font-weight: 400;
+        }
+
+        .score {
+          color: #2E2E2E;
+          font-family: 'Roboto', sans-serif;
+          font-size: 3.4rem;
+          font-weight: 400;
+          letter-spacing: 0;
+          line-height: 4.1rem;
+          text-align: center;
+        }
+
+        .title-company {
+          color: #646A83;
+          font-family: 'Roboto', sans-serif;
+          font-size: 1.7rem;
+          letter-spacing: 0;
+          line-height: 2.3rem;
+          text-align: center;
+        }
+
+      }
+
+    }
+
+  }
+}

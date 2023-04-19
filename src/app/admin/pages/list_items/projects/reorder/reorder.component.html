@@ -1,0 +1,69 @@
+<div class="grid-data">
+    <a routerLink="/hs007admin/projects" class="btn btn-reorder">
+        Switch to Edit Mode
+    </a>
+    <br/>
+    <app-grid-title title="{{pageTitle}}" addNewText="{{btnAddNewText}}" addNewUrl="{{btnAddNewUrl}}"></app-grid-title>
+
+    <app-grid-search *ngIf="searchEnabled && items" [filter]="filter" (click)="getItems()"></app-grid-search>
+
+    <div *ngIf="items" class="grid-content">
+
+        <!-- here list of items CUSTOM CONTENT-->
+        <div class="card">
+            <div class="card-body">
+                <div class="no-more-tables">
+                    <table class="table table-bordered table-striped mb-0">
+                        <thead>
+                        <tr>
+                            <th *ngFor="let field of fieldList; let j = index" [ngClass]="field.classc">
+                                {{field.label}}
+                            </th>
+                            <th *ngIf="actions"></th>
+                        </tr>
+                        </thead>
+                        <tbody (drop)="drop($event)" (dragover)="allowDrop($event)">
+                        <tr draggable="true" (dragstart)="drag($event)"
+                            *ngFor="let item of items; let i = index"  attr.data-order={{item.order}} attr.data-id={{item.id}}>
+                            <td *ngFor="let field of fieldList; let jk = index"
+                                [attr.data-title]="field.label"
+                                [ngClass]="field.classc">
+                                <ng-container *ngIf="field.formatter;else not_formatter">
+                                    <span>{{field.formatter(item[field.name])}}</span>
+                                </ng-container>
+                                <ng-template #not_formatter>
+                                    {{item[field.name]}}
+                                </ng-template>
+                            </td>
+                            <td *ngIf="actions.length>0" data-title="Actions">
+                                <a class="pointer txt-blue" [routerLink]="[btnEditUrl, item.id]" *ngIf="actions[0]">
+                                    <i class="fa fa-pencil"></i>
+                                </a>&nbsp;
+
+                                <span class="pointer txt-blue" (click)="confirmDelete(item.id)" *ngIf="actions[1]">
+                            <i class="fa fa-trash"></i>
+                        </span>
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--end list of items -->
+        <div class="card-footer-table">
+            <p *ngIf="items.length == 0" class="noResults">
+                No items available.
+            </p>
+            <app-grid-pagination
+                    [gridPaginationPrev]="gridPaginationPrev"
+                    [gridPaginationNext]="gridPaginationNext"
+                    (clickPrev)="previousPage()"
+                    (clickNext)="nextPage()"
+            ></app-grid-pagination>
+        </div>
+
+    </div>
+
+</div>

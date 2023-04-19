@@ -1,0 +1,381 @@
+<div class="lbs">
+
+  <app-front-menu [project]="true" [blog] = true></app-front-menu>
+
+
+  <div class="container-fluid dateContainer bg-grey firstSection">
+    <div class="container">
+      <div class="row headerTextRow">
+        <div class="col-12 col-lg-5 headerText">
+
+          <div class="row">
+            <div class="col-12">
+              <div class="logo">
+                <picture>
+                  <source srcset="
+                                   ./assets/images/front/projects/lbs/logo.png 1x,
+                                   ./assets/images/front/projects/lbs/logo@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/logo@3x.png 3x
+                                  " type="image/png">
+                  <img alt="IOS Download link">
+                </picture>
+              </div>
+            </div>
+            <div class="col-12">
+              <h1>Introducing the
+                <br/>
+                <span class="mainColor">LBS EdgeSuite</span> Project
+              </h1>
+            </div>
+            <div class="col-12">
+              <p class="text-big">
+                A native app developed to help businesses gather location data, EdgeSuite allows for GPS tracking
+                while maintaining the optimal balance between accuracy, reliability, and battery consumption.
+              </p>
+            </div>
+            <div class="col-12 downloadImages">
+              <a rel="noopener noreferrer" href="https://apps.apple.com/us/app/lbs-edge-suite/id1446293871" target="_blank">
+                <picture>
+                  <source srcset="
+                                   ./assets/images/front/projects/lbs/ios_store.png 1x,
+                                   ./assets/images/front/projects/lbs/ios_store@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/ios_store@3x.png 3x
+                                  " type="image/png">
+                  <img alt="IOS Download link">
+                </picture>
+              </a>
+
+              <a rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.koretracker.mobile&hl=en" target="_blank">
+                <picture>
+                  <source srcset="
+                                   ./assets/images/front/projects/lbs/android_store.png 1x,
+                                   ./assets/images/front/projects/lbs/android_store@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/android_store@3x.png 3x
+                                  " type="image/png">
+                  <img alt="IOS Download link">
+                </picture>
+              </a>
+            </div>
+            <div class="col-12">
+              <a routerLink="/contact" class="btn orange">
+                Contact us to learn more
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-12 col-lg-7 topImage">
+          <div class="shadowImage">
+            <picture>
+              <source *ngFor="let image of imageSizeList('hero', 'images/front/projects/lbs', ['png'])"
+                      media="{{image.media}}"
+                      type="{{image.type}}"
+                      srcset="{{image.srcSet}}"
+              >
+              <img alt="Hero Image">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid dateContainer bg-grey secondSection">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Cutting-Edge Location Tracking</h2>
+          <p>
+            EdgeSuite is a native mobile app developed to help businesses acquire real-time and historical
+            location data of employees and business assets.
+          </p>
+          <p>
+            The app is designed to run continuously in the background while consuming as
+            little battery life as possible: less than 1% per hour. This is achieved by detecting if the device is moving
+            or not, optimizing accuracy levels, and making sure the minimum system resources are properly utilized.
+            <a class="styleNormal" routerLink="/key-points-location-tracking-mobile-app">Read more on our blog.</a>
+          </p>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <picture>
+            <source *ngFor="let image of imageSizeList('map', 'images/front/projects/lbs', ['png'])"
+                    media="{{image.media}}"
+                    type="{{image.type}}"
+                    srcset="{{image.srcSet}}"
+            >
+            <img alt="map Image">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid dateContainer bg-grey thirdSection">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 cardRow">
+
+          <div class="card">
+            <div class="cardIcon">
+              <picture class="image">
+                <source srcset="
+                                   ./assets/images/front/projects/lbs/back_location.png 1x,
+                                   ./assets/images/front/projects/lbs/back_location@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/back_location@3x.png 3x
+                                  " type="image/png">
+                <img alt="Location">
+              </picture>
+            </div>
+            <div class="cardText">
+              <h3>Background Location Tracking</h3>
+              <p>
+                Once turned on, the app runs unobtrusively in the background, exploiting
+                the device’s location tracking hardware to relay highly accurate GPS coordinates.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardIcon">
+              <picture class="image">
+                <source srcset="
+                                   ./assets/images/front/projects/lbs/battery.png 1x,
+                                   ./assets/images/front/projects/lbs/battery@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/battery@3x.png 3x
+                                  " type="image/png">
+                <img alt="Quote">
+              </picture>
+            </div>
+            <div class="cardText">
+              <h3>Energy Efficiency</h3>
+              <p>
+                EdgeSuite monitors whether the device is in motion and constantly optimizes
+                its accuracy parameters, resulting in average battery consumption of only 1% per hour.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardIcon">
+              <picture class="image">
+                <source srcset="
+                                   ./assets/images/front/projects/lbs/reliable.png 1x,
+                                   ./assets/images/front/projects/lbs/reliable@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/reliable@3x.png 3x
+                                  " type="image/png">
+
+                <img alt="reliable">
+              </picture>
+            </div>
+            <div class="cardText">
+              <h3>Highly Reliable</h3>
+              <p>
+                Running apps in the background can present technical challenges. We used a
+                combination of native features and push notifications to ensure the app always responds when needed.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid dateContainer bg-grey fourthSection">
+    <div class="container">
+      <div class="row rowSection">
+        <div class="col-12 col-lg-5 order-1 order-lg-0 imageSection">
+          <picture>
+            <source *ngFor="let image of imageSizeList('im1', 'images/front/projects/lbs', ['png'])"
+                    media="{{image.media}}"
+                    type="{{image.type}}"
+                    srcset="{{image.srcSet}}"
+            >
+            <img alt="Hero Image">
+          </picture>
+        </div>
+        <div class="col-12 col-lg-7 order-0 order-lg-1 textSection">
+          <div class="row">
+            <div class="col-12 smallCard">
+              <div class="image">
+                <picture>
+                  <source srcset="
+                                   ./assets/images/front/projects/lbs/schedules.png 1x,
+                                   ./assets/images/front/projects/lbs/schedules@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/schedules@3x.png 3x
+                                  " type="image/png">
+                  <img alt="IOS Download link">
+                </picture>
+              </div>
+              <div class="text">
+                <h2>Work Schedules</h2>
+                <p>Enable app features only when needed, with built-in flexibility to define variable timeframes.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row rowSection">
+        <div class="col-12 col-lg-7 textSection">
+          <div class="row">
+            <div class="col-12 smallCard">
+              <div class="image">
+                <picture>
+                  <source srcset="
+                                   ./assets/images/front/projects/lbs/Group%209%20Copy.png 1x,
+                                   ./assets/images/front/projects/lbs/Group%209%20Copy@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/Group%209%20Copy@3x.png 3x
+                                  " type="image/png">
+                  <img alt="IOS Download link">
+                </picture>
+              </div>
+              <div class="text">
+                <h2>Custom Configurations</h2>
+                <p>
+                  EdgeSuite makes it easy to configure custom branding, working schedules,
+                  tracking options, and other settings. These parameters
+                  can also be updated remotely with the web API.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 imageSection">
+          <picture>
+            <source *ngFor="let image of imageSizeList('im2', 'images/front/projects/lbs', ['png'])"
+                    media="{{image.media}}"
+                    type="{{image.type}}"
+                    srcset="{{image.srcSet}}"
+            >
+            <img alt="Hero Image">
+          </picture>
+        </div>
+      </div>
+
+      <div class="row rowSection">
+        <div class="col-12 col-lg-5 order-1 order-lg-0 imageSection">
+          <picture>
+            <source *ngFor="let image of imageSizeList('im3', 'images/front/projects/lbs', ['png'])"
+                    media="{{image.media}}"
+                    type="{{image.type}}"
+                    srcset="{{image.srcSet}}"
+            >
+            <img alt="Hero Image">
+          </picture>
+        </div>
+        <div class="col-12 col-lg-7 order-0 order-lg-1 textSection">
+          <div class="row">
+            <div class="col-12 smallCard">
+              <div class="image">
+                <picture>
+                  <source srcset="
+                                   ./assets/images/front/projects/lbs/localisations.png 1x,
+                                   ./assets/images/front/projects/lbs/localisations@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/localisations@3x.png 3x
+                                  " type="image/png">
+                  <img alt="IOS Download link">
+                </picture>
+              </div>
+              <div class="text">
+                <h2>Localization</h2>
+                <p>The EdgeSuite native mobile app is designed to support English, Spanish, and Portuguese.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row rowSection">
+        <div class="col-12 col-lg-7 textSection">
+          <div class="row">
+            <div class="col-12 smallCard">
+              <div class="image">
+                <picture>
+                  <source srcset="
+                                   ./assets/images/front/projects/lbs/panic.png 1x,
+                                   ./assets/images/front/projects/lbs/panic@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/panic@3x.png 3x
+                                  " type="image/png">
+                  <img alt="IOS Download link">
+                </picture>
+              </div>
+              <div class="text">
+                <h2>Panic Mode</h2>
+                <p>If an employee is in danger, panic mode notifies the
+                  authorities and business headquarters immediately.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 imageSection">
+          <picture>
+            <source *ngFor="let image of imageSizeList('im4', 'images/front/projects/lbs', ['png'])"
+                    media="{{image.media}}"
+                    type="{{image.type}}"
+                    srcset="{{image.srcSet}}"
+            >
+            <img alt="Hero Image">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid dateContainer bg-grey lastSection">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 contactBox">
+          <picture class="shape1">
+            <source srcset="
+                                   ./assets/images/front/projects/lbs/shape1.png 1x,
+                                   ./assets/images/front/projects/lbs/shape1@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/shape1@3x.png 3x
+                                  " type="image/png">
+            <img alt="shape">
+          </picture>
+          <picture class="shape1_2">
+            <source srcset="
+                                   ./assets/images/front/projects/lbs/shape1.png 1x,
+                                   ./assets/images/front/projects/lbs/shape1@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/shape1@3x.png 3x
+                                  " type="image/png">
+            <img alt="shape">
+          </picture>
+          <picture class="shape2">
+            <source srcset="
+                                   ./assets/images/front/projects/lbs/shape2.png 1x,
+                                   ./assets/images/front/projects/lbs/shape2@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/shape2@3x.png 3x
+                                  " type="image/png">
+            <img alt="shape">
+          </picture>
+          <picture class="shape2_2">
+            <source srcset="
+                                   ./assets/images/front/projects/lbs/shape2.png 1x,
+                                   ./assets/images/front/projects/lbs/shape2@2x.png 2x,
+                                   ./assets/images/front/projects/lbs/shape2@3x.png 3x
+                                  " type="image/png">
+            <img alt="shape">
+          </picture>
+
+          <div class="row">
+            <div class="col-12">
+              <h2>If you need help with a website
+                or mobile app, contact us.</h2>
+            </div>
+            <div class="col-12">
+              <a routerLink="/contact" class="btn orange">
+                GET IN TOUCH
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

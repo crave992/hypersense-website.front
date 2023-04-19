@@ -1,0 +1,150 @@
+<div class="backgroundImageAbout backgroundImage about">
+  <app-front-menu></app-front-menu>
+  <!-- Hero Image -->
+  <app-hero-image [childrenHtml]="heroHtml"></app-hero-image>
+
+  <!-- Blue Badge -->
+  <div class="firstSection d-block bg-round-mask homepageText">
+    <div class="container">
+      <div class="d-flex message">
+        <div class="topText">
+          <p class="title">Who we are</p>
+          <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+          <p>
+            We are a full-service mobile and web software development agency located in Bucharest, Romania.
+          </p>
+        </div>
+        <div class="topItems">
+          <h3 class="topItem">15+ Years of Experience</h3>
+          <h3 class="topItem">150+  Projects Delivered</h3>
+          <h3 class="topItem">9/10 Clients Recommend Us</h3>
+        </div>
+      </div>
+      <div class="testimonialTop blue-badge">
+        <app-testimonials-home type="single" limit="1" [item]="testimonialItem"></app-testimonials-home>
+      </div>
+    </div>
+  </div>
+
+  <app-build-solutions></app-build-solutions>
+
+  <div class="d-block bg-grey faq sectionPadding">
+    <div class="container">
+      <div class="section-title">
+        <h2>FAQ</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="row faqTextRow">
+        <div class="col-12 col-md-6 faqTextItem">
+          <div class="faqImage">
+            <span [inlineSVG]="'./assets/images/front/aboutUs/faq_icon.svg'"></span>
+          </div>
+          <div class="faqText">
+            <p class="title">Why should I trust your team for my software needs?</p>
+            <p>HyperSense has been developing software solutions since 2003. We have worked with over 100 clients worldwide, and the reputable D.C.-based research firm Clutch.co has rated us a top app development provider.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 faqTextItem">
+          <div class="faqImage">
+            <span [inlineSVG]="'./assets/images/front/aboutUs/faq_icon.svg'"></span>
+          </div>
+          <div class="faqText">
+            <p class="title">What are your main areas of expertise?</p>
+            <p>HyperSense has experience developing a wide range of custom software solutions for web and mobile devices. We specialize in native mobile app development languages, including Node.js, Angular, SWIFT, and Kotlin.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 faqTextItem">
+          <div class="faqImage">
+            <span [inlineSVG]="'./assets/images/front/aboutUs/faq_icon.svg'"></span>
+          </div>
+          <div class="faqText">
+            <p class="title">What pricing models do you work with, and what payment types do you accept?</p>
+            <p>We prefer to work under time and materials contracts. For certain projects, we also undertake fixed price contracts. We accept wire transfers in USD, EUR, GBP, or RON.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 faqTextItem">
+          <div class="faqImage">
+            <span [inlineSVG]="'./assets/images/front/aboutUs/faq_icon.svg'"></span>
+          </div>
+          <div class="faqText">
+            <p class="title">Can I visit your office and meet with the team?</p>
+            <p>We are more than happy to accommodate on-site meetings. Simply reach out to us, and we’ll arrange everything.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 faqTextItem">
+          <div class="faqImage">
+            <span [inlineSVG]="'./assets/images/front/aboutUs/faq_icon.svg'"></span>
+          </div>
+          <div class="faqText">
+            <p class="title">Will we own all of the source files for any software you build for us?</p>
+            <p>Yes! From day one, you retain access to all project assets, including design files, code, diagrams, and specs. You are  the sole owner of IP rights for all project assets we create.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 faqTextItem">
+          <div class="faqImage">
+            <span [inlineSVG]="'./assets/images/front/aboutUs/faq_icon.svg'"></span>
+          </div>
+          <div class="faqText">
+            <p class="title">Are you willing to sign an NDA?</p>
+            <p>Yes! We take all possible precautions to ensure the protection of your intellectual property.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-block bg-white nodeAws sectionPadding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Strengths</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="row nodeAwsTextRow">
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/aboutUs/about1.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>We do everything in-house</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>Our entire team works under one roof, allowing us to work faster and better. We tackle challenges together, every team member benefiting from the collective knowledge and skills of the team as a whole.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/aboutUs/about2.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>We are independent</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>HyperSense is a privately owned company, answerable to only one stakeholder: the customer. Our owners are directly involved in all aspects of our work, including client relationships, software architecture, and mobile and web development.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/aboutUs/about3.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>We work in all time zones</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>We have experience working with clients from every corner of the world and are happy to make adjustments for time zone differences. Working with us will feel like having a highly experienced software development department just down the hall from your office.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/aboutUs/about4.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>We are centrally located</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>Our location in Bucharest, Romania’s capital city, allows us to offer better prices to our clients. We also benefit from the fastest internet in the EU and a highly skilled pool of English-speaking graduates from some of the region’s top universities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

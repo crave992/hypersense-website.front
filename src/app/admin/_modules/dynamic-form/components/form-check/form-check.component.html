@@ -1,0 +1,9 @@
+<div
+        class="dynamic-field form-select"
+        [formGroup]="group">
+    <mat-checkbox [formControlName]="config.name"
+                   name="{{config.name}}" (change)="changed()">
+        <label>{{ config.label }}</label>
+    </mat-checkbox>
+
+</div>

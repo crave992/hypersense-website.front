@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="568px" height="667px" viewBox="0 0 568 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>back_daydate</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.4193412%" id="linearGradient-1">
+            <stop stop-color="#305EFF" offset="0%"></stop>
+            <stop stop-color="#719DFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-mobile-app-development" transform="translate(-841.000000, -6393.000000)">
+            <g id="back_daydate" transform="translate(807.000000, 6421.000000)">
+                <ellipse id="Oval-Copy-11" stroke="url(#linearGradient-1)" stroke-width="55.5129075" cx="414" cy="159" rx="160" ry="159"></ellipse>
+                <path d="M230.151774,294.092373 L369.893484,531.166617 C379.709101,547.818982 374.166821,569.275521 357.514456,579.091138 C352.12944,582.265297 345.992605,583.939364 339.74171,583.939364 L60.2582904,583.939364 C40.9283241,583.939364 25.2582904,568.26933 25.2582904,548.939364 C25.2582904,542.688468 26.9323569,536.551634 30.1065163,531.166617 L169.848226,294.092373 C179.663843,277.440008 201.120382,271.897729 217.772747,281.713346 C222.881102,284.724429 227.140691,288.984018 230.151774,294.092373 Z" id="Triangle" stroke="#FFFFFF" stroke-width="61" transform="translate(200.000000, 413.439364) rotate(-81.000000) translate(-200.000000, -413.439364) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

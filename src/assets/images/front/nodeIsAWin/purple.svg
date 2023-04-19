@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="73px" viewBox="0 0 264 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>purple</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="58.5546831%" x2="100%" y2="58.5546831%" id="linearGradient-1">
+            <stop stop-color="#D6ABFF" offset="0%"></stop>
+            <stop stop-color="#986EDF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="90" y="13" width="264" height="73" rx="16"></rect>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Node.js-Development-Services" transform="translate(-214.000000, -7854.000000)">
+            <g id="Group-64" transform="translate(-16.000000, 6872.000000)">
+                <g id="purple" transform="translate(140.000000, 969.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Rectangle-Copy-27" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <path d="M76,0 L367,1 C348.333333,23 324.333333,34 295,34 C265.666667,34 192.666667,22.6666667 76,0 Z" id="Path-17" fill="#FFFFFF" opacity="0.140578497" mask="url(#mask-3)"></path>
+                    <path d="M1.8189894e-12,57 L291,58 C272.333333,80 248.333333,91 219,91 C189.666667,91 116.666667,79.6666667 1.8189894e-12,57 Z" id="Path-17-Copy-2" fill="#FFFFFF" opacity="0.140578497" mask="url(#mask-3)" transform="translate(145.500000, 74.000000) rotate(-180.000000) translate(-145.500000, -74.000000) "></path>
+                    <path d="M19,0 L310,1 C291.333333,23 267.333333,34 238,34 C208.666667,34 135.666667,22.6666667 19,0 Z" id="Path-17-Copy" fill="#FFFFFF" opacity="0.140578497" mask="url(#mask-3)"></path>
+                    <path d="M57,57 L348,58 C329.333333,80 305.333333,91 276,91 C246.666667,91 173.666667,79.6666667 57,57 Z" id="Path-17-Copy-3" fill="#FFFFFF" opacity="0.140578497" mask="url(#mask-3)" transform="translate(202.500000, 74.000000) rotate(-180.000000) translate(-202.500000, -74.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<div class="d-flex justify-content-center align-items-center min-height-100 h-100">
+    <div class="auth-container">
+        <div class="card card-body m-3 p-5">
+            <h3 class="fw-100 text-success mb-4">Account login</h3>
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                <fieldset class="form-group mb-4" [ngClass]="{'has-danger': form.controls['email'].hasError('required') && form.controls['email'].touched}">
+                    <input type="text" class="form-control" placeholder="email" [formControl]="form.controls['email']"
+                           [ngClass]="{'form-control-danger': form.controls['email'].hasError('required') && form.controls['email'].touched}" />
+                    <div class="invalid-feedback" *ngIf="form.controls['email'].hasError('required') && form.controls['email'].touched">Email
+                        is required.</div>
+                </fieldset>
+
+                <fieldset class="form-group mb-4" [ngClass]="{'has-danger': form.controls['password'].hasError('required') && form.controls['password'].touched}">
+                    <input type="password" class="form-control" placeholder="********" [formControl]="form.controls['password']"
+                           [ngClass]="{'form-control-danger': form.controls['password'].hasError('required') && form.controls['password'].touched}" />
+                    <div class="invalid-feedback" *ngIf="form.controls['password'].hasError('required') && form.controls['password'].touched">Password
+                        is required.</div>
+                </fieldset>
+
+                <div class="d-flex justify-content-center mt-4 mb-4">
+                    <button class=" btn btn-primary" type="submit" [disabled]="!form.valid">Login</button>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+    <div class="bg-cover"></div>
+</div>

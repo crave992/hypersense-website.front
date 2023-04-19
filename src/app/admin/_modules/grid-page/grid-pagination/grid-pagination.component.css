@@ -1,0 +1,22 @@
+:host{
+    width: 100%;
+    display: flex;
+}
+
+:host .btn-previous {
+    border: 1px solid #666;
+    border-radius: 22px;
+    width: 115px;
+    padding: 0;
+}
+
+:host .btn-next {
+    display: block;
+    margin-left: auto;
+    border: 1px solid #666;
+    border-radius: 22px;
+    width: 115px;
+    padding: 0;
+}
+
+

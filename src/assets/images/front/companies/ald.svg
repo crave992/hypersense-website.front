@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="24px" viewBox="0 0 81 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>ald</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699544271">
+        <g id="[desktop]-Homepage" transform="translate(-497.000000, -629.000000)">
+            <g id="ald" transform="translate(497.000000, 626.000000)">
+                <text id="Automotive" font-family="Lato-Medium, Lato" font-size="10.1249991" font-weight="400" letter-spacing="0.0606850578" fill="#FFFFFF">
+                    <tspan x="27.6299976" y="25.5249987">Automotive</tspan>
+                </text>
+                <text id="ALD" font-family="WorkSans-Medium, Work Sans Medium" font-size="15.0749987" font-weight="normal" letter-spacing="0.0903533129" fill="#FFFFFF">
+                    <tspan x="28.1699976" y="14">ALD</tspan>
+                </text>
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="3.28499972" width="21.5999981" height="11.114999"></rect>
+                <rect id="Rectangle-Copy-110" fill="#717074" x="0" y="14.3999988" width="21.5999981" height="11.114999"></rect>
+                <rect id="Rectangle-Copy-111" fill="#FFFFFF" x="3.19499972" y="13.3874988" width="15.2099987" height="1.97999983"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

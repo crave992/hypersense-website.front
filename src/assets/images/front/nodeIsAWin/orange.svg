@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="73px" viewBox="0 0 264 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>orange</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="58.5546831%" x2="97.5058066%" y2="58.5546831%" id="linearGradient-1">
+            <stop stop-color="#FCC297" offset="0%"></stop>
+            <stop stop-color="#F79765" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="264" height="73" rx="16"></rect>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Node.js-Development-Services" transform="translate(-517.000000, -7745.000000)">
+            <g id="Group-64" transform="translate(-16.000000, 6872.000000)">
+                <g id="orange" transform="translate(533.000000, 873.000000)">
+                    <g id="Rectangle">
+                        <rect id="Mask" fill="url(#linearGradient-1)" x="0" y="0" width="264" height="73" rx="16"></rect>
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <rect stroke="#FFFFFF" stroke-width="11" opacity="0.15641276" mask="url(#mask-3)" transform="translate(38.500000, 51.500000) rotate(-22.000000) translate(-38.500000, -51.500000) " x="17.5" y="30.5" width="42" height="42"></rect>
+                        <rect id="Rectangle-Copy-44" fill="#FFFFFF" opacity="0.15641276" mask="url(#mask-3)" transform="translate(261.500000, 37.500000) rotate(-45.000000) translate(-261.500000, -37.500000) " x="235" y="11" width="53" height="53"></rect>
+                        <rect id="Rectangle-Copy-45" fill="#FFFFFF" opacity="0.15641276" mask="url(#mask-3)" transform="translate(256.000000, 37.500000) rotate(-45.000000) translate(-256.000000, -37.500000) " x="220" y="1.5" width="72" height="72"></rect>
+                        <rect id="Rectangle-Copy-46" fill="#FFFFFF" opacity="0.15641276" mask="url(#mask-3)" transform="translate(245.000000, 37.500000) rotate(-45.000000) translate(-245.000000, -37.500000) " x="204" y="-3.5" width="82" height="82"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

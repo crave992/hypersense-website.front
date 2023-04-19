@@ -1,0 +1,366 @@
+<div class="daydate">
+  <app-front-menu [project]="true" [blog] = true></app-front-menu>
+
+  <div class="container-fluid dayDateContainer header">
+    <picture class="image1">
+      <source *ngFor="let image of imageSizeList('1', 'images/front/projects/daydate', ['png'])"
+              media="{{image.media}}"
+              type="{{image.type}}"
+              srcset="{{image.srcSet}}"
+      >
+      <img alt="icon">
+    </picture>
+    <picture class="image2">
+      <source *ngFor="let image of imageSizeList('2', 'images/front/projects/daydate', ['png'])"
+              media="{{image.media}}"
+              type="{{image.type}}"
+              srcset="{{image.srcSet}}"
+      >
+      <img alt="icon">
+    </picture>
+    <picture class="image3">
+      <source *ngFor="let image of imageSizeList('3', 'images/front/projects/daydate', ['png'])"
+              media="{{image.media}}"
+              type="{{image.type}}"
+              srcset="{{image.srcSet}}"
+      >
+      <img alt="icon">
+    </picture>
+    <div class="container firstSection">
+      <div class="row">
+        <div class="col-12 logo">
+          <picture>
+            <source *ngFor="let image of imageSizeList('logo', 'images/front/projects/daydate', ['png'])"
+                    media="{{image.media}}"
+                    type="{{image.type}}"
+                    srcset="{{image.srcSet}}"
+            >
+            <img alt="Hero Image">
+          </picture>
+        </div>
+        <div class="col-12">
+          <h1>Welcome to the <span class="dayDateMainColor">DayDate</span> Project</h1>
+        </div>
+        <div class="col-12">
+          <div class="infoText">
+            <p>
+              DayDate is a French online dating service that needed help getting their product on the market in the shortest
+              possible time frame. We worked with them to develop a native mobile app and a Node.js backend in less than four months.
+              This process included code quality checks and multiple user feedback rounds.
+            </p>
+            <p>Read reviews of the app
+              <a href="https://clutch.co/profile/hypersense-software#review-742996" target="_blank" rel="noopener noreferrer">here</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 ios">
+          <a rel="noopener noreferrer" href="https://apps.apple.com/fr/app/daydate-dating-app/id1396445775?l=en" target="_blank">
+            <picture>
+              <source *ngFor="let image of imageSizeList('ios', 'images/front/projects/daydate', ['png'])"
+                      media="{{image.media}}"
+                      type="{{image.type}}"
+                      srcset="{{image.srcSet}}"
+              >
+              <img alt="IOS Download link">
+            </picture>
+          </a>
+        </div>
+        <div class="col-12">
+          <a rel="noopener noreferrer" href="https://www.daydate-app.com/en/" class="btn orange" target="_blank">
+            Visit Website
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid dayDateContainer">
+    <div class="container secondSection">
+      <div class="row">
+        <div class="col-12 hero">
+          <picture>
+            <source *ngFor="let image of imageSizeList('hero', 'images/front/projects/daydate', ['png'])"
+                    media="{{image.media}}"
+                    type="{{image.type}}"
+                    srcset="{{image.srcSet}}"
+            >
+            <img alt="Hero Images DayDate">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid dayDateContainer">
+    <div class="container thirdSection">
+      <div class="row">
+        <div class="textRow">
+          <div class="textCont">
+            <h1>How it Works</h1>
+            <p>
+              DayDate was built as a native iOS app. Behind the scenes, the app is serviced by a
+              robust cloud-based Node.js/Loopback API. The front-end was developed using Angular,
+              which allows for complex, eye-catching animations that enrich the user experience.
+            </p>
+
+          </div>
+        </div>
+        <div class="cardsRow">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="cardInfo">
+                <div class="cordIcon">
+                  <picture>
+                    <source *ngFor="let image of imageSizeList('icon_date', 'images/front/projects/daydate', ['png'])"
+                            media="{{image.media}}"
+                            type="{{image.type}}"
+                            srcset="{{image.srcSet}}"
+                    >
+                    <img alt="Icon Location">
+                  </picture>
+                </div>
+                <div class="cordContent">
+                  <h2>Find Locals</h2>
+                  <p>Location-based services allow users to find potential dates nearby.</p>
+                </div>
+                <div class="cardImage">
+                  <picture>
+                    <source *ngFor="let image of imageSizeList('im_date', 'images/front/projects/daydate', ['png'])"
+                            media="{{image.media}}"
+                            type="{{image.type}}"
+                            srcset="{{image.srcSet}}"
+                    >
+                    <img alt="Hero Images DayDate">
+                  </picture>
+                </div>
+              </div>
+
+              <div class="cardInfo">
+                <div class="cordIcon">
+                  <picture>
+                    <source *ngFor="let image of imageSizeList('icon_location', 'images/front/projects/daydate', ['png'])"
+                            media="{{image.media}}"
+                            type="{{image.type}}"
+                            srcset="{{image.srcSet}}"
+                    >
+                    <img alt="Icon Location">
+                  </picture>
+                </div>
+                <div class="cordContent">
+                  <h2>Chat</h2>
+                  <p>Connect with the other peers inside the app and chat.</p>
+                </div>
+                <div class="cardImage">
+                  <picture>
+                    <source *ngFor="let image of imageSizeList('im_location', 'images/front/projects/daydate', ['png'])"
+                            media="{{image.media}}"
+                            type="{{image.type}}"
+                            srcset="{{image.srcSet}}"
+                    >
+                    <img alt="Hero Images DayDate">
+                  </picture>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-lg-6 secondRow">
+              <div class="cardInfo">
+                <div class="cordIcon">
+                  <picture>
+                    <source *ngFor="let image of imageSizeList('icon_chat', 'images/front/projects/daydate', ['png'])"
+                            media="{{image.media}}"
+                            type="{{image.type}}"
+                            srcset="{{image.srcSet}}"
+                    >
+                    <img alt="Icon Location">
+                  </picture>
+                </div>
+                <div class="cordContent">
+                  <h2>Invite People</h2>
+                  <p>Browse through the social network and choose whom to invite.</p>
+                </div>
+                <div class="cardImage">
+                  <picture>
+                    <source *ngFor="let image of imageSizeList('im_chat', 'images/front/projects/daydate', ['png'])"
+                            media="{{image.media}}"
+                            type="{{image.type}}"
+                            srcset="{{image.srcSet}}"
+                    >
+                    <img alt="Hero Images DayDate">
+                  </picture>
+                </div>
+              </div>
+
+              <div class="cardInfo">
+                <div class="cordIcon">
+                  <picture>
+                    <source *ngFor="let image of imageSizeList('icon_invite', 'images/front/projects/daydate', ['png'])"
+                            media="{{image.media}}"
+                            type="{{image.type}}"
+                            srcset="{{image.srcSet}}"
+                    >
+                    <img alt="Icon Location">
+                  </picture>
+                </div>
+                <div class="cordContent">
+                  <h2>Date</h2>
+                  <p>Use the app and meet new people around you.</p>
+                </div>
+                <div class="cardImage">
+                  <picture>
+                    <source *ngFor="let image of imageSizeList('im_invite', 'images/front/projects/daydate', ['png'])"
+                            media="{{image.media}}"
+                            type="{{image.type}}"
+                            srcset="{{image.srcSet}}"
+                    >
+                    <img alt="Hero Images DayDate">
+                  </picture>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid dayDateContainer mobileContainer">
+    <picture class="image3">
+      <source *ngFor="let image of imageSizeList('3', 'images/front/projects/daydate', ['png'])"
+              media="{{image.media}}"
+              type="{{image.type}}"
+              srcset="{{image.srcSet}}"
+      >
+      <img alt="icon">
+    </picture>
+    <picture class="image4">
+      <source *ngFor="let image of imageSizeList('4', 'images/front/projects/daydate', ['png'])"
+              media="{{image.media}}"
+              type="{{image.type}}"
+              srcset="{{image.srcSet}}"
+      >
+      <img alt="icon">
+    </picture>
+    <picture class="image5">
+      <source *ngFor="let image of imageSizeList('5', 'images/front/projects/daydate', ['png'])"
+              media="{{image.media}}"
+              type="{{image.type}}"
+              srcset="{{image.srcSet}}"
+      >
+      <img alt="icon">
+    </picture>
+    <picture class="image7">
+      <source *ngFor="let image of imageSizeList('7', 'images/front/projects/daydate', ['png'])"
+              media="{{image.media}}"
+              type="{{image.type}}"
+              srcset="{{image.srcSet}}"
+      >
+      <img alt="icon">
+    </picture>
+    <div class="container thirdSection">
+      <div class="row">
+        <div class="col-12 col-lg-4 firstCol">
+          <div class="row h-100">
+            <div class="col-12">
+              <h2>Location Services</h2>
+              <p>Location tracking combined with Yelp data helps users easily find the best place for a date.</p>
+            </div>
+            <div class="col-12 text-bottom flexEnd">
+              <h2>Social Media Integration</h2>
+              <p>DayDate integrates both Instagram and Facebook APIs, allowing users to sign up faster.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mobileImage">
+          <div class="mobileImages" >
+            <picture class="shape1">
+              <source *ngFor="let image of imageSizeList('shape1', 'images/front/projects/daydate', ['png'])"
+                      media="{{image.media}}"
+                      type="{{image.type}}"
+                      srcset="{{image.srcSet}}"
+              >
+              <img alt="Hero Images Mobile Shape DayDate">
+            </picture>
+            <picture class="shape2">
+              <source *ngFor="let image of imageSizeList('shape2', 'images/front/projects/daydate', ['png'])"
+                      media="{{image.media}}"
+                      type="{{image.type}}"
+                      srcset="{{image.srcSet}}"
+              >
+              <img alt="Hero Images Mobile Shape DayDate">
+            </picture>
+            <picture class="image">
+              <source *ngFor="let image of imageSizeList('mobile', 'images/front/projects/daydate', ['png'])"
+                      media="{{image.media}}"
+                      type="{{image.type}}"
+                      srcset="{{image.srcSet}}"
+              >
+              <img alt="Hero Images Mobile DayDate">
+            </picture>
+          </div>
+
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="row h-100">
+            <div class="col-12">
+              <h2>Localization</h2>
+              <p>We tailored the design of the app so it would look flawless in both English and French.</p>
+            </div>
+            <div class="col-12 text-bottom">
+              <h2>Monetization</h2>
+              <p>Payments are seamlessly handled using Apple’s in-app purchasing system.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid dayDateContainer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 lastContainer">
+          <div class="row">
+            <div class="col-12 col-lg-6 infoCol">
+              <div class="info">
+                <picture class="image">
+                  <source *ngFor="let image of imageSizeList('quote', 'images/front/projects/daydate', ['png'])"
+                          media="{{image.media}}"
+                          type="{{image.type}}"
+                          srcset="{{image.srcSet}}"
+                  >
+                  <img alt="Quote">
+                </picture>
+                <div class="name">
+                  <h3>Benjamin Azogui,</h3>
+                  <h4>CEO DayDate</h4>
+                </div>
+              </div>
+              <p>“I’m very satisfied with their work. HyperSense Software is responsive and proactive.”</p>
+              <a rel="noopener noreferrer" href="https://clutch.co/profile/hypersense-software#review-742996" class="btn white normalText" target="_blank">
+                Read more on CLUTCH.CO
+              </a>
+            </div>
+            <div class="col-12 col-lg-6 contactCol">
+              <div class="text">
+                <h2>If you need help with a website or mobile app, contact us.</h2>
+              </div>
+              <div class="contactBtn">
+                <a routerLink="/contact" class="btn orange">
+                  get in touch
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

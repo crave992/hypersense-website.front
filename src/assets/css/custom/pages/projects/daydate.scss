@@ -1,0 +1,543 @@
+.daydate {
+
+  .mainMenu {
+    background-color: white;
+  }
+  .dayDateContainer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #F9F9F9;
+
+    h1 {
+      color: #2E2E2E;
+      font-size: 4.8rem;
+      font-weight: 900;
+      letter-spacing: 0.8px;
+      line-height: 5.625rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+
+      @media only screen and (max-width: 1076px) {
+        font-size: 3.4rem;
+        line-height: 3.725rem;
+      }
+
+      @media only screen and (max-width: 991px) {
+        align-items: center;
+      }
+
+    }
+
+    h2 {
+      color: #2E2E2E;
+      font-size: 2.6rem;
+      font-weight: 700;
+      letter-spacing: 0.13px;
+      line-height: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      color: #2E2E2E;
+      font-size: 1.7rem;
+      letter-spacing: 0.07px;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      line-height: 3rem;
+
+      @media only screen and (max-width: 1076px) {
+        font-size: 17px;
+        line-height: 30px;
+      }
+
+      @media only screen and (max-width: 991px) {
+        align-items: center;
+      }
+
+      a {
+        color:#2E2E2E;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+    }
+
+    .logo {
+      margin-top: 0.4rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .contactBtn .btn.orange {
+      color:white;
+      background-color: #CC9933;
+      padding: 1.5rem 3.3rem;
+    }
+    .btn {
+      -webkit-border-radius: 0.6rem;
+      -moz-border-radius: 0.6rem;
+      border-radius: 0.6rem;
+      background-color: transparent;
+      color: #2E2E2E;
+      font-size: 1.4rem;
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 1.7rem;
+      padding: 1.5rem 5.5rem;
+      text-transform: uppercase;
+      border: none;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+
+      &.orange {
+        background-color: #FDC41E;
+      }
+
+      &.white {
+        color:white;
+        border: 1px solid #FFFFFF;
+        -webkit-border-radius: 0.6rem;
+        -moz-border-radius: 0.6rem;
+        border-radius: 0.6rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+        &.normalText {
+          text-transform: initial;
+        }
+
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .ios {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .dayDateMainColor {
+      color:#F5BA0D;
+    }
+  }
+
+
+  .firstSection {
+    text-align: center;
+    .infoText {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      p {
+        max-width: 78rem;
+        margin: 0 auto;
+        padding: 0;
+      }
+    }
+
+
+  }
+
+  .hero {
+    text-align: center;
+    picture {
+      margin: 0 auto;
+    }
+  }
+  .header {
+    position: relative;
+    .image1 {
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      @media only screen and (max-width: 1076px) {
+        top: 15%;
+      }
+    }
+    .image2 {
+      position: absolute;
+      top: 10%;
+      right: 20%;
+    }
+
+    .image3 {
+      position: absolute;
+      bottom: 2%;
+      right: 5%;
+    }
+  }
+
+
+
+  .textRow {
+    display: flex;
+    align-items: center;
+    p {
+      max-width: 40rem;
+    }
+    @media only screen and (max-width: 1500px) {
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+
+  }
+  .secondRow {
+    margin-bottom: 3.5rem;
+    .cardInfo {
+      margin-bottom: 0;
+      margin-top: 11.5rem;
+
+      @media only screen and (max-width: 1500px) {
+        margin-top: 0;
+        margin-bottom: 11.5rem;
+      }
+
+      @media only screen and (max-width: 991px) {
+        margin: 3rem 2.5rem 6rem 2.5rem;
+      }
+
+    }
+  }
+  .cardInfo {
+    border-radius: 7.3rem;
+    background-color: white;
+    box-shadow: 0 0.2rem 8.6rem 0 rgba(0,0,0,0.05);
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 3rem 6rem 2.5rem;
+    flex-wrap: nowrap;
+    position: relative;
+    margin-bottom: 11.5rem;
+    max-width: 38rem;
+    text-align: left;
+
+    @media only screen and (max-width: 991px) {
+      margin: 3rem 2.5rem 6rem 2.5rem;
+    }
+
+    p {
+      padding: 0;
+      color: #2E2E2E;
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+      line-height: 2rem;
+    }
+
+    .cordIcon {
+      -webkit-box-flex: 0;
+      flex: 0 0 7.3rem;
+      max-width: 7.3rem;
+
+
+      @media only screen and (max-width: 1279px) {
+        flex: 0 0 4.8rem;
+        max-width: 4.8rem;
+      }
+
+    }
+
+    .cordContent {
+      padding-right: 0;
+      padding-left: 1rem;
+
+      h2 {
+        font-weight: 600;
+      }
+    }
+
+    .cardImage {
+      position: absolute;
+      bottom: -4.5rem;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+  }
+
+  .text-bottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    &.flexEnd {
+      align-items: flex-end;
+
+      @media only screen and (max-width: 991px) {
+        align-items: flex-start;
+      }
+
+    }
+  }
+
+
+  .mobileImage {
+
+    text-align: center;
+    @media only screen and (max-width: 991px) {
+      text-align: center;
+    }
+
+
+    .mobileImages {
+      position: relative;
+      display: inline-block;
+
+      @media only screen and (max-width: 991px) {
+        margin: 5rem auto;
+      }
+
+
+      .shape1 img {
+        position: absolute;
+        top: 30%;
+        right: calc(100% - 16px);
+
+        @media only screen and (max-width: 550px) {
+          width: 50%;
+        }
+
+        @media only screen and (max-width: 350px) {
+          display: none;
+        }
+
+      }
+
+      .shape2 img {
+        position: absolute;
+        top: 30%;
+        left: calc(100% - 16px);
+
+        @media only screen and (max-width: 5050px) {
+          width: 50%;
+        }
+
+        @media only screen and (max-width: 350px) {
+          display: none;
+        }
+
+      }
+
+      .image img {
+        position: relative;
+      }
+    }
+  }
+
+
+  .mobileContainer {
+    position: relative;
+    .image3 {
+      position: absolute;
+      top: 40%;
+      left: 29%;
+      z-index: 1;
+
+      @media only screen and (max-width: 991px) {
+        top: auto;
+        left: auto;
+        bottom: 35%;
+        right: 10%;
+      }
+
+    }
+    .image4 {
+      position: absolute;
+      top: 10%;
+      left: 8%;
+      @media only screen and (max-width: 1084px) {
+        display: none;
+      }
+    }
+
+    .image5 {
+      position: absolute;
+      top: 42%;
+      left: 13%;
+
+      @media only screen and (max-width: 991px) {
+        top: 30%;
+        left: 13%;
+      }
+
+    }
+
+    .image7 {
+      position: absolute;
+      top: 25%;
+      right: 9%;
+
+      @media only screen and (max-width: 991px) {
+        top: auto;
+        right: auto;
+        bottom: 30%;
+        left: 5%;
+      }
+
+
+
+    }
+  }
+
+
+  .lastContainer {
+    @include border-radius(24rem);
+    background: linear-gradient(133.69deg, #545764 0%, #2A2C34 100%);
+    color:white;
+    padding: 7rem;
+
+    @media only screen and (max-width: 991px) {
+      @include border-radius(2.6rem);
+      padding: 4rem;
+    }
+
+    p {
+      color:white;
+    }
+    .infoCol {
+      text-align: right;
+      border-right: 0.1rem solid white;
+      padding-right: 4.8rem;
+
+      @media only screen and (max-width: 991px) {
+        border-right: none;
+        padding-right: 0;
+        border-bottom: 0.2rem solid white;
+        padding-bottom: 6rem;
+      }
+
+
+
+
+      .info {
+        display: inline-flex;
+
+        .name {
+          margin-left: 3rem;
+          color:white;
+          h3 {
+              font-size: 3rem;
+              letter-spacing: 0.15px;
+              line-height: 3.6rem;
+          }
+          h4 {
+            font-size: 2rem;
+            letter-spacing: 0.15px;
+            line-height: 3.6rem;
+          }
+        }
+      }
+
+      p {
+        color: #FFFFFF;
+        font-size: 2.8rem;
+        font-weight: bold;
+        letter-spacing: 0.6px;
+        line-height: 4rem;
+      }
+
+    }
+    .contactCol {
+      text-align: left;
+      padding-left: 4.8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: self-start;
+      justify-content: flex-end;
+
+
+      @media only screen and (max-width: 991px) {
+        padding-top: 6rem;
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .text {
+        margin: auto 0;
+
+        h2 {
+          max-width: 50rem;
+          color: #FFFFFF;
+          font-size: 4rem;
+          font-weight: 900;
+          letter-spacing: 0.67px;
+          line-height: 6rem;
+          @media only screen and (max-width: 991px) {
+            font-size: 3.3rem;
+            line-height: 5rem;
+          }
+        }
+      }
+
+    }
+  }
+  .thirdSection {
+
+    p {
+      padding-top: 0;
+    }
+
+    .firstCol {
+       p , h2 {
+         text-align: right;
+
+         @media only screen and (max-width: 991px) {
+           text-align: left;
+         }
+
+       }
+    }
+    .textRow {
+      -webkit-box-flex: 0;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      @media only screen and (max-width: 1800px) {
+        flex: 0 0 30%;
+        max-width: 30%;
+      }
+
+      @media only screen and (max-width: 1500px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+    }
+
+    .cardsRow {
+      -webkit-box-flex: 0;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+
+      @media only screen and (max-width: 1800px) {
+        flex: 0 0 70%;
+        max-width: 70%;
+      }
+
+      @media only screen and (max-width: 1500px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      .col-12 {
+        @media only screen and (max-width: 1500px) {
+          text-align: center;
+        }
+      }
+
+    }
+  }
+
+
+
+}
+

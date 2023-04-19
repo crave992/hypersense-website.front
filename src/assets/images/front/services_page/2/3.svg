@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>image copy</title>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-832.000000, -2134.000000)" stroke-width="1.5">
+            <g id="Group-6-Copy" transform="translate(832.000000, 1853.000000)">
+                <g id="Group-8" transform="translate(0.000000, 271.000000)">
+                    <g id="image-copy" transform="translate(0.000000, 10.000000)">
+                        <rect id="Rectangle" stroke="#4A4A4A" x="0.75" y="0.75" width="44.5" height="33.5" rx="16.75"></rect>
+                        <path d="M11.842686,27 C11.2904013,27 10.842686,26.5522847 10.842686,26 C10.842686,25.8065341 10.8988058,25.6172219 11.0042424,25.4550116 L15.6615564,18.2899133 C15.9625451,17.8268536 16.5819287,17.6954692 17.0449884,17.996458 C17.1622516,18.0726791 17.2622225,18.17265 17.3384436,18.2899133 L19.849686,22.1531489 L26.1380658,11.4652882 C26.4180853,10.989255 27.030987,10.8303546 27.5070201,11.1103741 C27.6535738,11.1965821 27.7757262,11.3187345 27.8619342,11.4652882 L36.1135176,25.4929799 C36.3935371,25.969013 36.2346366,26.5819147 35.7586035,26.8619342 C35.6049268,26.9523322 35.4298761,27 35.2515834,27 L11.842686,27 Z" id="Combined-Shape" stroke="#F66847" stroke-linejoin="round"></path>
+                        <circle id="Oval" stroke="#F66847" cx="16.5" cy="9.5" r="3.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

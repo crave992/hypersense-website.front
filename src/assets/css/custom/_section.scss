@@ -1,0 +1,77 @@
+
+
+.fixed .fadeOut {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    color: #2E2E2E;
+    font-family: 'Mulish', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 3.8rem;
+    text-align: center;
+
+    @media only screen and (max-width: 1056px) {
+        font-family: 'Mulish', sans-serif;
+        font-size: 2.6rem;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .section-title h2 {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+
+.section-title h4 {
+    padding: 1.7rem 0;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: center;
+    max-width: 60%;
+    margin:auto;
+
+    @media only screen and (max-width: 767px) {
+        max-width: 100%;
+    }
+}
+
+.sectionPadding {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+    @media only screen and (max-width: 1056px) {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+.sectionPaddingBottom {
+    padding-bottom: 7rem;
+
+    @media only screen and (max-width: 1056px) {
+        padding-bottom: 6rem;
+    }
+}
+
+.sectionTitlePadding {
+  padding-bottom: 5rem;
+}
+
+

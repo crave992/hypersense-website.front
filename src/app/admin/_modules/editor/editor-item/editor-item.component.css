@@ -1,0 +1,49 @@
+:host {
+    overflow-x: hidden;
+}
+
+:host form {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+:host ::ng-deep fieldset {
+    min-width:50%;
+    padding-right:2rem;
+    float:left;
+}
+:host ::ng-deep fieldset.textarea,
+:host ::ng-deep fieldset.quill,
+:host ::ng-deep fieldset.checkbox{
+    min-width:100%;
+}
+:host form {
+    background: #ffffff;
+}
+
+:host::ng-deep ngb-accordion > div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:host::ng-deep ngb-accordion.accordion > .card .card-header {
+    /*margin-bottom: 0;*/
+}
+
+:host::ng-deep ngb-accordion.accordion > .card .card-header .btn-link {
+    color: inherit;
+    font-size: 1.5rem;
+}
+
+:host::ng-deep ngb-accordion.accordion > .card:first-of-type {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+:host::ng-deep form img {
+    max-width: 15rem;
+}
+
+:host::ng-deep mat-select {
+    font-size: 1.4rem;
+}

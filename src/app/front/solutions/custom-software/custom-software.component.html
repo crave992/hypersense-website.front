@@ -1,0 +1,320 @@
+<div class="backgroundImage backgroundImageSoftware custom-software">
+  <app-front-menu></app-front-menu>
+  <!-- Hero Image -->
+  <app-hero-image [childrenHtml]="heroHtml"></app-hero-image>
+  <div class="firstSection d-block bg-round-mask homepageText">
+    <div class="container">
+      <div class="d-flex message">
+        <div>
+          <h2>Introducing Enterprise Software</h2>
+          <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+          <p>Want to take business up a notch? Make your organization more agile with a tailor-made software solution.</p>
+        </div>
+      </div>
+      <div class="blue-badge">
+        <div class="m-auto">
+          <picture>
+            <source srcset="
+                   ./assets/images/front/home/top_image.png 1x,
+                   ./assets/images/front/home/top_image@2x.png 2x,
+                   ./assets/images/front/home/top_image@3x.png 3x
+                  "
+                    type="image/png"
+            >
+            <img src="./assets/images/front/home/top_image.png"
+                 class="contactImage1"
+                 alt="icon"
+            >
+          </picture>
+          <p class="title">Experience counts</p>
+          <p>We’ve been building enterprise software for 16 years and counting.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-block bg-grey">
+    <div class="container sectionPadding solutionCustom">
+      <div class="section-title">
+        <h2>Custom solutions for every situation</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="solutionItems">
+        <div class="solutionItem web">
+          <div class="imageDiv">
+            <img src="assets/images/front/services/web.png"
+                 srcset="
+                                assets/images/front/services/web.png,
+                                assets/images/front/services/web@2x.png,
+                                assets/images/front/services/web@3x.png"
+                 alt=""/>
+          </div>
+          <h3>Web</h3>
+        </div>
+        <div class="solutionItem backend">
+            <div class="imageDiv">
+              <img src="assets/images/front/services/backend.png"
+                   srcset="
+                                  assets/images/front/services/backend.png,
+                                  assets/images/front/services/backend@2x.png,
+                                  assets/images/front/services/backend@3x.png"
+                   alt=""/>
+            </div>
+            <h3>Backend Services</h3>
+        </div>
+        <div class="solutionItem webBlue">
+          <div class="imageDiv">
+            <img src="assets/images/front/services/mobile.png"
+                 srcset="
+                                assets/images/front/services/mobile.png,
+                                assets/images/front/services/mobile@2x.png,
+                                assets/images/front/services/mobile@3x.png"
+                 alt=""/>
+          </div>
+          <h3>Mobile apps</h3>
+        </div>
+        <div class="solutionItem bussines">
+          <div class="imageDiv">
+            <img src="assets/images/front/services/business.png"
+                 srcset="
+                                assets/images/front/services/business.png,
+                                assets/images/front/services/business@2x.png,
+                                assets/images/front/services/business@3x.png"
+                 alt=""/>
+          </div>
+          <h3>Business Process Automation</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- BUSINESS PERFORMS-->
+  <div class="d-block bg-white">
+    <div class="container sectionPadding">
+      <div class="section-title">
+        <h2>How a custom solution helps your business</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+
+      <div class="businessInfo">
+        <div class="businessBlock">
+          <div class="businessItem">
+            <p class="title">AUTOMATE</p>
+            <p>Support or automate unique business processes and transactions.</p>
+          </div>
+          <div class="businessItem">
+            <p class="title">SAVE MONEY</p>
+            <p>Replace or consolidate your systems to eliminate unneeded expense.</p>
+          </div>
+        </div>
+
+        <div class="businessBlock">
+          <div class="businessItem">
+            <p class="title">TAILOR DATA FLOWS</p>
+            <p>Improve your management of data specific to your industry or line of business.</p>
+          </div>
+          <div class="businessItem">
+            <p class="title">IMPROVE PRODUCTIVITY</p>
+            <p>Streamline your business processes to get more done with less.</p>
+          </div>
+        </div>
+
+        <div class="businessBlock">
+          <div class="businessItem">
+            <p class="title">GET COMPLAINT</p>
+            <p>Meet new privacy and security requirements.</p>
+          </div>
+          <div class="businessItem">
+            <p class="title">GAIN AN EDGE</p>
+            <p>Enable new opportunities or improve your competitive advantage.</p>
+          </div>
+        </div>
+
+        <div class="businessBlock">
+          <div class="businessItem">
+            <p class="title">INTEGRATE</p>
+            <p>Facilitate integration with legacy applications.</p>
+          </div>
+          <div class="businessItem">
+            <p class="title">ADAPT</p>
+            <p>Grow and adapt to changing business requirements.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="d-block bg-grey" *ngIf="portfolioProjects && portfolioProjects.length > 0">
+    <div class="container sectionPadding">
+      <div class="section-title">
+        <h2 class="caseStudyTitle">Our latest enterprise projects</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="caseStudies">
+        <div class="projectItem" *ngFor="let item of portfolioProjects">
+          <app-project-card [item]="item"></app-project-card>
+        </div>
+      </div>
+      <div class="text-center container bottom-message">
+        <a class="cta cta-effect m-auto" routerLink="/portfolio">
+          MORE PROJECTS
+          <span [inlineSVG]="'assets/images/front/r-arrow.svg'"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reviews -->
+  <!--<app-testimonials-home></app-testimonials-home>-->
+
+  <div class="d-block bg-white">
+    <div class="container sectionPadding buildingWith">
+      <div class="section-title">
+        <h2>Powered by market-proven tech</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="sectionInfo">
+        <p>Your organization deserves a reliable software solution. That’s why we develop  with the latest enterprise-ready Node.js frameworks, like IBM-backed Loopback.</p>
+      </div>
+      <div class="sectionImages">
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/loopback-sm.png 1x,
+                   ./assets/images/front/building-w/loopback-sm@2x.png 2x,
+                   ./assets/images/front/building-w/loopback-sm@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/loopback-sm.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/angular.png 1x,
+                   ./assets/images/front/building-w/angular@2x.png 2x,
+                   ./assets/images/front/building-w/angular@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/angular.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/node.png 1x,
+                   ./assets/images/front/building-w/node@2x.png 2x,
+                   ./assets/images/front/building-w/node@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/node.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/express.png 1x,
+                   ./assets/images/front/building-w/express@2x.png 2x,
+                   ./assets/images/front/building-w/express@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/express.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/aws.png 1x,
+                   ./assets/images/front/building-w/aws@2x.png 2x,
+                   ./assets/images/front/building-w/aws@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/aws.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/android_icon.png 1x,
+                   ./assets/images/front/building-w/android_icon@2x.png 2x,
+                   ./assets/images/front/building-w/android_icon@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/android_icon.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/in.png 1x,
+                   ./assets/images/front/building-w/in@2x.png 2x,
+                   ./assets/images/front/building-w/in@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/in.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/apl.png 1x,
+                   ./assets/images/front/building-w/apl@2x.png 2x,
+                   ./assets/images/front/building-w/apl@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/apl.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+      </div>
+    </div>
+  </div>
+
+  <!-- Industries -->
+  <div class="d-block bg-grey">
+    <div class="container sectionPadding">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>What we can offer your business</h2>
+            <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="row industries">
+        <div class="col-12">
+          <ul class="items">
+            <li class="item" *ngFor="let item of listTopPriorities; let i = index">
+              <p [inlineSVG]="item.src"></p>
+              <p class="mobileText">{{item.name}}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <app-contact-form></app-contact-form>
+
+</div>

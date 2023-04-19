@@ -1,0 +1,21 @@
+<div class="container messageSent" [class.contactPage] = contactPage>
+    <div class="row textSection">
+        <div class="col-12">
+            <img src="assets/images/front/white_star.svg" alt="white star" *ngIf="!contactPage">
+            <h1 class="title">Thank you for your request!</h1>
+            <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+            <p class="description">
+                We will contact you as soon as possible. In the meantime, check out our
+                <a routerLink="/portfolio">portfolio</a>, the <a routerLink="/services">services</a> we provide and our <a routerLink="/blog">blog</a>.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 resetForm">
+            <button class="ahref cta black" (click)="resetForm()">
+                New request
+                <span [inlineSVG]="'assets/images/front/r-arrow_white.svg'"></span>
+            </button>
+        </div>
+    </div>
+</div>

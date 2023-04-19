@@ -1,0 +1,26 @@
+:host form{
+    display: flex;
+}
+
+:host button {
+    border: #ddd;
+    width: 5%;
+    background-color: #D72B26;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+
+:host input{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: none;
+    outline: 0;
+}
+
+:host input:focus {
+    outline: 0;
+    box-shadow: none;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>app</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-1115.000000, -1310.000000)">
+            <g id="app" transform="translate(1115.000000, 1310.000000)">
+                <rect id="Rectangle" stroke="#1B1B1B" stroke-width="1.5" x="0.75" y="0.75" width="44.5" height="33.5" rx="6"></rect>
+                <path d="M1,11 L45.5,11" id="Path-9" stroke="#1B1B1B" stroke-width="1.5"></path>
+                <circle id="Oval" fill="#1B1B1B" cx="6" cy="6.5" r="1.5"></circle>
+                <circle id="Oval-Copy-5" fill="#1B1B1B" cx="12" cy="6.5" r="1.5"></circle>
+                <circle id="Oval-Copy-6" fill="#1B1B1B" cx="18" cy="6.5" r="1.5"></circle>
+                <rect id="Rectangle" fill="#1B1B1B" x="4" y="19" width="11" height="1.5" rx="0.75"></rect>
+                <path d="M18.75,19 L23,19 L23,19 L23,20.5 L18.75,20.5 C18.3357864,20.5 18,20.1642136 18,19.75 C18,19.3357864 18.3357864,19 18.75,19 Z" id="Rectangle-Copy-3" fill="#1B1B1B"></path>
+                <rect id="Rectangle-Copy-5" fill="#1B1B1B" x="4" y="23" width="19" height="1.5" rx="0.75"></rect>
+                <path d="M22.75,34.25 L40,34.25 C42.8994949,34.25 45.25,31.8994949 45.25,29 L45.25,16.75 L28,16.75 C25.1005051,16.75 22.75,19.1005051 22.75,22 L22.75,34.25 Z" id="Rectangle-Copy-6" stroke="#1B1B1B" stroke-width="1.5"></path>
+                <rect id="Rectangle-Copy-25" fill="#1B1B1B" x="30.5081051" y="25.6940292" width="5" height="1.5" rx="0.75"></rect>
+                <path d="M39.0124942,27.3986422 L35.6791609,27.3986422 C35.310971,27.3986422 35.0124942,27.1001654 35.0124942,26.7319756 L35.0124942,23.3986422" id="Rectangle" stroke="#1B1B1B" stroke-width="1.5" stroke-linecap="round" transform="translate(37.012494, 25.398642) rotate(-167.000000) translate(-37.012494, -25.398642) "></path>
+                <rect id="Rectangle-Copy-24" fill="#1B1B1B" transform="translate(29.568009, 27.268943) rotate(-27.000000) translate(-29.568009, -27.268943) " x="27.0680092" y="26.5189433" width="5" height="1.5" rx="0.75"></rect>
+                <rect id="Rectangle-Copy-26" fill="#1B1B1B" transform="translate(36.479021, 25.598597) rotate(-27.000000) translate(-36.479021, -25.598597) " x="33.9790208" y="24.8485967" width="5" height="1.5" rx="0.75"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

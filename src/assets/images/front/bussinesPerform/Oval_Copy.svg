@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="297px" height="297px" viewBox="0 0 297 297" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Oval Copy 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="29.7378064%" cy="24.8011559%" fx="29.7378064%" fy="24.8011559%" r="102.123741%" gradientTransform="translate(0.297378,0.248012),rotate(90.000000),scale(1.000000,0.685744),translate(-0.297378,-0.248012)" id="radialGradient-1">
+            <stop stop-color="#C4E2FF" offset="0%"></stop>
+            <stop stop-color="#74ABFC" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Custom-Software-Development-Services" transform="translate(-1112.000000, -4294.000000)" stroke="url(#radialGradient-1)" stroke-width="46.2040007">
+            <circle id="Oval-Copy-7" cx="1260.5" cy="4442.5" r="124.5"></circle>
+        </g>
+    </g>
+</svg>

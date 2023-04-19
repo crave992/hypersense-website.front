@@ -1,0 +1,142 @@
+$ctcWalletColor: #2161A9;
+
+
+
+.customProject.ctcWallet {
+
+
+
+  .colHeaderText {
+    max-width: 61rem;
+    @media only screen and (max-width: 991px) {
+      max-width: 47rem;
+    }
+
+    .headerAction {
+      background: #61BF78;
+      @media only screen and (max-width: 767px) {
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+    .headerInfo {
+      @media only screen and (max-width: 767px) {
+        margin-right: auto;
+        margin-left: auto;
+        p {
+
+        }
+      }
+    }
+
+    .headerTitle {
+      h2 {
+        text-align: left;
+        @media only screen and (max-width: 767px) {
+          text-align: center;
+        }
+      }
+    }
+    .headerText .titleAndLogo {
+      @media only screen and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
+      .headerLogo {
+        margin-left: 0;
+        margin-right: 4rem;
+
+      }
+    }
+
+  }
+
+  .topContainer {
+    overflow: hidden;
+    background-color: $ctcWalletColor;
+  }
+  .thirdSection {
+    .textCol {
+      .titleHeader {
+        h4 {
+          span {
+            color: $ctcWalletColor;
+          }
+        }
+      }
+    }
+  }
+
+  .secondSection .titleSection h2 {
+    font-size: 3.6rem;
+  }
+
+  .fourthSection {
+    text-align: center;
+    .titleSection {
+      h4 {
+        span {
+          color: $ctcWalletColor;
+        }
+      }
+    }
+    .items {
+      h2 {
+        color: $ctcWalletColor;
+      }
+      h3 {
+        color: $ctcWalletColor;
+      }
+      .item {
+
+        &:nth-child(3) {
+          background-color: $ctcWalletColor;
+          border-color: $ctcWalletColor;
+        }
+
+        &:nth-child(4) {
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          flex: 0 0 calc(73% - 12px);
+        }
+
+
+      }
+    }
+  }
+  .fifthSection {
+    .colProjects {
+      .items {
+        .item {
+          .seeMore {
+            p {
+              color: $ctcWalletColor;
+            }
+          }
+        }
+      }
+    }
+  }
+  .colHeader {
+    .titleHeader {
+      h4 {
+        span {
+          color: $ctcWalletColor;
+        }
+      }
+    }
+  }
+  .sixSection {
+    .contactContainer {
+      @include background-image("/assets/images/front/projects/ctcWallet/background-contact", 'png');
+      .contactAction {
+        background: #61BF78;
+        a:hover{
+          text-decoration: none;
+          border: none;
+        }
+      }
+    }
+  }
+
+}

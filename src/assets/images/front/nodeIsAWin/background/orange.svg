@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="73px" viewBox="0 0 264 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>orange</title>
+    <defs>
+        <linearGradient x1="0%" y1="58.5546831%" x2="97.5058066%" y2="58.5546831%" id="linearGradient-1">
+            <stop stop-color="#FCC297" offset="0%"></stop>
+            <stop stop-color="#F79765" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="264" height="73" rx="16"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="orange">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <g id="Group-45" mask="url(#mask-3)" opacity="0.15641276">
+                <g transform="translate(4.000000, -20.500000)" id="Combined-Shape">
+                    <rect stroke="#FFFFFF" stroke-width="11" fill="none" transform="translate(34.500000, 72.000000) rotate(-22.000000) translate(-34.500000, -72.000000) " x="13.5" y="51" width="42" height="42"></rect>
+                    <rect stroke="none" fill="#FFFFFF" fill-rule="evenodd" transform="translate(257.500000, 58.000000) rotate(-45.000000) translate(-257.500000, -58.000000) " x="231" y="31.5" width="53" height="53"></rect>
+                    <rect stroke="none" fill="#FFFFFF" fill-rule="evenodd" transform="translate(252.000000, 58.000000) rotate(-45.000000) translate(-252.000000, -58.000000) " x="216" y="22" width="72" height="72"></rect>
+                    <rect stroke="none" fill="#FFFFFF" fill-rule="evenodd" transform="translate(241.000000, 58.000000) rotate(-45.000000) translate(-241.000000, -58.000000) " x="200" y="17" width="82" height="82"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

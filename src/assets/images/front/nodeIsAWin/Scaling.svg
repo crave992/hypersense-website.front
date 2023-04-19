@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="80px" viewBox="0 0 91 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Scaling</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Node.js-Development-Services" transform="translate(-225.000000, -9496.000000)">
+            <g id="Scaling" transform="translate(226.000000, 9498.000000)">
+                <path d="M25,12 L88,12" id="Path-2" stroke="#4A4A4A" stroke-width="2.5"></path>
+                <circle id="Oval" fill="#4A4A4A" opacity="0.299548921" cx="30.5" cy="6.5" r="1.5"></circle>
+                <circle id="Oval" fill="#4A4A4A" opacity="0.299548921" cx="38.5" cy="6.5" r="1.5"></circle>
+                <circle id="Oval" fill="#4A4A4A" opacity="0.299548921" cx="46.5" cy="6.5" r="1.5"></circle>
+                <g id="Group-77-Copy" transform="translate(44.000000, 38.000000) scale(-1, 1) translate(-44.000000, -38.000000) ">
+                    <g id="Group-39">
+                        <rect id="Rectangle-Copy-85" fill="#4A4A4A" opacity="0.299548921" x="40" y="53" width="17" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-Copy-89" fill="#4A4A4A" opacity="0.299548921" transform="translate(47.500000, 19.500000) scale(-1, 1) translate(-47.500000, -19.500000) " x="39" y="18" width="17" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-Copy-91" stroke="#4A4A4A" stroke-width="2.5" transform="translate(13.500000, 23.000000) scale(-1, 1) translate(-13.500000, -23.000000) " x="8.25" y="19.25" width="10.5" height="7.5" rx="3.75"></rect>
+                        <rect id="Rectangle-Copy-87" fill="#4A4A4A" opacity="0.299548921" x="40" y="60" width="28" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-Copy-90" fill="#4A4A4A" opacity="0.299548921" transform="translate(42.000000, 26.500000) scale(-1, 1) translate(-42.000000, -26.500000) " x="28" y="25" width="28" height="3" rx="1.5"></rect>
+                        <path d="M73.9891989,40.9801862 C73.9891989,47.3271819 73.9927993,58.514342 74,74.5416667 C74,75.3470819 73.3430265,76 72.5326087,76 C55.8466488,76 43.3321789,76 34.9891989,76" id="Rectangle-Copy-70" stroke="#4A4A4A" stroke-width="2.5" stroke-linecap="round" transform="translate(54.494599, 58.490093) rotate(-180.000000) translate(-54.494599, -58.490093) "></path>
+                        <path d="M33,0.0176623532 L56.0000012,0.00412121504 C59.8659914,-0.00227487104 63.0018427,3.12988621 63.0041188,6.99587878 C63.0041196,6.99725252 63.00412,6.99862626 63,7 L63,46.0176624 C63.0019622,49.8836556 59.8679555,53.0176624 56.0019622,53.0176624 C56.001308,53.0176624 56.0006539,53.0176623 56.0000003,53.0156999 L6.99999972,53.0019625 C3.13477355,52.9989161 0.00196275879,49.8652269 -3.55271368e-15,46 L-3.55271368e-15,19.0176624 L-3.55271368e-15,19.0176624" id="Rectangle-Copy-81" stroke="#4A4A4A" stroke-width="2.5" stroke-linecap="round" transform="translate(31.500000, 26.508831) rotate(-180.000000) translate(-31.500000, -26.508831) "></path>
+                    </g>
+                    <path d="M79.9672631,18.9994656 L79.9672631,48.9994656 C79.9672631,63.9111539 70.4238591,75.9994656 58.6514737,75.9994656 L35,75.9994656" id="Rectangle" stroke="#4A4A4A" stroke-width="2.5"></path>
+                    <path d="M85.1693267,28.9365901 L76.8764335,29.6436969 C75.771864,29.6436969 74.8764335,28.7482664 74.8764335,27.6436969 L75.5835403,19.3508036" id="Rectangle" stroke="#4A4A4A" stroke-width="2.5" stroke-linecap="round" transform="translate(80.022880, 24.497250) rotate(-225.000000) translate(-80.022880, -24.497250) "></path>
+                    <g id="Group-78" transform="translate(32.974874, 39.681981) rotate(-45.000000) translate(-32.974874, -39.681981) translate(20.974874, 31.181981)" stroke="#4A4A4A" stroke-linecap="round" stroke-width="2.5">
+                        <path d="M18.4038059,8.3890873 L-2.59619408,8.3890873" id="Path-4" transform="translate(7.903806, 8.389087) rotate(-45.000000) translate(-7.903806, -8.389087) "></path>
+                        <path d="M25.8890873,7.68198052 L6.8890873,7.68198052" id="Path-4" transform="translate(16.389087, 7.681981) rotate(-315.000000) translate(-16.389087, -7.681981) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>testimonials_placeholder</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Homepage" transform="translate(-543.000000, -1854.000000)">
+            <g id="testimonials_placeholder" transform="translate(544.000000, 1855.000000)">
+                <path d="M21,69 C22.8118967,59.9405167 29.9568818,52.8968737 39.0413224,51.2145699 L51,49 L51,49 L48,46 L41,47 L31,47 L27,46 L22,48 L17,52 L15,61 L15,65 L21,69 Z" id="Path-104" fill="#D0E3FF" opacity="0.688081287"></path>
+                <path d="M15,65 L15,59 C15,51.8202983 20.8202983,46 28,46 C28.4444444,46 28.7777778,46 29,46 M42.9407679,46 C43.1729509,46 43.5260282,46 44,46 C51.1797017,46 57,51.8202983 57,59 L57,65" id="driver_icon" stroke="#74ABFC" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M45,28 L40,23 L33,23 L28,26 L25,30 L24,34 L24,38 L25,41 L25.2225865,40.0540072 C27.2800205,31.3099129 36.0363892,25.8893037 44.7804835,27.9467377 C44.8537781,27.9639835 44.926952,27.981738 45,28 L45,28 L45,28 Z" id="Path-106" fill="#D0E3FF" opacity="0.688081287"></path>
+                <path d="M40.8232149,46.9980741 C45.3220175,45.1116239 48.4820418,40.6658645 48.4820418,35.4820418 C48.4820418,28.5884005 42.8936413,23 36,23 C29.1063587,23 23.5179582,28.5884005 23.5179582,35.4820418 C23.5179582,40.6676294 26.6801346,45.114651 31.1813806,47" id="Path" stroke="#74ABFC" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M36,72 C43.8699622,72 51.1501014,69.4746674 57.0742877,65.1901322 C66.1166483,58.6504471 72,48.0122888 72,36 C72,16.117749 55.882251,0 36,0 C16.117749,0 0,16.117749 0,36 C0,47.9407585 5.81349248,58.5237031 14.7645138,65.0728701 C20.7176086,69.4285532 28.0585075,72 36,72 Z" id="Oval" stroke="#74ABFC" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

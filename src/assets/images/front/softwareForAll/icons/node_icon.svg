@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>node</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-815.000000, -1310.000000)">
+            <g id="node" transform="translate(815.000000, 1310.000000)">
+                <rect id="Rectangle" stroke="#1B1B1B" stroke-width="1.5" x="0.75" y="0.75" width="44.5" height="33.5" rx="6"></rect>
+                <path d="M1,11 L45.5,11" id="Path-9" stroke="#1B1B1B" stroke-width="1.5"></path>
+                <circle id="Oval" fill="#1B1B1B" cx="6" cy="6.5" r="1.5"></circle>
+                <circle id="Oval-Copy-5" fill="#1B1B1B" cx="12" cy="6.5" r="1.5"></circle>
+                <circle id="Oval-Copy-6" fill="#1B1B1B" cx="18" cy="6.5" r="1.5"></circle>
+                <rect id="Rectangle" fill="#1B1B1B" x="4" y="19" width="11" height="1.5" rx="0.75"></rect>
+                <rect id="Rectangle-Copy-6" fill="#1B1B1B" x="31" y="23" width="11" height="1.5" rx="0.75"></rect>
+                <rect id="Rectangle-Copy-3" fill="#1B1B1B" x="18" y="19" width="24" height="1.5" rx="0.75"></rect>
+                <rect id="Rectangle-Copy-5" fill="#1B1B1B" x="4" y="23" width="24" height="1.5" rx="0.75"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

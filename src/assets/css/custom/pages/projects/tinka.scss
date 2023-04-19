@@ -1,0 +1,72 @@
+$tinkaColor: #58509e;
+
+.customProject.tinka {
+  .topContainer {
+    overflow: hidden;
+    background-color: $tinkaColor;
+  }
+  .thirdSection {
+    .textCol {
+      .titleHeader {
+        h4 {
+          span {
+            color: $tinkaColor;
+          }
+        }
+      }
+    }
+  }
+  .fourthSection {
+    text-align: center;
+    .titleSection {
+      h4 {
+        span {
+          color: $tinkaColor;
+        }
+      }
+    }
+    .items {
+      h2 {
+        color: $tinkaColor;
+      }
+      h3 {
+        color: $tinkaColor;
+      }
+      .item {
+
+        &:nth-child(3) {
+          background-color: $tinkaColor;
+          border-color: $tinkaColor;
+        }
+      }
+    }
+  }
+  .fifthSection {
+    .colProjects {
+      .items {
+        .item {
+          .seeMore {
+            p {
+              color: $tinkaColor;
+            }
+          }
+        }
+      }
+    }
+  }
+  .colHeader {
+    .titleHeader {
+      h4 {
+        span {
+          color: $tinkaColor;
+        }
+      }
+    }
+  }
+  .sixSection {
+    .contactContainer {
+      background-color: $tinkaColor;
+    }
+  }
+}
+

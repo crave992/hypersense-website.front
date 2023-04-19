@@ -1,0 +1,30 @@
+.techClass {
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .section-title {
+    padding-bottom: 5rem;
+  }
+  ul.priorities {
+    padding: 1rem 0 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .roundedButtons {
+    width:20%;
+
+    img {
+      transition: all .2s ease-in-out;
+    }
+    &:hover img{
+      transform: scale(1.1);
+    }
+  }
+}
+
+
+
+

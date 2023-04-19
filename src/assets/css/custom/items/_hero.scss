@@ -1,0 +1,192 @@
+
+.topClients {
+  display: inline-flex;
+  align-items: center;
+  height: 5rem;
+  max-width: 89.4rem;
+  padding-bottom: 2rem;
+
+  .clientImage {
+    margin-right: 3.4rem;
+    display: inline-flex;
+
+    @media only screen and (max-width: 1620px) {
+      margin-right: 2.4rem;
+    }
+
+    @media only screen and (max-width: 1474px) {
+      margin-right: 0rem;
+    }
+
+    &:nth-child(1) {
+      max-width: 7.1rem;
+    }
+
+    &:nth-child(2) {
+      max-width: 6.7rem;
+    }
+
+    &:nth-child(3) {
+      max-width: 8.2rem;
+    }
+
+    &:nth-child(4) {
+      max-width: 6.1rem;
+    }
+
+    &:nth-child(5) {
+      max-width: 8.5rem;
+    }
+
+    &:nth-child(6) {
+      max-width: 7.6rem;
+    }
+
+    img {
+      width: 100%;
+      @media only screen and (max-width: 1474px) {
+        padding-right: 1.2rem;
+      }
+
+    }
+
+  }
+
+}
+
+.hero-image {
+  width: 100%;
+
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+  h1 {
+    color: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 3.4rem;
+    letter-spacing: 0;
+    line-height: 4.8rem;
+    margin: 0;
+    max-width: 44rem;
+    font-weight: 700;
+
+    @media only screen and (max-width: 991px) {
+      font-size: 3rem;
+    }
+    .txt-blue {
+      font-family: 'Mulish', sans-serif;
+      font-size: 3.4rem;
+      letter-spacing: 0;
+      line-height: 4.8rem;
+    }
+
+  }
+
+  a.contactLink {
+    border: 1.5px solid #74ABFC;
+    border-radius: 32px;
+    color: #74ABFC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
+    padding: 1rem 4.8rem 1rem 6rem;
+    margin-top: 5.5rem;
+    display: inline-block;
+    font-weight: 400;
+
+    @media only screen and (max-width: 991px) {
+      padding: 0.5rem 2rem;
+      margin-top: 3rem;
+    }
+
+    img {
+      padding: 0;
+      margin: 0;
+      width: 2.6rem;
+      height: 0.8rem;
+    }
+  }
+
+
+  &:hover a {
+    color: #74ABFC;
+  }
+
+  a {
+    > img {
+      padding-left: 2.5rem;
+    }
+
+    &.cta-effect svg {
+      width: 6rem;
+    }
+
+    svg {
+      @media only screen and (max-width: 1118px) {
+        width: 6rem;
+      }
+      @media only screen and (max-width: 991px) {
+        width: 4.8rem;
+      }
+    }
+
+  }
+}
+
+
+.top-clients li {
+  padding: 0 26px 0 0;
+}
+
+.headerTop {
+  color: #fff;
+  font-size: 2.2rem;
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 45rem;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 991px) {
+    margin: 0 auto;
+    height: auto;
+    max-width: 56.8rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
+
+  .textHeader {
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+p.headerText {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.21px;
+    line-height: 3.2rem;
+
+}
+
+
+.contact .fadeOut {
+  margin: auto;
+  text-align: center;
+}
+
+
+
+
+

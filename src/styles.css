@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+
+/* Importing Bootstrap SCSS file. */
+/*@import '~bootstrap/scss/bootstrap-grid';*/
+
+
+/*@import url('../node_modules/font-awesome/css/font-awesome.css');*/
+/*@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');*/
+@import url('../node_modules/normalize.css/normalize.css');
+/*@import url('../node_modules/owl.carousel/dist/assets/owl.carousel.min.css');*/
+/*@import url('../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css');*/
+
+@import url('../node_modules/quill/dist/quill.core.css');
+@import url('../node_modules/quill/dist/quill.bubble.css');
+@import url('../node_modules/quill/dist/quill.snow.css');
+/*@import url('../node_modules/quill-emoji/dist/quill-emoji.css');*/
+/*@import url('../node_modules/quill-mention/dist/quill.mention.min.css');*/
+
+@import "../src/assets/css/mystyle.css";
+@import "../src/assets/css/animate.css";
+
+
+
+/*html, body { height: 100%; }*/

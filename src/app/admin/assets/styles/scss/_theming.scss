@@ -1,0 +1,32 @@
+// ******
+// Simple theme
+// ******
+$simple-theme-background: (background: $body-bg,
+        header: white,
+        sidebar: #464961,
+        brand: rgba(51, 51, 51, 1.00),
+        hover: rgba(black, 0.04),
+        hover-o: rgba(black, 0.05),
+        card: white,
+        modal: white,
+        secondary-button: white,
+        primary-button: #20a8d8,
+        selected-cell: theme-colors("primary"),
+        chart-tooltip: rgba(51, 51, 51, 1.00),
+);
+
+$simple-theme-foreground: (base: $body-color,
+        header: $body-color,
+        header-hover: black,
+        sidebar: rgba(white, .72),
+        sidebar-hover: white,
+        brand: white,
+        divider: rgb(232, 232, 232),
+        disabled: rgba(black, 0.3),
+        muted-text: rgba(black, 0.3),
+        chart-grid: rgba(black, 0.05),
+);
+
+.theme-simple {
+  @include theme($simple-theme-background, $simple-theme-foreground);
+}

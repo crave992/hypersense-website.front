@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Arrow_Small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-60.0374048%" y1="149.279439%" x2="800.32973%" y2="-734.487868%" id="linearGradient-1">
+            <stop stop-color="#F2A886" offset="0%"></stop>
+            <stop stop-color="#ED6676" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-60.0374048%" y1="50.3878103%" x2="800.32973%" y2="46.9355943%" id="linearGradient-2">
+            <stop stop-color="#F2A886" offset="0%"></stop>
+            <stop stop-color="#ED6676" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="[desktop]-Homepage" transform="translate(-415.000000, -4506.000000)" stroke-width="1.6">
+            <g id="Group-69" transform="translate(214.000000, 4413.000000)">
+                <g id="Arrow_Small" transform="translate(210.000000, 98.000000) rotate(-180.000000) translate(-210.000000, -98.000000) translate(201.000000, 93.000000)">
+                    <path d="M16,8 L11.3953488,8 C10.624719,8 10,7.37528105 10,6.60465116 L10,2" id="Rectangle-Copy-14" stroke="url(#linearGradient-1)" transform="translate(13.000000, 5.000000) rotate(-135.000000) translate(-13.000000, -5.000000) "></path>
+                    <path d="M0.846909249,5 L16,5" id="Path" stroke="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

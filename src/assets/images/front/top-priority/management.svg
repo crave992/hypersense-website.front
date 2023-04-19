@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="229px" height="229px" viewBox="0 0 229 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>management</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1-management" cx="81.5" cy="81.5" r="81.5"></circle>
+        <filter x="-35.0%" y="-27.6%" width="169.9%" height="169.9%" filterUnits="objectBoundingBox" id="filter-2-management">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0321514423 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="management" transform="translate(33.000000, 21.000000)">
+            <g id="Oval-Copy-6">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2-management)" xlink:href="#path-1-management"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1-management"></use>
+            </g>
+            <g id="icon125" transform="translate(51.000000, 50.000000)" stroke="#74ABFC">
+                <path d="M16.0747443,0 L49.1986625,0 C57.2652353,0 63.8044847,6.50061358 63.8044847,14.5195268 L63.8044847,31.1132718 L63.8044847,48.2255712 C63.8044847,56.2444845 57.2652353,62.745098 49.1986625,62.745098 L15.2922895,62.745098 C7.22571668,62.745098 0.686467349,56.2444845 0.686467349,48.2255712 L0.686467349,31.1132718 L0.686467349,14.5195268 L0.947285602,0 L8.2501967,0" id="Combined-Shape-2" stroke-width="3.80487805" stroke-linecap="round" transform="translate(32.245476, 31.372549) rotate(-180.000000) translate(-32.245476, -31.372549) "></path>
+                <path d="M32.2866834,16.3466171 L31.7133166,16.3466171 C26.7151396,16.3466171 22.1901396,18.3725287 18.9146838,21.6479844 C15.6392281,24.9234402 13.6133166,29.4484402 13.6133166,34.4466171 C13.6133166,39.4447941 15.6392281,43.9697941 18.9146838,47.2452499 C22.1901396,50.5207056 26.7151396,52.5466171 31.7133166,52.5466171 L32.2866834,52.5466171 C35.6587252,52.5466171 38.8156399,51.625076 41.5184794,50.0189206 C43.7508393,48.6923465 45.673754,46.8995715 47.1529113,44.7747676 L27.7514406,35.0737343 L47.7692154,25.0653324 C46.3139369,22.6691129 44.3180744,20.6375886 41.9511007,19.1396756 C39.1549649,17.3701722 35.8402949,16.3466171 32.2866834,16.3466171 Z" id="Combined-Shape-2" stroke-width="3.8" transform="translate(31.041131, 34.446617) rotate(-60.000000) translate(-31.041131, -34.446617) "></path>
+                <path d="M41.0454727,12.4350443 C39.3555155,15.5130021 37.0735901,19.8024578 34.1992998,25.3019472 C38.4644888,27.0136916 43.4745871,26.7947058 47.4323561,25.222398 C44.6875334,19.7151518 42.5584675,15.4526343 41.0454727,12.4350443 Z" id="Combined-Shape-2" stroke-width="3.8" fill="#74ABFC" transform="translate(40.802637, 18.384292) rotate(-150.000000) translate(-40.802637, -18.384292) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

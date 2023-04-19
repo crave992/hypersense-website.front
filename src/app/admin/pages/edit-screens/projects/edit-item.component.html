@@ -1,0 +1,60 @@
+<app-editor-header
+        itemName="{{itemName}}"
+        itemCollectionUrl="{{itemCollectionUrl}}"
+        baseUrl="{{baseUrl}}"
+        itemStatus="{{itemStatus}}"
+        [state]="openedSidebar" (toggle)="openedSidebar=$event"
+        (triggerSave)="saveItem()"
+></app-editor-header>
+
+
+<form [formGroup]="createItemForm">
+    <div class="row-block">
+        <fieldset *ngFor="let field of fieldsByLocation();" [ngClass]="field.type">
+            <app-field-container *ngIf="field.type!='image' && field.display"
+                                 dynamicField
+                                 [config]="field"
+                                 [group]="createItemForm"
+                                 [quillConfig]="quillConfig">
+            </app-field-container>
+            <app-upload-image
+                    (newImage)="getNewImage($event)"
+                    [cropRatio]="field.name==='imageURL' ? 4/3 :1"
+                    *ngIf="field.type === 'image' && (!itemId || itemId && currentItem.id)"
+                    [config]="field"
+                    [initialValue]="currentItem[field.name]"
+                    [group]="createItemForm">
+            </app-upload-image>
+        </fieldset>
+    </div>
+
+    <div class="row-block">
+
+        <ngb-accordion>
+            <ngb-panel title="SEO Elements">
+                <ng-template ngbPanelContent>
+                    <div>
+                        <fieldset *ngFor="let field of fieldsByLocation('seo');">
+                            <app-field-container *ngIf="field.type!='image' && field.display"
+                                                 dynamicField
+                                                 [config]="field"
+                                                 [group]="createItemForm"
+                                                 [quillConfig]="quillConfig">
+                            </app-field-container>
+                            <app-upload-image
+                                    [cropRatio]=1
+                                    (newImage)="getNewImage($event)"
+                                    *ngIf="field.type === 'image' && (!itemId || itemId && currentItem.id)"
+                                    [config]="field"
+                                    [initialValue]="currentItem[field.name]"
+                                    [group]="createItemForm">
+                            </app-upload-image>
+                        </fieldset>
+                    </div>
+                </ng-template>
+            </ngb-panel>
+        </ngb-accordion>
+    </div>
+
+
+</form>

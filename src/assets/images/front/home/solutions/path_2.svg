@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="555px" height="309px" viewBox="0 0 555 309" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>path_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="19.5670471%" y1="60.0251171%" x2="97.5797851%" y2="23.2340438%" id="linearGradient-1">
+            <stop stop-color="#E7F3FF" offset="0%"></stop>
+            <stop stop-color="#BCD7FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Homepage" transform="translate(-1011.000000, -3307.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-28" transform="translate(-7.000000, 2474.000000)">
+                <path d="M1056.41128,1030.14888 C994.411278,1096.14888 1037.13719,1153.3275 1122.13719,1153.3275 C1207.13719,1153.3275 1308.32295,1134.2886 1343.32295,1142.2886 C1378.32295,1150.2886 1470.32295,1138.2886 1492.32295,1108.2886 C1514.32295,1078.2886 1623.41128,906.148878 1499.41128,865.148878 C1375.41128,824.148878 1233.41128,856.148878 1199.41128,894.148878 C1165.41128,932.148878 1118.41128,964.148878 1056.41128,1030.14888 Z" id="path_2" transform="translate(1292.339457, 999.663748) rotate(-167.000000) translate(-1292.339457, -999.663748) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

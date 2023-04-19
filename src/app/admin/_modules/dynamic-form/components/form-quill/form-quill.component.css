@@ -1,0 +1,19 @@
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+    float: left;
+}
+
+label + * {
+    display: block;
+    float:left;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+
+ :host::ng-deep .ql-editor img{
+    max-width:150px;
+}

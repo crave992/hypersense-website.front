@@ -1,0 +1,39 @@
+<div [ngClass]="setOpenedClass()" class="settings-menu-container">
+    <div class="sidebar-content">
+
+        <header>
+            {{itemName}} Settings
+            <button class="close pull-right" (click)="close()">
+                <i class="fa fa-2x fa-close"></i>
+            </button>
+        </header>
+
+
+        <section>
+            <fieldset *ngFor="let field of sidebarFields;">
+                <app-upload-image *ngIf="field.type === 'image'"
+                                  [config]="field"
+                                  [group]="createItemForm"
+                ></app-upload-image>
+                <app-field-container *ngIf="(field.type!='quill' && field.type!='image') && field.display"
+                                     dynamicField
+                                     [config]="field"
+                                     [group]="createItemForm">
+                </app-field-container>
+            </fieldset>
+
+
+            <div>
+                <button class="delete-button" (click)="confirmDelete()">
+                        <span style="color: red; font-size: 14px;">
+                            <i class="far fa-trash-alt" style="color: red;"></i>
+                            DELETE POST
+                        </span>
+                </button>
+            </div>
+
+            <button class="btn btn-primary btn-publish" (click)="confirmPublish()">Publish</button>
+        </section>
+    </div>
+
+</div>

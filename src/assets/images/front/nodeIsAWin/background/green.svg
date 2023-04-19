@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="73px" viewBox="0 0 264 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>green</title>
+    <defs>
+        <linearGradient x1="0%" y1="58.5546831%" x2="100%" y2="58.5546831%" id="linearGradient-1">
+            <stop stop-color="#51E18A" offset="0%"></stop>
+            <stop stop-color="#73C478" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="264" height="73" rx="16"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="green">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <g id="Group-51" mask="url(#mask-3)">
+                <g transform="translate(-46.000000, -20.000000)" id="Combined-Shape">
+                    <circle stroke="#FFFFFF" stroke-width="7.329167" fill="none" opacity="0.133463542" cx="259.5" cy="71.5" r="40.5"></circle>
+                    <circle stroke="#FFFFFF" stroke-width="7.329167" fill="none" opacity="0.133463542" cx="259.5" cy="71.5" r="61.5"></circle>
+                    <rect stroke="none" fill="#FFFFFF" fill-rule="evenodd" opacity="0.15641276" transform="translate(125.000000, 58.500000) rotate(-45.000000) translate(-125.000000, -58.500000) " x="84" y="17.5" width="82" height="82"></rect>
+                    <rect stroke="none" fill="#FFFFFF" fill-rule="evenodd" opacity="0.15641276" transform="translate(58.000000, 58.500000) rotate(-45.000000) translate(-58.000000, -58.500000) " x="17" y="17.5" width="82" height="82"></rect>
+                    <circle stroke="#FFFFFF" stroke-width="7.329167" fill="none" opacity="0.133463542" cx="259.5" cy="71.5" r="10.5"></circle>
+                    <circle stroke="#FFFFFF" stroke-width="7.329167" fill="none" opacity="0.133463542" cx="259.5" cy="71.5" r="23.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

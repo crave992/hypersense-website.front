@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>analytics_custom</title>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-215.000000, -3710.000000)">
+            <g id="Group-6-Copy-4" transform="translate(215.000000, 3429.000000)">
+                <g id="Group-8" transform="translate(0.000000, 281.000000)">
+                    <g id="analytics_custom" transform="translate(0.000000, -0.000000)">
+                        <rect id="Rectangle" stroke="#4A4A4A" stroke-width="1.5" x="0.75" y="0.75" width="44.5" height="33.5" rx="16.75"></rect>
+                        <rect id="Rectangle" fill="#D66A38" transform="translate(10.750000, 21.500000) rotate(-90.000000) translate(-10.750000, -21.500000) " x="6.25" y="20.75" width="9" height="1.5" rx="0.75"></rect>
+                        <rect id="Rectangle-Copy-8" fill="#D66A38" transform="translate(15.750000, 22.500000) rotate(-90.000000) translate(-15.750000, -22.500000) " x="12.25" y="21.75" width="7" height="1.5" rx="0.75"></rect>
+                        <rect id="Rectangle-Copy-9" fill="#D66A38" transform="translate(20.750000, 20.500000) rotate(-90.000000) translate(-20.750000, -20.500000) " x="15.25" y="19.75" width="11" height="1.5" rx="0.75"></rect>
+                        <rect id="Rectangle-Copy-10" fill="#D66A38" transform="translate(25.750000, 19.000000) rotate(-90.000000) translate(-25.750000, -19.000000) " x="18.75" y="18.25" width="14" height="1.5" rx="0.75"></rect>
+                        <rect id="Rectangle-Copy-11" fill="#D66A38" transform="translate(30.750000, 17.500000) rotate(-90.000000) translate(-30.750000, -17.500000) " x="22.25" y="16.75" width="17" height="1.5" rx="0.75"></rect>
+                        <rect id="Rectangle-Copy-22" fill="#D66A38" transform="translate(35.750000, 18.500000) rotate(-90.000000) translate(-35.750000, -18.500000) " x="28.25" y="17.75" width="15" height="1.5" rx="0.75"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

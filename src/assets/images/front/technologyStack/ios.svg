@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="229px" height="229px" viewBox="0 0 229 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>ios</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="81.5" cy="81.5" r="81.5"></circle>
+        <filter x="-35.0%" y="-27.6%" width="169.9%" height="169.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0321514423 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Custom-Software-Development-Services" transform="translate(-1189.000000, -3881.000000)">
+            <g id="ios" transform="translate(1222.000000, 3902.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M79.2336914,59.2737798 C79.2336914,54.4435491 80.4381006,50.8208762 82.8469192,48.4057609 C86.460147,44.7830879 90.4748445,42.7704918 93.6866026,42.7704918 C94.0880724,44.7830879 93.6866026,49.2107993 90.0733748,54.0410299 C87.6645562,57.2611837 84.0513284,59.0054336 79.2336914,59.2737798 Z" id="Path-21" stroke="#FFFFFF" stroke-width="2" fill="#74ABFC"></path>
+                <path d="M80.0366309,63.7014912 C83.6498587,63.7014912 86.460147,58.8712605 94.4895421,60.0788182 C99.8424722,60.8838566 103.85717,63.1647989 106.533635,66.9216449 C101.448351,70.1417986 98.9057094,74.8378562 98.9057094,81.0098175 C98.9057094,87.1817789 102.117467,91.8778364 108.540984,95.0979902 C107.202751,99.9282208 105.329226,103.81924 102.920407,106.771048 C99.3071792,111.198759 96.8983607,114.016393 92.0807236,114.016393 C87.2630865,114.016393 86.460147,110.79624 80.8395704,110.79624 C75.2189938,110.79624 75.2189938,114.016393 69.5984172,114.016393 C63.9778406,114.016393 60.7660825,109.186163 57.1528547,103.550894 C53.5396269,97.9156247 50.3278689,89.0602019 50.3278689,81.0098175 C50.3278689,72.9594332 53.9410967,66.5191257 57.9557942,63.7014912 C61.9704918,60.8838566 64.3793103,60.0788182 67.9925382,60.0788182 C74.0145845,60.0788182 76.4234031,63.7014912 80.0366309,63.7014912 Z" id="Path-22" stroke="#FFFFFF" stroke-width="2" fill="#74ABFC"></path>
+            </g>
+        </g>
+    </g>
+</svg>

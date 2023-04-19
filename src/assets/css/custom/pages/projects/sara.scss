@@ -1,0 +1,390 @@
+.sara {
+
+  .mainMenu .navbar {
+    background-color: #fff;
+  }
+
+  .container {
+    @media only screen and (max-width: 991px) {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .saraMainColor {
+    color:#CC9933;
+    display: inline-block;
+  }
+  .mainMenu {
+    height: 6.42rem;
+  }
+  .saraContent {
+
+    &.firstSection {
+      @include background-image('/assets/images/front/projects/sara/web/png/background_hero');
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+
+      @media only screen and (max-width: 991px) {
+        background-image: none;
+      }
+
+      .topImage {
+
+        @media only screen and (max-width: 991px) {
+          @include background-image('/assets/images/front/projects/sara/tablet/png/background_hero_mobile');
+          background-repeat: no-repeat;
+          background-position: right bottom;
+          background-size: contain;
+          padding-bottom: 0;
+          text-align: center;
+        }
+        @media only screen and (max-width: 600px) {
+          @include background-image('/assets/images/front/projects/sara/mobile/png/background_hero_mobile');
+        }
+      }
+
+
+      p {
+        max-width: 40.8rem;
+        font-size: 3.2rem;
+        line-height: 5rem;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+      }
+
+      .shadowImage {
+        @media only screen and (max-width: 991px) {
+          margin-top: 6rem;
+          margin-bottom: 6rem;
+          display: inline-flex;
+        }
+
+      }
+
+
+    }
+
+    &.thirdSection {
+      @include background-image('/assets/images/front/projects/sara/web/png/background_im2');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right 3rem top;
+
+      @media only screen and (max-width: 991px) {
+        background-image: none;
+        padding-bottom: 6rem;
+      }
+
+      .topImage {
+        @media only screen and (max-width: 991px) {
+          @include background-image('/assets/images/front/projects/sara/tablet/png/background_im2');
+          background-repeat: no-repeat;
+          background-position: right 15% bottom;
+          background-size: contain;
+          padding-bottom: 0;
+        }
+
+        @media only screen and (max-width: 600px) {
+          @include background-image('/assets/images/front/projects/sara/mobile/png/background_im2');
+        }
+
+      }
+
+      .shadowImageInside {
+        @media only screen and (max-width: 991px) {
+          margin: 4rem auto;
+          width: 65%;
+        }
+        @media only screen and (max-width: 767px) {
+          width: 100%;
+        }
+
+        picture {
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          border-radius: 0;
+          margin-right: 0;
+        }
+
+        .mobileImage1 {
+          text-align: right;
+          @media only screen and (max-width: 991px) {
+            padding: 0;
+          }
+        }
+        .mobileImage2 {
+          text-align: left;
+          @media only screen and (max-width: 991px) {
+            padding: 0;
+          }
+        }
+      }
+
+      .multipleText {
+        padding-top: 3rem;
+        p {
+          max-width: 50rem;
+          padding-bottom: 1.4rem;
+          padding-top: 0;
+        }
+      }
+
+
+    }
+
+    &.fourthSection {
+      @include background-image('/assets/images/front/projects/sara/web/png/background_im3');
+      background-repeat: no-repeat;
+      background-size: calc(100% - 6rem);
+      background-position: center ;
+
+
+      @media only screen and (max-width: 991px) {
+        background-size: 100% 65%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(129.43deg, #5E5772 0%, #302C3E 100%);
+        background-position: top;
+      }
+
+      h1 {
+        max-width: 60rem;
+        margin-left: 7rem;
+        @media only screen and (max-width: 991px) {
+          max-width: 36rem;
+          margin: 0 auto;
+          text-align: center;
+        }
+      }
+      p {
+        max-width: 34rem;
+      }
+
+      .color-white {
+        color: white;
+      }
+      .btn {
+        margin-top: 3.5rem;
+        margin-left: 7rem;
+        @media only screen and (max-width: 991px) {
+          margin-left: 0;
+        }
+      }
+
+      .shadowImage {
+        @media only screen and (max-width: 991px) {
+          text-align: center;
+        }
+      }
+
+    }
+
+    &.animationSection {
+      @include background-image('/assets/images/front/projects/sara/web/png/background_im1');
+      background-repeat: no-repeat;
+      background-position: left;
+      background-position-x: 3rem;
+      background-size: contain;
+
+      @media only screen and (max-width: 991px) {
+        background-image: none;
+      }
+
+      .topImage {
+        @media only screen and (max-width: 991px) {
+          @include background-image('/assets/images/front/projects/sara/tablet/png/background_im1');
+          background-repeat: no-repeat;
+          background-position: left 15% bottom;
+          background-size: contain;
+          padding-bottom: 0;
+        }
+        @media only screen and (max-width: 600px) {
+          @include background-image('/assets/images/front/projects/sara/mobile/png/background_im1');
+        }
+
+      }
+
+      p {
+        max-width: 45rem;
+      }
+
+      .shadowImageRow {
+        margin-top: 1.9rem;
+        margin-bottom: 2.5rem;
+        position: relative;
+
+        @media only screen and (max-width: 991px) {
+          margin-top: 6rem;
+          margin-bottom: 6rem;
+        }
+
+        .animationBackgroundImages {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          text-align: center;
+          margin: 0 auto;
+
+
+          @media only screen and (max-width: 991px) {
+            text-align: center;
+            width: 48%;
+          }
+          .animationBackgroundImage {
+            -webkit-box-shadow: 3rem 0.2rem 5.4rem 0 rgba(0,0,0,0.08);
+            -moz-box-shadow: 3rem 0.2rem 5.4rem 0 rgba(0,0,0,0.08);
+            box-shadow: 3rem 0.2rem 5.4rem 0 rgba(0,0,0,0.08);
+            -webkit-border-radius: 2.8rem;
+            -moz-border-radius: 2.8rem;
+            border-radius: 2.8rem;
+
+          }
+
+          .animationImage {
+            position: absolute;
+            right: -7rem;
+            top: -7rem;
+            @media only screen and (max-width: 991px) {
+              right: -2rem;
+              top: -2rem;
+              width: 6rem;
+              height: 6rem;
+            }
+            @media only screen and (max-width: 600px) {
+              right: -2.85rem;
+              top: -2.85rem;
+              width: auto;
+              height: auto;
+            }
+
+          }
+
+        }
+
+
+
+      }
+    }
+
+    .shadowImage {
+      -webkit-box-shadow: 3rem 0.2rem 5.4rem 0 rgba(0,0,0,0.08);
+      -moz-box-shadow: 3rem 0.2rem 5.4rem 0 rgba(0,0,0,0.08);
+      box-shadow: 3rem 0.2rem 5.4rem 0 rgba(0,0,0,0.08);
+      -webkit-border-radius: 2.8rem;
+      -moz-border-radius: 2.8rem;
+      border-radius: 2.8rem;
+    }
+    h1 {
+      color: #2E2E2E;
+      font-size: 4rem;
+      font-weight: 900;
+      letter-spacing: 0.6px;
+      line-height: 5.625rem;
+
+      @media only screen and (max-width: 1076px) {
+        font-size: 3.4rem;
+        line-height: 3.725rem;
+      }
+
+      @media only screen and (max-width: 991px) {
+        align-items: center;
+      }
+    }
+
+    .logo {
+      width: 22rem;
+      min-height: 5.4rem;
+      height: auto;
+      margin-bottom: 4rem;
+      @media only screen and (max-width: 991px) {
+        align-items: center;
+      }
+    }
+
+    p {
+      color: #2E2E2E;
+      font-size: 1.7rem;
+      letter-spacing: 0.07px;
+      padding-top: 2.4rem;
+      padding-bottom: 2.4rem;
+      max-width: 60rem;
+      line-height: 3rem;
+      @media only screen and (max-width: 1076px) {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+      }
+
+      @media only screen and (max-width: 991px) {
+        align-items: center;
+      }
+    }
+
+    .btn {
+      -webkit-border-radius: 0.6rem;
+      -moz-border-radius: 0.6rem;
+      border-radius: 0.6rem;
+      background-color: #CC9933;
+      color: #FFFFFF;
+      font-size: 1.4rem;
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 1.7rem;
+      padding: 1.5rem 5.5rem;
+      text-transform: uppercase;
+      border: none;
+    }
+
+    .headerTextRow {
+      padding-top: 12rem;
+      padding-bottom: 10rem;
+
+      @media only screen and (max-width: 991px) {
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+      }
+
+      & > div {
+        @media only screen and (max-width: 991px) {
+          padding-bottom: 5rem;
+        }
+      }
+
+      .headerText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        @media only screen and (max-width: 991px) {
+          align-items: center;
+        }
+
+
+
+      }
+    }
+
+  }
+
+  app-front-footer {
+
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+
+      @media only screen and (max-width: 991px) {
+        width: 95%;
+      }
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+      }
+    }
+  }
+
+}

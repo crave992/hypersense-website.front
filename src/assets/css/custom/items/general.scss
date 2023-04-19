@@ -1,0 +1,93 @@
+body app-hero-image {
+  background-color: #57565E;
+}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  p {
+    display: inline-block;
+
+    &.logo {
+      width: 2.9rem;
+      height: 2.9rem;
+      svg {
+        width: 2.9rem;
+        height: 2.9rem;
+      }
+    }
+    &.text {
+      color: #97A7B5;
+      font-family: 'Mulish', sans-serif;
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: 0.08px;
+      line-height: 2.4rem;
+      margin-left: 0.8rem;
+
+      .color {
+        color: #F86740;
+        font-family: 'Mulish', sans-serif;
+        font-size: 1.9rem;
+        font-weight: 700;
+        letter-spacing: 0.08px;
+        line-height: 2.4rem;
+        margin-left: 0.8rem;
+      }
+
+    }
+
+  }
+
+}
+
+.grecaptcha-badge {
+  z-index: 10;
+  display: none;
+}
+
+
+a.cta.black, button.ahref.cta.black {
+  cursor: pointer;
+  border-radius: 2.7rem;
+  background: linear-gradient(315.49deg, #646464 0%, #000000 100%);
+  box-shadow: 0.8rem 0.9rem 1.4rem 0 rgba(0,0,0,0.16);
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;;
+  font-size: 1.4rem;
+  letter-spacing: 0.1px;
+  line-height: 3.7rem;
+  text-align: center;
+  padding: 0;
+  border: none;
+  min-width: 24.8rem;
+  justify-content: center;
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+
+    svg {
+      height: 1rem;
+      width: 3rem;
+      stroke: #FFFFFF;
+    }
+
+  }
+
+}
+
+
+.navbar-nav .dropdown-menu {
+  margin: 0;
+}

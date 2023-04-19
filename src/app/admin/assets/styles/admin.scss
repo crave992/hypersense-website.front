@@ -1,0 +1,35 @@
+body.admin-login {
+  background-color: #e4e5e6;
+}
+
+.admin-login .card {
+  border: 1px solid #c8ced3;
+}
+
+
+body.admin-area {
+  /*Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) {
+    font-size: 8px;
+  }
+
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+    font-size: 9px;
+  }
+
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+    font-size: 12px;
+  }
+
+  /*Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+    font-size: 13px;
+  }
+}
+
+
+.reorder tr{
+  cursor: move;
+}

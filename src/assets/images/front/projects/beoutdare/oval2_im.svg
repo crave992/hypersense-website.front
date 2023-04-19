@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="745px" height="745px" viewBox="0 0 745 745" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>oval2_im</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="52.3923109%" y1="81.0776592%" x2="50%" y2="21.7508434%" id="linearGradient-1">
+            <stop stop-color="#CFF7D1" offset="0%"></stop>
+            <stop stop-color="#8DE4E8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Project_BeOutDare" transform="translate(-120.000000, -1840.000000)" fill="url(#linearGradient-1)">
+            <circle id="oval2_im" cx="492.5" cy="2212.5" r="372.5"></circle>
+        </g>
+    </g>
+</svg>

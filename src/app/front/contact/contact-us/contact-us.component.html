@@ -1,0 +1,56 @@
+<div class="contact">
+
+    <app-front-menu [contact] = 'true'></app-front-menu>
+
+    <app-contact-form></app-contact-form>
+
+    <div class="container-fluid bg-white sectionPadding map">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="contactMap">
+                        <div class="info">
+                            <div class="contactFormInfo">
+                                <h1 class="contactText">Our office</h1>
+                                <p>
+                                    <span>Strada Delea Veche 24</span>
+                                    <span>Bucharest 024101, Romania</span>
+                                </p>
+                                <div class="bottom-message">
+                                    <a class="cta m-auto" target="_blank"
+                                       rel="noopener noreferrer"
+                                       href="https://goo.gl/maps/f6i4PBuoVpVohciE7"
+                                    >
+                                        GET DIRECTIONS
+                                        <img [src]="'assets/images/front/r-arrow_small_gray.svg'" alt="icon"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mapCol">
+                            <div *ngIf="apiLoaded | async">
+                                <google-map
+                                        [zoom]="zoom"
+                                        [options]="mapOptions"
+                                        [height]="'38rem'"
+                                        [width]="'100%'"
+                                        [center]="center"
+                                >
+                                    <map-marker
+                                            [position]="center"
+                                            [options]="markerOptions"
+                                    >
+                                    </map-marker>
+                                </google-map>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+

@@ -1,0 +1,20 @@
+<!-- Hero Image -->
+<div class="container">
+    <div class="hero-image">
+        <div class="headerTop">
+            <div class="textHeader" [innerHTML]="childrenHtml | safeHtml" routeTransformer>
+            </div>
+            <div class="topClients" *ngIf="!hiddenTopClients">
+                <div class="clientImage"><img [src]="'./assets/images/front/companies/Chillingo.svg'"  alt="Chillingo" class="chillingo"/></div>
+                <div class="clientImage"><img [src]="'./assets/images/front/companies/Dealmatrix.svg'" alt="Dealmatrix" class="dealmatrix"></div>
+                <div class="clientImage"><img [src]="'./assets/images/front/companies/srvr.svg'" alt="srvr" class="srvr"></div>
+                <div class="clientImage"><img [src]="'./assets/images/front/companies/ald.svg'" alt="ald" class="ald"></div>
+                <div class="clientImage"><img [src]="'./assets/images/front/companies/backlot.svg'" alt="backlot" class="backlot"></div>
+                <div class="clientImage"><img [src]="'./assets/images/front/companies/playwing.svg'" alt="playwing" class="playwing"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+

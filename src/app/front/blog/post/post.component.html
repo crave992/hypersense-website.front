@@ -1,0 +1,120 @@
+<app-front-menu [blog] = true> </app-front-menu>
+
+<div class="blogItem">
+  <div class="container-fluid" *ngIf="blogPost">
+    <div class="row">
+      <div class="container">
+        <div #content>
+          <div class="containerBlog">
+            <div class="row">
+              <div class="col-12">
+                <div class="categoryList">
+                  <div class="categoryItem">{{blogPost.categories | category}}</div>
+                  <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+                </div>
+              </div>
+              <div class="col-12">
+                <h1>{{blogPost.title}}</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row postImage" *ngIf="blogPost.imageURL">
+            <div class="col-12 m-0 p-0">
+              <div class="blogItemImage">
+                <img [alt]='blogPost.title' [src]=" fileStorageUrl + '/' + blogPost.imageURL" />
+              </div>
+            </div>
+          </div>
+          <div class="containerBlogTest">
+          <div class="">
+            <div class="col-12 contentBlogItem">
+              <div class="containerBlogBar">
+                <div class="shareSection">
+                  <div class="ul">
+                    <div class="li text">
+                      <p>Share</p>
+                    </div>
+                    <div class="li icon">
+                      <a target="_blank"
+                         rel="noopener noreferrer"
+                         href="https://twitter.com/intent/tweet?text={{encodeURI(blogPost.title + ' ' + href)}}"
+                         [style.color]="'#727272'"
+                      >
+                        <i class="fab fa fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="li icon">
+                      <a target="_blank"
+                         rel="noopener noreferrer"
+                         href="https://pinterest.com/pin/create/button/?url={{href}}&media={{fileStorageUrl + '/' + blogPost.seoImageURL}}&description={{encodeURI(blogPost.title)}}"
+                         [style.color]="'#727272'"
+                      >
+                        <i class="fab fa fa-pinterest"></i>
+                      </a>
+                    </div>
+                    <div class="li icon">
+                      <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{href}}"
+                         [style.color]="'#727272'"
+                      >
+                        <i class="fab fa fa-facebook"></i>
+                      </a>
+                    </div>
+                    <div class="li icon">
+                      <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{href}}&title={{blogPost.title}}&summary={{blogPost.excerpt}}&source="
+                         [style.color]="'#727272'"
+                      >
+                        <i class="fab fa fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div [innerHTML]="blogPost.content | safeHtml"></div>
+              <div *ngIf="blogPost.clickToAction" class="contactBTN">
+                <a class="cta m-auto" routerLink="/contact">
+                  CONTACT US
+                  <span [inlineSVG]="'assets/images/front/r-arrow_small_gray.svg'"></span>
+                </a>
+              </div>
+              <div class="lineEnd"></div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="relatedPosts">
+          <div class="title">Related Articles</div>
+        </div>
+        <div class="row postItems">
+          <ng-container *ngIf="relatedPosts && relatedPosts.length > 0">
+            <div class="postItem" *ngFor="let post of relatedPosts;let x=index;">
+              <div class="postItemInside">
+                <a routerLink="/{{post.slug}}" [state]="{ post: post }" (click)="getPostHeight()">
+                  <div class="blogItemImage"
+                       [style.background-image]="'url(' + ((post.imageURLCard) ? (post.imageURLCard.indexOf('http') === -1 ? (fileStorageUrl + '/'+post.imageURLCard) : post.imageURLCard): '/assets/images/front/blog/Group_7.png') + ')'"
+                  >
+                  </div>
+                  <div class="blogItemDescription">
+                    <div class="postTitleAndDescription">
+                      <div class="blogItemTitle">
+                        <p [title]="post.title">{{post.title | truncate : 90}}</p>
+                      </div>
+                      <p class="description">{{post.excerpt}}</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                      <p class="category mr-5">{{post.categories | category | titlecase}}</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </ng-container>
+          <ng-container *ngIf="!relatedPosts || relatedPosts.length === 0">
+            <div class="postItem loading" *ngFor="let item of [].constructor(3)">
+              <app-post-card-loading></app-post-card-loading>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

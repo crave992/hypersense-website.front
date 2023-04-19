@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3rd_party</title>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-1154.000000, -4333.000000)" stroke-width="1.5">
+            <g id="Group-6-Copy-5" transform="translate(832.000000, 3955.000000)">
+                <g id="Group-11" transform="translate(322.000000, 271.000000)">
+                    <g id="3rd_party" transform="translate(0.000000, 107.000000)">
+                        <g id="Group-2-Copy-3">
+                            <rect id="Rectangle" stroke="#4A4A4A" x="0.75" y="0.75" width="44.5" height="33.5" rx="16.75"></rect>
+                            <circle id="Oval" stroke="#E56940" cx="23.5" cy="10" r="4"></circle>
+                            <g id="Group-34" transform="translate(34.500609, 16.034899) rotate(88.000000) translate(-34.500609, -16.034899) translate(28.000609, 12.034899)" stroke="#E56940">
+                                <path d="M8.96896287,-1.11121278 L8.96896287,6.36277191 C8.96896287,8.75926382 7.696509,10.7020044 6.1268576,10.7020044 L3.96896287,10.7020044" id="Rectangle" transform="translate(6.468963, 4.795396) rotate(-90.000000) translate(-6.468963, -4.795396) "></path>
+                                <path d="M3.56235429,1.33391037 L1.97963878,3.16533261 C1.74917892,3.39010296 1.37552966,3.39010296 1.1450698,3.16533261 L-0.437645708,1.33391037" id="Rectangle" stroke-linecap="round" transform="translate(1.562354, 2.333910) rotate(-270.000000) translate(-1.562354, -2.333910) "></path>
+                            </g>
+                            <g id="Group-34-Copy" transform="translate(18.000000, 12.000000) rotate(-90.000000) translate(-18.000000, -12.000000) translate(11.500000, 6.500000)" stroke="#E56940">
+                                <path d="M10.5933914,0.5 L10.5933914,7.97398469 C10.5933914,10.3704766 9.32093756,12.3132171 7.75128616,12.3132171 L2.5,12.4066086" id="Rectangle" transform="translate(6.546696, 6.453304) rotate(-90.000000) translate(-6.546696, -6.453304) "></path>
+                                <path d="M3.59339143,1.44512315 L2.01067592,3.27654539 C1.78021606,3.50131574 1.4065668,3.50131574 1.17610694,3.27654539 L-0.406608574,1.44512315" id="Rectangle" stroke-linecap="round" transform="translate(1.593391, 2.445123) rotate(-270.000000) translate(-1.593391, -2.445123) "></path>
+                            </g>
+                            <circle id="Oval-Copy-9" stroke="#E56940" cx="32" cy="26" r="4"></circle>
+                            <circle id="Oval-Copy-10" stroke="#E56940" cx="15" cy="26" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

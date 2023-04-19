@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Microinteractions Copy</title>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-537.000000, -2758.000000)">
+            <g id="Group-6-Copy-2" transform="translate(215.000000, 2379.000000)">
+                <g id="Group-13" transform="translate(323.000000, 369.000000)">
+                    <g id="Microinteractions-Copy" transform="translate(0.000000, 5.000000)">
+                        <g id="Group-12" transform="translate(24.133975, 21.803848) rotate(-30.000000) translate(-24.133975, -21.803848) translate(5.133975, 8.303848)" stroke="#F66847">
+                            <rect id="Rectangle" fill="#D8D8D8" transform="translate(8.355296, 10.311816) rotate(-15.000000) translate(-8.355296, -10.311816) " x="8.10529576" y="7.81181635" width="1" height="5" rx="0.5"></rect>
+                            <rect id="Rectangle" transform="translate(31.570853, 16.712442) rotate(-330.000000) translate(-31.570853, -16.712442) " x="28.5708534" y="16.4624419" width="6" height="1" rx="0.5"></rect>
+                            <rect id="Rectangle-Copy-64" transform="translate(30.054107, 19.339524) rotate(-330.000000) translate(-30.054107, -19.339524) " x="27.0541066" y="19.0895244" width="6" height="1" rx="0.5"></rect>
+                            <rect id="Rectangle-Copy-65" transform="translate(28.554107, 21.937601) rotate(-330.000000) translate(-28.554107, -21.937601) " x="25.5541066" y="21.6876007" width="6" height="1" rx="0.5"></rect>
+                            <circle id="Oval" stroke-width="1.5" cx="29.885735" cy="19.3774047" r="7.5"></circle>
+                            <circle id="Oval-Copy-11" stroke-width="1.5" cx="7.73509989" cy="7.74343014" r="7.5"></circle>
+                            <circle id="Oval" stroke-width="1.5" transform="translate(7.054324, 5.407136) rotate(-15.000000) translate(-7.054324, -5.407136) " cx="7.05432372" cy="5.40713604" r="2"></circle>
+                        </g>
+                        <path d="M0,34 C1.9561513,35.3041009 4.25455001,36 6.60555128,36 L12.3944487,36 C14.74545,36 17.0438487,35.3041009 19,34 L19,34 L19,34 C19,36.7614237 16.7614237,39 14,39 L5,39 C2.23857625,39 3.38176876e-16,36.7614237 0,34 L0,34 L0,34 Z" id="Rectangle" fill="#4A4A4A"></path>
+                        <g id="Group-4-Copy-2" transform="translate(0.000000, 5.000000)">
+                            <g id="Group-2-Copy-3">
+                                <path d="M8.18545232e-12,9 C8.18545232e-12,8.14285714 8.18545232e-12,7.28571429 8.18545232e-12,6.42857143 C8.18508515e-12,3.43045422 2.43045422,1 5.42857143,1 L5.42857143,1 L5.42857143,1 L13.5714286,1 C16.5695458,1 19,3.53278913 19,6.65714286 L19,28.3428571 C19,31.4672109 16.5695458,34 13.5714286,34 L5.42857143,34 C2.43045422,34 8.18545232e-12,31.4672109 8.18545232e-12,28.3428571 L8.18545232e-12,25" id="Rectangle" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" transform="translate(9.500000, 17.500000) rotate(-180.000000) translate(-9.500000, -17.500000) "></path>
+                                <path d="M9.78965293,3.99152016 C11.4465072,3.99152016 12.7896529,2.64837441 12.7896529,0.991520163 C10.7896529,0.991520163 11.4465072,0.991520163 9.78965293,0.991520163 C8.13279868,0.991520163 9.78965293,0.991520163 6.78965293,0.991520163 C6.78965293,2.64837441 8.13279868,3.99152016 9.78965293,3.99152016 Z" id="Oval" fill="#4A4A4A"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

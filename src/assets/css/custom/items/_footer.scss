@@ -1,0 +1,103 @@
+.footerSection {
+  background-color: #040404;
+  @include background-image("/assets/images/front/footer/footer-image", 'png');
+  background-repeat: no-repeat;
+  background-size: auto 100% ;
+  background-position: bottom right;
+  padding-right: 0;
+  padding-left: 0;
+  .logoSection {
+    text-align: center;
+
+    .navbar-brand {
+      flex-direction: column;
+      margin: 0;
+
+      .logo {
+        margin-bottom: 0.6rem;
+      }
+    }
+  }
+  .companyInfo {
+    max-width: 54rem;
+    text-align: center;
+    margin: 0.8rem auto 1rem auto;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.08px;
+    line-height: 2.7rem;
+
+    p {
+      opacity: 0.73;
+      color: #FFFFFF;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: 0.08px;
+      line-height: 2.7rem;
+      text-align: center;
+    }
+    
+  }
+
+ 
+
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 36.9rem;
+    margin: 1rem auto;
+    .icon {
+      display: flex;
+      justify-content: center;
+      height: 3.5rem;
+      width: 3.5rem;
+      align-items: center;
+      margin-right: 2.6rem;
+      cursor: pointer;
+
+      a {
+        color: #555E6B;
+        font-weight: 600;
+        &:active,
+        &:hover {
+          color: #727272;
+        }
+      }
+    }
+  }
+
+  .footerMenu {
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: 767px) {
+      align-items: flex-start;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+
+    &.right {
+      justify-content: flex-end;
+      li {
+        text-align: right;
+      }
+    }
+
+    ul {
+      li {
+        a {
+          color: #FFFFFF;
+          font-family: 'Roboto', sans-serif;
+          font-size: 1.2rem;
+          font-weight: 500;
+          letter-spacing: 0.48px;
+          line-height: 1.3rem;
+        }
+
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="53px" viewBox="0 0 32 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>location_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Contact-Us" transform="translate(-507.000000, -867.000000)" fill="#74ABFC">
+            <g id="Group-13" transform="translate(215.000000, 785.000000)">
+                <g id="Screen-Shot-2019-07-15-at-17.10.14">
+                    <path d="M308,82 C316.836556,82 324,89.1186725 324,97.9 C324,106.681328 309.066667,135 308,135 C306.933333,135 292,106.681328 292,97.9 C292,89.1186725 299.163444,82 308,82 Z M307.5,90 C303.357864,90 300,93.3578644 300,97.5 C300,101.642136 303.357864,105 307.5,105 C311.642136,105 315,101.642136 315,97.5 C315,93.3578644 311.642136,90 307.5,90 Z" id="location_icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

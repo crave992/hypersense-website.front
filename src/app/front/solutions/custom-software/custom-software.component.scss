@@ -1,0 +1,120 @@
+:host .bg-round-mask .message {
+  color: #1B1B1B;
+
+  p {
+    max-width: 61rem;
+  }
+}
+
+/*SOLUTIONS*/
+
+
+/* Business*/
+
+.businessContainer{
+  background-image: url("/assets/images/front/home/business.png");
+  background-repeat: no-repeat;
+  background-size: auto 100% ;
+  background-position: top left;
+
+}
+.businessesItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-right:-40px;
+  margin-left:-40px;
+  text-align: center;
+
+  .itemBs {
+    max-width: 400px;
+    @media only screen and (max-width: 1200px) {
+      max-width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) { }
+  
+  .lastRow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.businessesItems .itemBs {
+  padding:3rem 40px ;
+}
+
+.businessesItems .itemBs > p {
+  background-color: #FFFFFF;
+  box-shadow: 0 7px 59px -8px rgba(0, 0, 0, 0.12);
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding:20px 3rem;
+  height: 120px;
+}
+
+
+
+.businessContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+:host .priorities {
+  width:100%;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-around;
+
+  @media only screen and (max-width: 991px) {
+    width:100%;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+  .businessesItems > div > p {
+    font-size:17px;
+  }
+}
+
+
+@media only screen and (max-width: 440px) {
+  :host .caseStudies > div {
+    min-width:100%;
+
+  }
+
+  .businessContainer{
+    background-size:100%;
+  }
+}
+
+
+
+
+:host .roundedButtons {
+  text-align: center;
+  @media only screen and (max-width: 991px) {
+    width: 200px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    width: 150px;
+  }
+
+  @media only screen and (max-width: 350px) {
+    width: 100px;
+  }
+
+}

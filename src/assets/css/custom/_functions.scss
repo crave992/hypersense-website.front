@@ -1,0 +1,46 @@
+@mixin medias($map) {
+  @each $keyMap, $valueMap in $map {
+    @media all and (min-width: $keyMap) {
+      html, body {
+        font-size: $valueMap;
+      }
+    }
+  }
+}
+
+@mixin background-image($path, $ext: "png") {
+
+  $at1x_path: "#{$path}.#{$ext}";
+  $at2x_path: "#{$path}@2x.#{$ext}";
+  $at3x_path: "#{$path}@3x.#{$ext}";
+
+  background-image: url("#{$at1x_path}");
+
+  @media
+  only screen and (-o-min-device-pixel-ratio: 5/4),
+  only screen and (-webkit-min-device-pixel-ratio: 1.25),
+  only screen and (min--moz-device-pixel-ratio: 1.25),
+  only screen and (min-device-pixel-ratio: 1.25),
+  only screen and (min-resolution: 1.25dppx)
+  {
+    background-image: url("#{$at2x_path}");
+  }
+
+  @media
+  only screen and (-o-min-device-pixel-ratio: 9/4),
+  only screen and (-webkit-min-device-pixel-ratio: 2.25),
+  only screen and (min--moz-device-pixel-ratio: 2.25),
+  only screen and (min-device-pixel-ratio: 2.25),
+  only screen and (min-resolution: 2.25dppx)
+  {
+    background-image: url("#{$at3x_path}");
+  }
+
+}
+
+
+@mixin border-radius($r) {
+  border-radius: $r;
+  -moz-border-radius: $r;
+  -webkit-border-radius: $r;
+}

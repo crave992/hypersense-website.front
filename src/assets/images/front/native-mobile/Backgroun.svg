@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="570px" height="307px" viewBox="0 0 570 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Backgroun</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="570" height="307" rx="50"></rect>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-mobile-app-development" transform="translate(-214.000000, -2540.000000)">
+            <g id="Group-4" transform="translate(-84.000000, 2116.000000)">
+                <g id="Group-30" transform="translate(298.000000, 424.000000)">
+                    <g id="Group-5">
+                        <g id="Backgroun">
+                            <g id="Path-3-Copy-3">
+                                <g id="Path-3-Copy-3-+-Oval-Copy-14-Mask">
+                                    <g id="Group-29">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#D6E8FF" xlink:href="#path-1"></use>
+                                        <path d="M513.958773,-8 C514.394322,7.19238953 511.522435,10.3435409 498.444517,11.6081012 C485.366599,12.8726615 488.808559,23.8392148 488,32" id="Path-3-Copy-3" stroke="#1F46B7" stroke-width="10.4685228" opacity="0.100678943" stroke-linecap="round" mask="url(#mask-2)"></path>
+                                        <circle id="Oval-Copy-14" stroke="#1F46B7" stroke-width="10.4685228" opacity="0.100678943" mask="url(#mask-2)" transform="translate(569.000000, 193.000000) rotate(-194.000000) translate(-569.000000, -193.000000) " cx="569" cy="193" r="14"></circle>
+                                        <path d="M493.655921,250.305514 L501.645151,255.548487 L501.645151,255.548487 L506.690541,252.016735 C508.269369,250.911562 510.445183,251.295535 511.550356,252.874363 C512.3585,254.028861 512.392891,255.556137 511.637534,256.745841 L508.096735,262.322681 L508.096735,262.322681 L512.690286,270.039788 C513.676025,271.695815 513.132648,273.83739 511.47662,274.823128 C510.296999,275.525289 508.815286,275.470575 507.690662,274.683327 L501.645326,270.451529 L501.645326,270.451529 L494.54374,275.11191 C492.932503,276.169276 490.769173,275.720275 489.711807,274.109038 C488.959456,272.962589 488.948306,271.481769 489.68331,270.324122 L493.90344,263.677319 L493.90344,263.677319 L488.742877,255.007757 C487.757129,253.351736 488.300493,251.210158 489.956515,250.22441 C491.103644,249.541581 492.53982,249.573067 493.655921,250.305514 Z" id="Rectangle-Copy-72" fill="#1D44B5" opacity="0.100678943" mask="url(#mask-2)" transform="translate(501.000000, 263.000000) rotate(-209.000000) translate(-501.000000, -263.000000) "></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

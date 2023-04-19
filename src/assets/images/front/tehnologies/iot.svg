@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="108px" viewBox="0 0 108 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wearables_icon</title>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-1276.000000, -1036.000000)" stroke="#74ABFC">
+            <g id="Group-51-Copy" transform="translate(1277.000000, 1037.000000)">
+                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="wearables_icon" stroke="#74ABFC" stroke-width="2">
+                        <g>
+                            <circle id="Oval-Copy-15" cx="53" cy="53" r="53"></circle>
+                        </g>
+                        <path d="M36.2688162,71 L73.9516089,71 C79.7939024,69.247312 82.7150491,65.7419359 82.7150491,60.4838718 C82.7150491,55.2258077 79.7939024,51.428317 73.9516089,49.0913996 C73.3673796,39.9715412 69.2777742,34.7134771 61.6827927,33.3172073 C54.0878112,31.9209375 48.2455178,35.1341989 44.1559124,42.9569915 C41.2347657,40.9764924 38.6057336,40.8625868 36.2688162,42.6152749 C33.9318989,44.3679629 33.3476695,47.1109005 34.5161282,50.8440876 C27.5053761,51.7847352 24,55.1762058 24,61.0184992 C24,66.8607927 28.0896054,70.1879596 36.2688162,71 Z" id="Path" stroke-width="2" stroke-linejoin="round"></path>
+                        <ellipse id="Oval" stroke-width="2" cx="36.8752995" cy="20" rx="2.5" ry="2.44937747"></ellipse>
+                        <ellipse id="Oval-Copy-23" stroke-width="2" cx="36.8638092" cy="86" rx="2.5" ry="2.44937747"></ellipse>
+                        <ellipse id="Oval-Copy-22" stroke-width="2" cx="67.071522" cy="20" rx="2.5" ry="2.44937747"></ellipse>
+                        <ellipse id="Oval-Copy-24" stroke-width="2" cx="66.9694358" cy="86" rx="2.5" ry="2.44937747"></ellipse>
+                    </g>
+                    <path d="M40,20 L41,20 C42.1045695,20 43,20.8954305 43,22 L43,42 L43,42" id="Path-3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M40,71 L41,71 C42.1045695,71 43,71.8954305 43,73 L43,86 L43,86" id="Path-3-Copy-2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(41.500000, 78.500000) scale(1, -1) translate(-41.500000, -78.500000) "></path>
+                    <path d="M61,20 L62,20 C63.1045695,20 64,20.8954305 64,22 L64,33 L64,33" id="Path-3-Copy" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(62.500000, 26.500000) scale(-1, 1) translate(-62.500000, -26.500000) "></path>
+                    <path d="M61,71 L62,71 C63.1045695,71 64,71.8954305 64,73 L64,86 L64,86" id="Path-3-Copy-3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(62.500000, 78.500000) scale(-1, -1) translate(-62.500000, -78.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

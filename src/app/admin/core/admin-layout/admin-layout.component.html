@@ -1,0 +1,18 @@
+<mat-sidenav-container class="app" [ngClass]="{
+  'mode-boxed': options.boxed,
+  'mode-docked': options.docked,
+  'theme-simple': options.theme === 'simple',
+  'no-footer': routeOptions?.removeFooter}">
+  <mat-sidenav class="sidebar-panel" #sidemenu id="sidebar-panel" [mode]="(isScreenSmall | async) ? 'over' : 'side'" [opened]="!(isScreenSmall | async)">
+    <app-sidebar (messageEvent)="receiveMessage($event)" (toggleFullscreen)="toggleFullscreen()" class="bg-cover"></app-sidebar>
+  </mat-sidenav>
+
+  <app-header (toggleSidenav)="sidemenu.toggle()" [heading]="routeOptions.heading"></app-header>
+
+  <div class="main-content">
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </div>
+
+</mat-sidenav-container>
+

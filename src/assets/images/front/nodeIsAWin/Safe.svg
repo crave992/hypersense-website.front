@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="80px" viewBox="0 0 88 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Safe</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Node.js-Development-Services" transform="translate(-228.000000, -9287.000000)">
+            <g id="Safe" transform="translate(229.000000, 9289.000000)">
+                <path d="M54,43 L64,43 C75.3363712,43 75.5789474,43 84,43 C84,31.6636288 75.3363712,23 64,23 C56.0019949,23 49.3343595,27.3123607 46.1009397,33.833236" id="Oval-Copy-17" stroke="#4A4A4A" stroke-width="2.5" stroke-linecap="round"></path>
+                <g id="Group-40" transform="translate(0.000000, 18.000000)">
+                    <path d="M0.713276748,14 C0.269111738,11.5563493 0.173040583,9.02130479 0.425063284,6.39486655 C9.0988642,6.39486655 15.2648377,4.63938736 18.9229838,1.12842898 C19.719907,0.363603315 20.9859552,0.389596343 21.7507979,1.18650313 C21.7557171,1.19162857 21.760609,1.19678018 21.7654733,1.20195775 C25.0179602,4.66389695 31.2378235,6.39486655 40.4250633,6.39486655 C40.4250633,29.5495599 34.2197412,46.4989312 21.8090971,57.2429805 C21.0340845,57.9139221 19.8772624,57.8902728 19.1303166,57.1882192 C16.0304529,54.2746605 13.926011,52.1043672 12.816991,50.6773393 C10.366969,47.5247815 8.28024443,44.0089261 6.55681732,40.1297734" id="Rectangle" stroke="#4A4A4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(20.356638, 29.151142) scale(-1, 1) translate(-20.356638, -29.151142) "></path>
+                    <path d="M44.6456949,22.5498168 C44.5813337,22.4408979 44.4904659,22.3500301 44.381547,22.2856689 C44.0249395,22.0749463 43.5650277,22.1932094 43.3543051,22.5498168 L37.8592019,31.8492222 C37.7909179,31.9647797 37.7548968,32.0965447 37.7548968,32.2307692 C37.7548968,32.6449828 38.0906832,32.9807692 38.5048968,32.9807692 L49.4951032,32.9807692 C49.6293277,32.9807692 49.7610927,32.9447481 49.8766502,32.8764641 C50.2332576,32.6657415 50.3515207,32.2058297 50.1407981,31.8492222 L44.6456949,22.5498168 Z" id="Triangle" stroke="#4A4A4A" stroke-width="2.5" transform="translate(44.000000, 26.615385) rotate(-270.000000) translate(-44.000000, -26.615385) "></path>
+                    <rect id="Rectangle" fill="#C9C9C9" x="16" y="31" width="18" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-20" fill="#C9C9C9" x="22" y="25" width="12" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-21" fill="#C9C9C9" x="28" y="19" width="6" height="3" rx="1.5"></rect>
+                </g>
+                <ellipse id="Oval" stroke="#4A4A4A" stroke-width="2.5" cx="64" cy="8.5" rx="8" ry="8.5"></ellipse>
+                <path d="M78,58 L78,67.1084815 C78,72.0191316 74.0191316,76 69.1084815,76 L57,76 L57,76 L20,76" id="Rectangle" stroke="#4A4A4A" stroke-width="2.5"></path>
+                <path d="M83.2020636,67.7175144 L74.9091703,68.4246212 C73.8046008,68.4246212 72.9091703,67.5291907 72.9091703,66.4246212 L73.6162771,58.131728" id="Rectangle" stroke="#4A4A4A" stroke-width="2.5" stroke-linecap="round" transform="translate(78.055617, 63.278175) rotate(-225.000000) translate(-78.055617, -63.278175) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

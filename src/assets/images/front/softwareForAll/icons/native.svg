@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>native</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-215.000000, -1827.000000)">
+            <g id="native" transform="translate(215.000000, 1827.000000)">
+                <g id="Group-23" transform="translate(16.000000, 5.000000)">
+                    <rect id="Rectangle" stroke="#1B1B1B" stroke-width="1.5" x="0.75" y="0.75" width="13.5" height="24.5" rx="2.66666667"></rect>
+                    <path d="M4.09003715,0.296726195 L11.0900371,0.296726195 L11.0900371,1.46339286 C11.0900371,1.92363015 10.7169411,2.2967262 10.2567038,2.2967262 L4.92337048,2.2967262 C4.46313319,2.2967262 4.09003715,1.92363015 4.09003715,1.46339286 L4.09003715,0.296726195 L4.09003715,0.296726195 Z" id="Rectangle" fill="#1B1B1B"></path>
+                </g>
+                <rect id="Rectangle" fill="#1B1B1B" x="20" y="12" width="7" height="1.5" rx="0.75"></rect>
+                <rect id="Rectangle" fill="#1B1B1B" x="20" y="16" width="7" height="1.5" rx="0.75"></rect>
+                <rect id="Rectangle" fill="#1B1B1B" x="20" y="20" width="7" height="1.5" rx="0.75"></rect>
+                <rect id="Rectangle" fill="#1B1B1B" x="21.5393167" y="24.1333857" width="4" height="4" rx="2"></rect>
+                <g id="Group-2-Copy-5" stroke="#1B1B1B" stroke-width="1.5">
+                    <rect id="Rectangle" x="0.75" y="0.75" width="44.5" height="33.5" rx="16.75"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

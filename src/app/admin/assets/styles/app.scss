@@ -1,0 +1,36 @@
+// Sidenav styling
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$app-primary: mat-palette($mat-blue-grey);
+$app-accent: mat-palette($mat-pink, A200, A100, A400);
+$app-theme: mat-light-theme($app-primary, $app-accent);
+
+
+@include mat-core-theme($app-theme);
+@include mat-sidenav-theme($app-theme);
+@include mat-select-theme($app-theme);
+@include mat-option-theme($app-theme);
+@include mat-checkbox-theme($app-theme);
+
+@import "scss/mixins/material-palette";
+@import "scss/mixins/skinning";
+
+
+@import "../../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../../node_modules/bootstrap/scss/variables";
+@import "../../../../../node_modules/bootstrap/scss/mixins";
+
+@import "scss/bootstrap/accordion";
+@import "scss/bootstrap/buttons";
+@import "scss/bootstrap/card";
+@import "scss/bootstrap/forms";
+@import "scss/bootstrap/tables";
+//@import "scss/bootstrap/type";
+
+@import "scss/variables";
+@import "scss/theming";
+@import "scss/core";
+
+@import "admin";

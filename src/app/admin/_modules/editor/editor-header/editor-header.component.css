@@ -1,0 +1,51 @@
+:host header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+    z-index: 799;
+    font-size:1.4rem;
+    background: rgba(0,0,0,0.2);
+}
+:host button{
+    font-size:1.4rem;
+    color:#ffffff;
+    padding: 1rem 2rem;
+}
+.item-settings{
+    background: transparent;
+    border:none;
+    outline:none;
+}
+.item-settings:active{
+    outline: none;
+    border:none;
+}
+.item-settings svg{
+    width: 16px;
+    height: 16px;
+    fill: #738a94;
+}
+
+:host .flex{
+    display: flex;
+    align-items: center;
+}
+
+:host div div a, :host div div span {
+    padding: 5px 10px;
+}
+
+:host div div.v-separator:before{
+    content:"";
+    height:15px;
+    width:2px;
+    border-right:1px solid #efefef;
+    display: block;
+}

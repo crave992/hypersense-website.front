@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="466px" height="739px" viewBox="0 0 466 739" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>form_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="29.7378064%" cy="24.8011559%" fx="29.7378064%" fy="24.8011559%" r="102.123741%" gradientTransform="translate(0.297378,0.248012),rotate(90.000000),scale(1.000000,0.685744),translate(-0.297378,-0.248012)" id="radialGradient-1">
+            <stop stop-color="#C4E2FF" offset="0%"></stop>
+            <stop stop-color="#74ABFC" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100492932">
+        <g id="[desktop]-mobile-app-development" transform="translate(-1134.000000, -4181.000000)" stroke="url(#radialGradient-1)" stroke-width="115.51">
+            <g id="Group-39" transform="translate(-154.000000, 3926.939364)">
+                <g transform="translate(0.000000, -0.000000)" id="form_2">
+                    <circle cx="1657.5" cy="623.560636" r="311.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

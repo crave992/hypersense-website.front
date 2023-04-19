@@ -1,0 +1,321 @@
+<link rel="stylesheet" href="flutter.component.scss">
+<div class="flutter">
+    <app-front-menu [project]="true" [blog] = false [contact]="true"></app-front-menu>
+
+    <div class="container-fluid flutterContainer">
+        <picture>
+            <source
+                    media="(max-width: 991px)"
+                    type="image/png"
+                    srcset="
+                                        assets/images/front/flutter/top-square-hero_sm.png 1x,
+                                        assets/images/front/flutter/top-square-hero_sm@2x.png 2x,
+                                        assets/images/front/flutter/top-square-hero_sm@3x.png 3x
+                                    "
+            >
+            <source
+                    media="(min-width: 991px)"
+                    type="image/png"
+                    srcset="
+                                        assets/images/front/flutter/top-square-hero.png 1x,
+                                        assets/images/front/flutter/top-square-hero@2x.png 2x,
+                                        assets/images/front/flutter/top-square-hero@3x.png 3x
+                                    "
+            >
+            <img class="image1" src="assets/images/front/flutter/top-right-hero.png" alt="shape">
+        </picture>
+        <picture>
+            <source
+                    media="(max-width: 991px)"
+                    type="image/png"
+                    srcset="
+                                         assets/images/front/flutter/circle-left-hero_sm.png 1x,
+                                        assets/images/front/flutter/circle-left-hero_sm@2x.png 2x,
+                                        assets/images/front/flutter/circle-left-hero_sm@3x.png 3x
+                                    "
+            >
+            <source
+                    media="(min-width: 991px)"
+                    type="image/png"
+                    srcset="
+                                        assets/images/front/flutter/circle-left-hero.png 1x,
+                                        assets/images/front/flutter/circle-left-hero@2x.png 2x,
+                                        assets/images/front/flutter/circle-left-hero@3x.png 3x
+                                    "
+            >
+            <img class="image2" src="assets/images/front/flutter/circle-left-hero.png" alt="shape">
+        </picture>
+        <picture>
+            <source
+                    type="image/png"
+                    srcset="
+                                        assets/images/front/flutter/b_right-hero.png 1x,
+                                        assets/images/front/flutter/b_right-hero@2x.png 2x,
+                                        assets/images/front/flutter/b_right-hero@3x.png 3x
+                                    "
+            >
+            <img class="image3" src="assets/images/front/flutter/b_right-hero.png" alt="shape">
+        </picture>
+        <div class="container firstSection p-0">
+            <div class="row">
+                <div class="col-12 col-lg-7 headerText">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="infoLogo">
+                                <picture>
+                                    <source
+                                            type="image/png"
+                                            srcset="
+                                        assets/images/front/flutter/flutter_logo.png 1x,
+                                        assets/images/front/flutter/flutter_logo@2x.png 2x,
+                                        assets/images/front/flutter/flutter_logo@3x.png 3x
+                                    "
+                                    >
+                                    <img src="assets/images/front/flutter/flutter_logo.png" alt="Flutter Logo">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="infoText">
+                                <h1>Start with <span class="mainColor">One Codebase</span></h1>
+                                <p>
+                                    Build beautiful UIs with One Codebase which is easily maintained. Deploy for iOS and Android almost instantly. Validate your ideas.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="infoAction pointer" (click)="scrollToElement(target)">
+                                <div>
+                                    See our projects
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 headerImage">
+                    <div class="image">
+                        <picture>
+                            <source
+                                    type="image/png"
+                                    srcset="
+                                  assets/images/front/flutter/flutter-hero-image.png 1x,
+                                  assets/images/front/flutter/flutter-hero-image@2x.png 2x,
+                                  assets/images/front/flutter/flutter-hero-image@3x.png 3x"
+                            >
+                            <img src="assets/images/front/flutter/flutter-hero-image.png" alt="Hero Image Flutter">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-white secondSection">
+        <div class="container p-0">
+            <div class="row sectionPadding">
+                <div class="col-12 aboutFlutter">
+                    <h2>About Flutter</h2>
+                    <p>Flutter is a Google software development kit (SDK). It allows for the rapid design of robust and scalable cross-platform apps for mobile, web, and desktop.</p>
+                </div>
+            </div>
+            <div class="row cardFlutterRow sectionPadding">
+                <div class="col-12 col-md-6 integration">
+                    <div class="">
+                        <h2>Integrations</h2>
+                        <p>When HyperSense builds a Flutter app, we also handle third-party integrations with providers of push notifications, cloud computing, payment services, and more.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 cardFlutterCol">
+                    <div class="cardFlutter">
+                        <div class="cardImage">
+                            <picture>
+                                <source
+                                        type="image/png"
+                                        srcset="
+                                        assets/images/front/flutter/top.png 1x,
+                                        assets/images/front/flutter/top@2x.png 2x,
+                                        assets/images/front/flutter/top@3x.png 3x
+                                    "
+                                >
+                                <img class="image" src="assets/images/front/flutter/top.png" alt="shape">
+                            </picture>
+                        </div>
+                        <div class="cardInfoText">
+                            <h3>Dozens of integrations available</h3>
+                            <p>Dozens more added periodically</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row cardFlutterRow sectionPadding">
+                <div class="col-12 col-md-6 imageSectionCenter">
+                    <picture>
+                        <source
+                                type="image/png"
+                                srcset="
+                                assets/images/front/flutter/options.png 1x,
+                                assets/images/front/flutter/options@2x.png 2x,
+                                assets/images/front/flutter/options@3x.png 3x
+                            "
+                        >
+                        <img class="imageShapes" src="assets/images/front/flutter/options.png" alt="shape">
+                    </picture>
+                </div>
+                <div class="col-12 col-md-6 nativeSupport">
+                    <div class="nativeSupportInside">
+                        <h2>Native feature support</h2>
+                        <p>Flutter supports most native iOS and Android features, allowing apps built with Flutter to access tools like device cameras and accelerometers that mobile websites cannot</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-white thirdSection">
+        <div class="container flutterTechContainer p-0">
+            <div class="row sectionPadding">
+                <div class="col-12 headerTextSection">
+                    <h2>Tech benefits</h2>
+                    <p>
+                        Some of the benefits when developing with Flutter.
+                    </p>
+                </div>
+            </div>
+            <div class="row techCardsRow">
+                <div class="col-12 techCardsCol">
+
+                    <div class="techCard">
+                        <div class="techCardHeader">
+                            <div class="cardImage">
+                                <span [inlineSVG]="'./assets/images/front/flutter/uim_bag.svg'"></span>
+                            </div>
+                            <div class="cardTitle">
+                                <h4>Business orientated</h4>
+                            </div>
+                        </div>
+                        <div class="techCardContent">
+                            <p>Shipping beautiful UIs and experiences fast means that your business plan stays on track and you can iterate fast with the learnings gathered.</p>
+                        </div>
+                    </div>
+                    <div class="techCard">
+                        <div class="techCardHeader">
+                            <div class="cardImage">
+                                <span [inlineSVG]="'./assets/images/front/flutter/uim_lock-access.svg'"></span>
+                            </div>
+                            <div class="cardTitle">
+                                <h4>Out of the box security</h4>
+                            </div>
+                        </div>
+                        <div class="techCardContent">
+                            <p>With support from Google, Flutter has a focus on improved security from the start. Biometric authentication methods come by default when building with Flutter.</p>
+                        </div>
+                    </div>
+                    <div class="techCard">
+                        <div class="techCardHeader">
+                            <div class="cardImage">
+                                <span [inlineSVG]="'./assets/images/front/flutter/uim_graph-bar.svg'"></span>
+                            </div>
+                            <div class="cardTitle">
+                                <h4>Results overview</h4>
+                            </div>
+                        </div>
+                        <div class="techCardContent">
+                            <p>Flutter’s widgets are optimised for performance on both Android and iOS Platforms.</p>
+                        </div>
+                    </div>
+                    <div class="techCard">
+                        <div class="techCardHeader">
+                            <div class="cardImage">
+                                <span [inlineSVG]="'./assets/images/front/flutter/uim_circle-layer.svg'"></span>
+                            </div>
+                            <div class="cardTitle">
+                                <h4>Beautiful UIs</h4>
+                            </div>
+                        </div>
+                        <div class="techCardContent">
+                            <p>Good design does not cause friction with your users. Flutter provides just that, a way to create nice experiences.</p>
+                        </div>
+                    </div>
+                    <div class="techCard">
+                        <div class="techCardHeader">
+                            <div class="cardImage">
+                                <span [inlineSVG]="'./assets/images/front/flutter/uim_refresh.svg'"></span>
+                            </div>
+                            <div class="cardTitle">
+                                <h4>Instant updates</h4>
+                            </div>
+                        </div>
+                        <div class="techCardContent">
+                            <p>Combining the power of widgets with a rapid development cycle, Flutter allows to see the updated implementation instantly.</p>
+                        </div>
+                    </div>
+                    <div class="techCard">
+                        <div class="techCardHeader">
+                            <div class="cardImage">
+                                <span [inlineSVG]="'./assets/images/front/flutter/uim_java-script.svg'"></span>
+                            </div>
+                            <div class="cardTitle">
+                                <h4>Powerful backend</h4>
+                            </div>
+                        </div>
+                        <div class="techCardContent">
+                            <p>Flutter offers a range of options to use as a backend. From Node.js microservices to BaaS solutions such as Firebase.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-white fourthSection" #target>
+        <div class="container p-0">
+            <div class="row sectionPadding">
+                <div class="col-12 headerTextSection">
+                    <h2>Featured projects</h2>
+                    <p>See some of our recent projects built with Flutter</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="caseStudies">
+                        <ng-container *ngIf="projects && projects.length > 0">
+                            <div class="projectItem" *ngFor="let item of projects">
+                                <app-project-card [item]="item"></app-project-card>
+                            </div>
+                        </ng-container>
+                        <ng-container *ngIf="!projects || projects.length === 0">
+                            <div class="projectItem loading" *ngFor="let item of [].constructor(numberOfLoadingCards)">
+                                <app-project-card-loading></app-project-card-loading>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-white fifthSection">
+        <div class="container p-0">
+            <div class="row sectionPadding">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 headerTextSection">
+                            <h5>Success stories from our clients</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 projectsNames">
+                            <p>KORE</p>
+                            <p>Tinka</p>
+                            <p>BASF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <app-contact-form></app-contact-form>
+
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>disaster</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-215.000000, -2962.000000)">
+            <g id="disaster" transform="translate(215.000000, 2962.000000)">
+                <path d="M24.483997,9.95929808 L32.6797494,23.0725019 C33.1919925,23.8920908 32.9428394,24.971754 32.1232505,25.483997 C31.8451202,25.6578285 31.5237369,25.75 31.1957524,25.75 L14.8042476,25.75 C13.8377493,25.75 13.0542476,24.9664983 13.0542476,24 C13.0542476,23.6720155 13.1464192,23.3506322 13.3202506,23.0725019 L21.516003,9.95929808 C22.028246,9.13970915 23.1079092,8.89055611 23.9274981,9.40279919 C24.1528441,9.54364043 24.3431558,9.7339521 24.483997,9.95929808 Z" id="Triangle" stroke="#1B1B1B" stroke-width="1.5"></path>
+                <rect id="Rectangle" stroke="#1B1B1B" fill="#D8D8D8" x="22.5" y="13.5" width="1" height="6" rx="0.5"></rect>
+                <circle id="Oval" fill="#1B1B1B" cx="23" cy="22" r="1"></circle>
+                <rect id="Rectangle" stroke="#1B1B1B" stroke-width="1.5" x="0.75" y="0.75" width="44.5" height="33.5" rx="16.75"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

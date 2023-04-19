@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="229px" height="229px" viewBox="0 0 229 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>planning</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1-planning" cx="81.5" cy="81.5" r="81.5"></circle>
+        <filter x="-35.0%" y="-27.6%" width="169.9%" height="169.9%" filterUnits="objectBoundingBox" id="filter-2-planning">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0321514423 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="planning" transform="translate(33.000000, 21.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2-planning)" xlink:href="#path-1-planning"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1-planning"></use>
+            </g>
+            <g id="icon124" transform="translate(50.000000, 50.124356)" stroke="#74ABFC">
+                <path d="M15.3882769,0 L48.5121951,0 C56.578768,0 63.1180173,6.50061358 63.1180173,14.5195268 L63.1180173,31.1132718 L63.1180173,48.2255712 C63.1180173,56.2444845 56.578768,62.745098 48.5121951,62.745098 L14.6058222,62.745098 C6.53924933,62.745098 0,56.2444845 0,48.2255712 L0,31.1132718 L0,14.5195268 L0.260818253,0 L7.56372935,0" id="Combined-Shape-2" stroke-width="3.80487805" stroke-linecap="round" transform="translate(31.559009, 31.372549) rotate(-180.000000) translate(-31.559009, -31.372549) "></path>
+                <rect id="Combined-Shape-2" stroke-width="3.8" x="11.2135327" y="13.8262974" width="14.2" height="13.9456311" rx="6.97281553"></rect>
+                <rect id="Combined-Shape-2" stroke-width="3.8" x="38.2135327" y="13.8262974" width="14.2" height="13.9456311" rx="6.97281553"></rect>
+                <rect id="Combined-Shape-2" stroke-width="3.8" fill="#74ABFC" x="25.2135327" y="38.0243557" width="14.2" height="13.9456311" rx="6.97281553"></rect>
+                <path d="M20.4870563,47.1243557 C18.8302021,47.1243557 17.4870563,45.7812099 17.4870563,44.1243557 L17.4870563,34.1243557 L17.4870563,34.1243557" id="Combined-Shape-2" stroke-width="3.8" stroke-linecap="round"></path>
+                <path d="M47.3826497,47.1243557 C45.7257954,47.1243557 44.3826497,45.7812099 44.3826497,44.1243557 L44.3826497,34.1243557 L44.3826497,34.1243557" id="Combined-Shape-2" stroke-width="3.8" stroke-linecap="round" transform="translate(45.882650, 40.624356) scale(-1, 1) translate(-45.882650, -40.624356) "></path>
+                <path d="M50.3135327,41.072331 L45.3922135,40.8677525 C44.866193,40.8458859 44.4472171,40.419917 44.4340598,39.8936066 L44.3135327,35.072331 L44.3135327,35.072331" id="Combined-Shape-2" stroke-width="3.8" stroke-linecap="round" transform="translate(47.313533, 38.072331) scale(-1, 1) rotate(-225.000000) translate(-47.313533, -38.072331) "></path>
+                <path d="M20.5561733,41.072331 L15.6348542,40.8677525 C15.1088337,40.8458859 14.6898578,40.419917 14.6767005,39.8936066 L14.5561733,35.072331 L14.5561733,35.072331" id="Combined-Shape-2" stroke-width="3.8" stroke-linecap="round" transform="translate(17.556173, 38.072331) rotate(-225.000000) translate(-17.556173, -38.072331) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

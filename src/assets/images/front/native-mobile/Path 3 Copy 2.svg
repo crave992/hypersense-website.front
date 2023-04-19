@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="181px" height="149px" viewBox="0 0 181 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Path 3 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ACD5FE" offset="0%"></stop>
+            <stop stop-color="#74ABFC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="[desktop]-mobile-app-development" transform="translate(-1419.000000, -3608.000000)" stroke="url(#linearGradient-1)" stroke-width="55.5129075">
+            <g id="Group-4" transform="translate(-84.000000, 2116.000000)">
+                <path d="M1544,1632 C1573,1567 1607.27817,1546.71898 1676.05575,1576.45949 C1744.83333,1606.2 1762.27863,1543.79685 1785,1503" id="Path-3-Copy-2" transform="translate(1664.500000, 1567.500000) rotate(41.000000) translate(-1664.500000, -1567.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

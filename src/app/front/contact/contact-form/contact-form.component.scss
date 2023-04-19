@@ -1,0 +1,331 @@
+ :host {
+
+   .dragOver {
+     outline: 0.2rem dashed #92FAB4;
+     outline-offset: -1rem;
+     -moz-outline-radius: 1rem;
+   }
+
+ }
+
+
+// #files {
+//   visibility: hidden;
+// }
+
+// .upload {
+//   p {
+//     color: #92FAB4;
+//   }
+
+//   color: #92FAB4;
+//   padding: 0 1.9rem;
+//   border: 0.3rem dashed #92FAB4 !important;
+//   border-radius: 1.7rem;
+//   transition: width ease-in .4s;
+//   font-size: 1.4rem;
+//   font-weight: 600;
+//   cursor: pointer;
+//   display: inline-flex;
+//   align-items: center;
+//   margin-bottom: 2rem;
+//   height: 4.4rem;
+// }
+
+// .fa-upload {
+//   color: #92FAB4
+// }
+
+// .fixed {
+//   &:host {
+//     .fadeOut {
+//       -webkit-animation-duration: 1s;
+//       animation-duration: 1s;
+//       -webkit-animation-fill-mode: both;
+//       animation-fill-mode: both;
+//     }
+//   }
+// }
+
+// .elements {
+//   display: flex;
+//   justify-content: space-between;
+//   padding-top: 7.2rem;
+
+//   @media only screen and (max-width: 767px) {
+//     padding-top:1.5rem;
+//   }
+// }
+
+// .discuss {
+//   p {
+//     color: #fff;
+//     text-decoration: underline;
+//     font-size: 1.2rem;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//   }
+
+//   h3 {
+//     color: #FFFFFF;
+//     font-size: 4.4rem;
+//     font-weight: bold;
+//     line-height: 5.2rem;
+//   }
+// }
+
+// .form-container {
+//   display: flex;
+//   flex-direction: column;
+
+//   label {
+//     color: #fff;
+//     font-size: 1.5rem;
+//     font-weight: 500;
+//     margin-bottom: 0.6rem;
+//   }
+// }
+
+// .contact-input {
+//   border-radius: 2rem;
+//   position: relative;
+//   z-index: 9;
+// }
+
+// .buttons {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   @media only screen and (max-width: 900px) {
+//     flex-direction: column;
+//   }
+//   a.cta {
+//     color: #fff;
+//     border: 0.1rem solid #fff;
+//     padding: 1.9rem;
+//   }
+
+//   #HS_Website {
+//     stroke: #fffdfd !important;
+//   }
+// }
+
+// .contact {
+//   p {
+//     a {
+//       color: #fff;
+//       font-size: 1.6rem;
+//       margin-bottom: 1.2rem;
+//     }
+
+//   }
+
+//   h4 {
+//     color: #FFFFFF;
+//     font-size: 2.4rem;
+//     font-weight: bold;
+//     line-height: 2.9rem;
+//     margin-bottom: 0.6rem;
+//   }
+// }
+
+// .errortext {
+//   display: flex;
+//   justify-content: flex-end;
+// }
+
+// .error {
+//   height: 3.1rem;
+//   width: 27rem;
+//   position: relative;
+//   border-radius: 0 0 2.25rem 2.25rem;
+//   background-color: #FF8C8C;
+//   top: -1.5rem;
+//   padding: 1.5rem 1.7rem 2rem;
+//   color: #fff;
+//   font-size: 1.2rem;
+//   text-align: center;
+// }
+
+// .cInput {
+//   height: 4.5rem;
+//   padding: 0.8rem 2rem;
+//   background-color: #E9F2FF;
+//   color: #91A9CB;
+//   font-size: 16px;
+//   border: 0.2rem solid transparent;
+// }
+
+// #message {
+//   resize: none;
+//   padding: 0.8rem 2rem;
+//   background-color: #E9F2FF;
+//   font-size: 16px;
+//   border: 0.2rem solid transparent;
+// }
+
+// #message:not(.errorInput) {
+//   margin-bottom: 3.5rem;
+// }
+
+// .cInput:focus,
+// #message:focus {
+//   outline: none;
+//   box-shadow: none;
+//   background-color: white;
+//   border: 0.2rem solid #4E88D1;
+// }
+
+// .form-control.errorInput {
+//   box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   -webkit-box-sizing: border-box;
+//   border: 0.2rem solid #FF8C8C;
+// }
+
+// :host ::ng-deep .buttonSend {
+//   text-transform: uppercase;
+//   padding: 1rem 3.7rem;
+//   background-color: transparent;
+//   color: #fff;
+//   border-radius: 2rem;
+//   border: 0.1rem solid #fff;
+//   font-size: 1.4rem;
+//   font-weight: bold;
+//   line-height: 1.4rem;
+//   display: flex;
+//   justify-content: center;
+//   transition: all ease-in .4s;
+//   margin: 2rem 0 0 0;
+
+
+//   &.disabled {
+//     opacity: 0.5;
+//   }
+
+//   p.text {
+//     line-height: 2.2rem;
+//   }
+
+//   p.svg {
+//     width: 0;
+//     transition: all ease-in .4s;
+
+//     svg {
+//       width: 0;
+//       height: 2.2rem;
+//       transition: all ease-in .4s;
+
+//       g {
+//         stroke: #FFFFFF;
+//       }
+
+//     }
+//   }
+
+// }
+
+// :host ::ng-deep {
+//   .buttonSend:hover,
+//   .buttonSend:focus {
+//     padding: 1rem 2.2rem;
+
+//     p.svg {
+//       width: 3rem;
+
+//       svg {
+//         width: 3rem;
+//         height: 2.2rem;
+//         margin-left: 1rem;
+
+//         g {
+//           stroke: #FFFFFF;
+//         }
+//       }
+//     }
+
+
+//   }
+// }
+
+
+// .inputWithError {
+//   min-height: 11rem;
+// }
+
+// ::placeholder {
+//   color: #9A9A9A;
+//   font-size: 1.6rem;
+//   font-weight: 500;
+//   letter-spacing: 0.34px;
+//   line-height: 2.6rem;
+// }
+
+// :host .contactFile {
+//   box-sizing: border-box;
+//   padding: 1rem 2.2rem;
+//   border: 1px solid #92FAB4;
+//   border-radius: 7px;
+//   background-color: rgba(255, 255, 255, 0.13);
+//   color: #FFFFFF;
+//   font-size: 1.4rem;
+//   font-weight: 900;
+//   letter-spacing: 0.39px;
+//   line-height: 17px;
+//   text-align: center;
+//   margin: 0 auto 2rem;
+//   position: relative;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// :host .contactFile i {
+//   position: relative;
+//   padding-left: 1.5rem;
+//   cursor: pointer;
+// }
+
+// @media only screen and (max-width: 900px) {
+//   .buttonSend {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+//   .letsDiscuss {
+//     color: #FFFFFF;
+//     font-size: 2.4rem !important;
+//     font-weight: bold;
+//     @media only screen and (max-width: 767px) {
+//       br {
+//         display: none;
+//       }
+//     }
+
+//   }
+//   .message {
+//     padding-right: 0 !important;
+//   }
+//   #mobileText {
+//     color: #1B1B1B;
+//     font-size: 1.3rem;
+//     font-weight: bold;
+//     line-height: 1.6rem;
+//     text-align: center;
+//   }
+//   .upload {
+//     border-radius: 1.7rem;
+//     transition: width ease-in .4s;
+//     font-size: 1.1rem !important;
+//     font-weight: 600;
+//     display: inline-flex;
+//     align-items: center;
+//     height:3.4rem;
+//     margin-top:2rem;
+//     justify-content: center;
+//   }
+
+// }
+
+

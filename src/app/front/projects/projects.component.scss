@@ -1,0 +1,24 @@
+.filterBar {
+  height: 20rem;
+  @media only screen and (max-width: 991px) {
+    height: 12rem;
+  }
+}
+
+:host::ng-deep app-build-solutions {
+  .sectionPadding {
+    padding-top: 0;
+  }
+}
+
+.filterBar .categories .dropdownCategories .listBtn {
+  margin: 1.4rem auto 1.4rem;
+}
+
+.caseStudies {
+  padding-top: 0;
+}
+
+.projectCard:hover, .tabItem:hover {
+  transition: all ease-in-out .3s, all ease-in .3s;
+}

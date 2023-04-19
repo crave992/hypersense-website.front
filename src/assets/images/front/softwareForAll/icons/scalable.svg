@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>scalable</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-215.000000, -2877.000000)" stroke="#1B1B1B" stroke-width="1.5">
+            <g id="scalable" transform="translate(215.000000, 2877.000000)">
+                <path d="M33,6.75 L18,6.75 C17.3096441,6.75 16.75,7.30964406 16.75,8 L16.75,20.75 L13,20.75 C12.3096441,20.75 11.75,21.3096441 11.75,22 L11.75,28 C11.75,28.6903559 12.3096441,29.25 13,29.25 L19,29.25 C19.6903559,29.25 20.25,28.6903559 20.25,28 L20.25,24.25 L33,24.25 C33.6903559,24.25 34.25,23.6903559 34.25,23 L34.25,8 C34.25,7.30964406 33.6903559,6.75 33,6.75 Z" id="Combined-Shape"></path>
+                <g id="Group-2">
+                    <g id="Group-2-Copy-16">
+                        <rect id="Rectangle" x="0.75" y="0.75" width="44.5" height="33.5" rx="16.75"></rect>
+                    </g>
+                    <path d="M15.9878376,25.0121624 L29.4768805,11.5231195" id="Path-33" stroke-linecap="round"></path>
+                    <path d="M30.4782081,13.9948343 L27.1492064,14.5181848 C26.8331319,14.5678747 26.5359655,14.3560326 26.4854665,14.0450222 C26.4755018,13.9836526 26.4757991,13.9210929 26.4863465,13.8598176 L27.0603014,10.5254112" id="Rectangle-Copy-32" stroke-linecap="round" transform="translate(28.478208, 12.525411) rotate(-181.000000) translate(-28.478208, -12.525411) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

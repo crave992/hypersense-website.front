@@ -1,0 +1,66 @@
+#sticky-footer {
+  flex-shrink: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+:host #sticky-footer {
+  padding:  5rem 0 1rem 0;
+  color: #727272;
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  @media only screen and (max-width: 767px) {
+    padding-top: 5rem;
+    padding-bottom: 4.3rem;
+  }
+
+}
+
+:host .fa:before {
+  font-size: 3rem;
+}
+
+:host .navbar-brand+p{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.logoFooterSection {
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  .navbar-brand, .companyInfo {
+    @media only screen and (max-width: 992px) {
+      display: none;
+    }
+  }
+}
+
+.hideOnDesktop {
+  .companyInfo {
+    @media only screen and (max-width: 992px) {
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    display: none;
+  }
+}
+
+.rightsReserved p {
+  opacity: 0.73;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.08px;
+  line-height: 2.7rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+

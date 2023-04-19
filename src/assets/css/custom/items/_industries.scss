@@ -1,0 +1,85 @@
+/* Industries */
+
+  .industries {
+    h2 {
+      color: #2E2E2E;
+      font-family: 'Mulish', sans-serif;
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: 0.1px;
+      line-height: 3.8rem;
+      text-align: center;
+    }
+
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .item {
+        flex: 0 0 20%;
+        max-width: 20%;
+        font-size: 2rem;
+        text-align: center;
+        display: block;
+        font-weight: bold;
+        padding: 5rem 0 0;
+        overflow: hidden;
+
+        @media only screen and (max-width: 800px) {
+          flex: 0 0 33%;
+          max-width: 33%;
+          font-size: 1.5rem;
+        }
+        @media only screen and (max-width: 500px) {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+
+
+
+        svg {
+          height: auto;
+          max-width: 163px;
+          margin: auto auto 2rem auto;
+          border-radius: 50%;
+          box-shadow: 0 12px 34px 0 rgba(0,0,0,0.03);
+
+          @media only screen and (max-width: 992px) {
+            max-width: 75%;
+          }
+
+          @media only screen and (max-width: 767px) {
+            max-width: 50%;
+          }
+          path, rect, circle {
+            transition: all ease-in-out .3s, all ease-in .3s;
+          }
+
+        }
+
+        svg:hover {
+
+          circle {
+            fill: $main-color;
+            stroke: #FFFFFF;
+          }
+          path, rect {
+            fill: #FFFFFF;
+          }
+        }
+
+        .mobileText {
+          color: #646A83;
+          font-family: 'Roboto', sans-serif;
+          font-size: 1.5rem;
+          letter-spacing: 0;
+          line-height: 2rem;
+          text-align: center;
+          font-weight: 400;
+          max-width: 14rem;
+          margin: 0 auto;
+        }
+      }
+    }
+  }

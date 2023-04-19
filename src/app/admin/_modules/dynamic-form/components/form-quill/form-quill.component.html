@@ -1,0 +1,11 @@
+<div class="scrolling-container">
+    <label>{{ config.label }}</label>
+    <quill-editor
+            [modules]="quillConfig.modules"
+            [placeholder]="config.placeholder"
+            [theme]="quillConfig.theme"
+            [scrollingContainer]="quillConfig.scrollingContainer"
+            (onContentChanged)="onContentChanged($event)"
+            (onEditorCreated)="onEditorCreated($event)"
+    ></quill-editor>
+</div>

@@ -1,0 +1,39 @@
+@import "../../assets/styles/app";
+
+/*Apply theme*/
+input.form-control {
+    border-radius: 90px;
+    padding: 1rem 1.5rem;
+}
+
+.btn {
+    border-radius: 90px;
+    padding: 1rem 1.5rem;
+    min-width: 120px;
+}
+
+.admin-login ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #1B1B1B;
+    opacity: 1; /* Firefox */
+    font-size:2rem;
+}
+
+.admin-login :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #1B1B1B;
+    font-size:2rem;
+}
+
+.admin-login ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #1B1B1B;
+    font-size:2rem;
+}
+
+.admin-login h3{
+    font-size:2rem;
+}
+.admin-login input{
+    font-size:2rem;
+}
+.admin-login [type='submit']{
+    font-size:2rem;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="229px" height="229px" viewBox="0 0 229 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>angular-seeklogo.com</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="81.5" cy="81.5" r="81.5"></circle>
+        <filter x="-35.0%" y="-27.6%" width="169.9%" height="169.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.901960784   0 0 0 0 0   0 0 0 0 0.184313725  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="angular-seeklogo.com" transform="translate(33.000000, 21.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-61" transform="translate(51.000000, 48.000000)" fill-rule="nonzero">
+                <polygon id="Path" fill="#E23237" points="0 10.9392265 30.5882812 0 62 10.7447514 56.9140625 51.3657458 30.5882812 66 4.67421874 51.5602209"></polygon>
+                <polygon id="Path" fill="#B52E31" points="62 10.7447514 31 0 31 66 56.9807247 51.3900552"></polygon>
+                <path d="M31.0403226,7 L31.0403226,7 L12,49.8775628 L19.1129032,49.7551255 L22.9354839,40.0825741 L31.0645162,40.0825741 L31.0887098,40.0825741 L40.0161291,40.0825741 L44.201613,49.8775628 L51,50 L31.0403226,7 L31.0403226,7 Z M31.0887098,20.7374716 L37.5241936,34.3525059 L31.3548388,34.3525059 L31.0403226,34.3525059 L25.4274193,34.3525059 L31.0887098,20.7374716 L31.0887098,20.7374716 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

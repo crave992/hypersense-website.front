@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="35px" viewBox="0 0 47 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ecommerce</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-1115.000000, -1476.000000)">
+            <g id="ecommerce" transform="translate(1115.450774, 1475.995329)">
+                <g id="Group-4-Copy-5">
+                    <g id="Group-2-Copy-3">
+                        <rect id="Rectangle" stroke="#1B1B1B" stroke-width="1.5" x="0.75" y="0.75" width="44.5" height="33.5" rx="6"></rect>
+                        <path d="M1,11 L45.5,11" id="Path-9" stroke="#1B1B1B" stroke-width="1.5"></path>
+                        <circle id="Oval" fill="#1B1B1B" cx="6" cy="6.5" r="1.5"></circle>
+                        <circle id="Oval-Copy-5" fill="#1B1B1B" cx="12" cy="6.5" r="1.5"></circle>
+                        <circle id="Oval-Copy-6" fill="#1B1B1B" cx="18" cy="6.5" r="1.5"></circle>
+                        <circle id="Oval-Copy-26" stroke="#1B1B1B" stroke-width="1.5" cx="28.5" cy="29.5" r="1.5"></circle>
+                        <circle id="Oval-Copy-27" stroke="#1B1B1B" stroke-width="1.5" cx="18.0492255" cy="29.5" r="1.5"></circle>
+                    </g>
+                </g>
+                <path d="M13.5492255,15.0046712 L15.1074585,16.5629042 C15.3951158,16.8505615 15.5882125,17.2190998 15.6609847,17.6193469 L17.1013449,25.5413276 C17.3607034,26.9677996 18.6030961,28.0046712 20.0529546,28.0046712 L28.5492255,28.0046712 L28.5492255,28.0046712" id="Path-30" stroke="#1B1B1B" stroke-width="1.5" stroke-linecap="round"></path>
+                <path d="M15.8393653,17.9515062 L31.3228263,17.9515062 C31.8751111,17.9515062 32.3228263,18.3992214 32.3228263,18.9515062 C32.3228263,19.0869329 32.2953186,19.2209486 32.2419713,19.3454255 L30.0991142,24.3454255 C29.9415354,24.7131093 29.5799973,24.9515062 29.1799692,24.9515062 L16.8393653,24.9515062 L16.8393653,24.9515062" id="Path-31" stroke="#1B1B1B" stroke-width="1.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

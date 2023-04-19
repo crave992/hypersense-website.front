@@ -1,0 +1,97 @@
+<app-front-menu [blog] = true> </app-front-menu>
+<div class="portfolioItemPage projectItemPage">
+  <div class="container-fluid" *ngIf="project">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="containerPortfolioTest" #content>
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-5 contentPortfolioItem">
+                  <div class="row">
+                    <div class="col-12 categorySection">
+                      <div class="categoryIndustry">
+                        {{project.industry}}
+                        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+                      </div>
+                      <div class="categoryList">
+                          <div class="categoryItem" *ngFor="let category of project.technologiesList | slice:0:1; let x=index;">{{category}}</div>
+                      </div>
+                    </div>
+                    <div class="col-12 titleSection">
+                      <h1 class="title">{{project.title}}</h1>
+                      <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="containerProjectBar">
+                        <div class="shareSection">
+                          <div class="ul">
+                            <div class="li text">
+                              <p>Share</p>
+                            </div>
+                            <div class="li icon">
+                              <a target="_blank" rel="noopener noreferrer"
+                                 href="https://twitter.com/intent/tweet?text={{encodeURI(project.title + ' ' + href)}}"
+                                 [style.color]="'#727272'"
+                              >
+                                <i class="fab fa fa-twitter"></i>
+                              </a>
+                            </div>
+                            <div class="li icon">
+                              <a target="_blank" rel="noopener noreferrer"
+                                 href="https://pinterest.com/pin/create/button/?url={{href}}&media={{fileStorageUrl + '/' + project.seoImageURL}}&description={{encodeURI(project.title)}}"
+                                 [style.color]="'#727272'"
+                              >
+                                <i class="fab fa fa-pinterest"></i>
+                              </a>
+                            </div>
+                            <div class="li icon">
+                              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?u={{href}}"
+                                 [style.color]="'#727272'"
+                              >
+                                <i class="fab fa fa-facebook"></i>
+                              </a>
+                            </div>
+                            <div class="li icon">
+                              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/shareArticle?mini=true&url={{href}}&title={{project.title}}&summary={{project.excerpt}}&source="
+                                 [style.color]="'#727272'"
+                              >
+                                <i class="fab fa fa-linkedin"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div [innerHTML]="project.content | safeHtml"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-7 contentPortfolioRight">
+                  <div [innerHTML]="project.contentRight | safeHtml"></div>
+                </div>
+              </div>
+              <div class="lineEnd"></div>
+            </div>
+            <div class="relatedProjects"
+                 *ngIf="relatedProjectLoading || (!relatedProjectLoading && projectRelated.length > 0)"
+            >
+              <div class="title">Related Projects</div>
+            </div>
+            <div class="caseStudies" *ngIf="relatedProjectLoading || (!relatedProjectLoading && projectRelated.length > 0)">
+              <ng-container *ngIf="projectRelated && projectRelated.length > 0">
+                <div class="projectItem" *ngFor="let item of projectRelated">
+                  <app-project-card [item]="item" (projectClick)="getProjectHeight()"></app-project-card>
+                </div>
+              </ng-container>
+              <ng-container *ngIf="!projectRelated || projectRelated.length === 0">
+                <div class="projectItem loading" *ngFor="let item of [].constructor(3)">
+                  <app-project-card-loading></app-project-card-loading>
+                </div>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

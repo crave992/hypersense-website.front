@@ -1,0 +1,467 @@
+<div class="backgroundImage backgroundImageNode node-development">
+  <app-front-menu></app-front-menu>
+  <!-- Hero Image -->
+  <app-hero-image [childrenHtml]="heroHtml"></app-hero-image>
+
+  <!-- Blue Badge -->
+  <div class="firstSection d-block bg-round-mask homepageText">
+    <div class="container">
+      <div class="d-flex message">
+        <div>
+          <h2>Introducing Node.js</h2>
+          <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+          <p>
+            Node.js has become the runtime solution of choice for Fortune 500 companies like LinkedIn, Netflix, and Uber.
+            Read below to learn how it can help grow your business.
+          </p>
+        </div>
+      </div>
+      <div class="testimonialTop blue-badge">
+          <app-testimonials-home type="single" limit="1" [item]="testimonialItem"></app-testimonials-home>
+      </div>
+    </div>
+  </div>
+
+  <!-- Solutions -->
+  <div class="d-block bg-white node-sol sectionPadding">
+    <div class="container">
+      <div class="section-title">
+        <h2>How Node.js Can Help</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="row solutionsItem" *ngFor="let item of nodeSolutions; index as i;" [ngClass]="{'flex-row-reverse' :i%2===1}">
+          <div class="col-md-6 col-12 with-text">
+            <h3 class="title">{{item.title}}</h3>
+            <p [innerHTML]="item.description | safeHtml"></p>
+          </div>
+          <div class="col-md-6 col-12 imageDiv" >
+            <picture>
+              <source [srcset] = "item.srcSets"
+                      type="image/png"
+              >
+              <img [src] = "item.image"
+                   alt="icon"
+              >
+            </picture>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-block bg-grey">
+    <div class="container sectionPadding buildingNode">
+      <div class="sectionInfo">
+        <div class="itemInfo">
+          <div class="itemInfoIns">
+            <p class="title">High Performance</p>
+            <p>Node.js helped PayPal decrease its API response time by 35%, making pages load significantly faster.</p>
+            <div class="sectionImages">
+              <picture>
+                <source srcset="
+                   ./assets/images/front/nodeDev/logo/paypal.png 1x,
+                   ./assets/images/front/nodeDev/logo/paypal@2x.png 2x,
+                   ./assets/images/front/nodeDev/logo/paypal@3x.png 3x
+                  "
+                        type="image/png"
+                >
+                <img src="./assets/images/front/nodeDev/logo/paypal.png"
+                     class="item"
+                     alt="icon"
+                >
+              </picture>
+              <picture>
+                <source srcset="
+                   ./assets/images/front/nodeDev/logo/node.png 1x,
+                   ./assets/images/front/nodeDev/logo/node@2x.png 2x,
+                   ./assets/images/front/nodeDev/logo/node@3x.png 3x
+                  "
+                        type="image/png"
+                >
+                <img src="./assets/images/front/nodeDev/logo/node.png"
+                     class="item"
+                     alt="icon"
+                >
+              </picture>
+              </div>
+            </div>
+        </div>
+        <div class="itemInfo">
+          <div class="itemInfoIns">
+            <p class="title">Strong Corporate Support</p>
+            <p>Founding members of the Node.js community include Microsoft, SAP, Fidelity, PayPal, and IBM.</p>
+            <div class="sectionImages">
+              <picture>
+                <source srcset="
+                   ./assets/images/front/nodeDev/logo/sap.png 1x,
+                   ./assets/images/front/nodeDev/logo/sap@2x.png 2x,
+                   ./assets/images/front/nodeDev/logo/sap@3x.png 3x
+                  "
+                        type="image/png"
+                >
+                <img src="./assets/images/front/nodeDev/logo/sap.png"
+                     class="item"
+                     alt="icon"
+                >
+              </picture>
+              <picture>
+                <source srcset="
+                   ./assets/images/front/nodeDev/logo/microsoft.png 1x,
+                   ./assets/images/front/nodeDev/logo/microsoft@2x.png 2x,
+                   ./assets/images/front/nodeDev/logo/microsoft@3x.png 3x
+                  "
+                        type="image/png"
+                >
+                <img src="./assets/images/front/nodeDev/logo/microsoft.png"
+                     class="item"
+                     alt="icon"
+                >
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="itemInfo">
+          <div class="itemInfoIns">
+            <p class="title">Large Global Userbase</p>
+            <p>According to Stackoverflow 2019, Node.js is the most commonly used runtime environment.</p>
+            <div class="sectionImages">
+              <picture>
+                <source srcset="
+                   ./assets/images/front/nodeDev/logo/uber.png 1x,
+                   ./assets/images/front/nodeDev/logo/uber@2x.png 2x,
+                   ./assets/images/front/nodeDev/logo/uber@3x.png 3x
+                  "
+                        type="image/png"
+                >
+                <img src="./assets/images/front/nodeDev/logo/uber.png"
+                     class="item"
+                     alt="icon"
+                >
+              </picture>
+              <picture>
+                <source srcset="
+                   ./assets/images/front/nodeDev/logo/ibm.png 1x,
+                   ./assets/images/front/nodeDev/logo/ibm@2x.png 2x,
+                   ./assets/images/front/nodeDev/logo/ibm@3x.png 3x
+                  "
+                        type="image/png"
+                >
+                <img src="./assets/images/front/nodeDev/logo/ibm.png"
+                     class="item"
+                     alt="icon"
+                >
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="itemInfo">
+          <div class="itemInfoIns">
+            <p class="title">Dependency Management</p>
+            <p>Node.js’s default package manager, Node Package Manager (NPM), is the world’s largest software registry.</p>
+            <div class="sectionImages">
+              <picture>
+                <source srcset="
+                   ./assets/images/front/nodeDev/logo/stack.png 1x,
+                   ./assets/images/front/nodeDev/logo/stack@2x.png 2x,
+                   ./assets/images/front/nodeDev/logo/stack@3x.png 3x
+                  "
+                        type="image/png"
+                >
+                <img src="./assets/images/front/nodeDev/logo/stack.png"
+                     class="item"
+                     alt="icon"
+                >
+              </picture>
+              <picture>
+                <source srcset="
+                   ./assets/images/front/nodeDev/logo/npm.png 1x,
+                   ./assets/images/front/nodeDev/logo/npm@2x.png 2x,
+                   ./assets/images/front/nodeDev/logo/npm@3x.png 3x
+                  "
+                        type="image/png"
+                >
+                <img src="./assets/images/front/nodeDev/logo/npm.png"
+                     class="item"
+                     alt="icon"
+                >
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-block bg-white nodeBuild sectionPadding">
+    <div class="container sectionPaddingBottom">
+      <div class="section-title">
+        <h2>Build the best backends with Node.js and LoopBack</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class=" nodeBuildText withImage" >
+        <div class="col-md-6 col-12 withText">
+          <div class="leftSectionText">
+            <div class="textItem">
+                <p class="title">THE BASICS</p>
+                <p>LoopBack is an IBM-backed, enterprise-ready server-side Node.js framework.</p>
+            </div>
+            <div class="textItem withPadding">
+                <p class="title">FAST BUILD</p>
+                <p>Developers can build complex APIs faster using LoopBack.</p>
+            </div>
+            <div class="textItem">
+                <p class="title">EASY TO USE</p>
+                <p>LoopBack allows API developers to easily write micro-services.</p>
+            </div>
+          </div>
+          <div class="centerSectionText">
+          </div>
+          <div class="rightSectionText">
+            <div class="textItem">
+              <p class="title">HIGH CAPACITY</p>
+              <p>When running LoopBack, apps can handle much higher load with less hardware.</p>
+            </div>
+            <div class="textItem withPadding">
+              <p class="title">BACKWARDS COMPATIBLE</p>
+              <p>LoopBack works with legacy systems like DB2, Oracle, and MSSQL.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 imageDiv" >
+          <picture>
+            <source srcset="
+                    ./assets/images/front/nodeDev/node_build1.png 1x,
+                    ./assets/images/front/nodeDev/node_build1@2x.png 2x,
+                    ./assets/images/front/nodeDev/node_build1@3x.png 3x
+                  "
+                    type="image/png"
+            >
+            <img src = "./assets/images/front/nodeDev/node_build1.png"
+                 alt="icon"
+            >
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="section-title">
+        <h2>Deliver great user experiences with Angular</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="nodeBuildText reverseFlex withImage" >
+        <div class="col-md-6 col-12 imageDiv left" >
+          <picture>
+            <source srcset="
+                    ./assets/images/front/nodeDev/node_build2.png 1x,
+                    ./assets/images/front/nodeDev/node_build2@2x.png 2x,
+                    ./assets/images/front/nodeDev/node_build2@3x.png 3x
+                  "
+                    type="image/png"
+            >
+            <img src = "./assets/images/front/nodeDev/node_build2.png"
+                 alt="icon"
+            >
+          </picture>
+        </div>
+        <div class="col-md-6 col-12 withText left">
+          <div class="leftSectionText">
+            <div class="textItem">
+              <p class="title">THE BASICS</p>
+              <p>Angular is a Google-backed front-end framework focused on productivity, speed, and testability.</p>
+            </div>
+            <div class="textItem withPadding">
+              <p class="title">LIGHTWEIGHT</p>
+              <p>Angular provides superior readability, reusability, and maintainability.</p>
+            </div>
+            <div class="textItem">
+              <p class="title">REACTIVE</p>
+              <p>Within Angular, RxJS offers efficient, asynchronous programming.</p>
+            </div>
+          </div>
+          <div class="centerSectionText">
+          </div>
+          <div class="rightSectionText">
+            <div class="textItem">
+              <p class="title">ELEGANT</p>
+              <p>Angular’s component-based architecture delivers higher code quality.</p>
+            </div>
+            <div class="textItem withPadding">
+              <p class="title">SCALABLE</p>
+              <p>Angular uses TypeScript, resulting in better tooling and increased scalability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-block bg-grey nodeItemsInfo sectionPadding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Node.js works for your business </h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="nodeBuildText items3">
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">CHAT</div>
+            <div class="item">BI TOOLS</div>
+            <div class="item">MICRO SERVICES</div>
+          </div>
+        </div>
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">CMS</div>
+            <div class="item">EDUCATION</div>
+            <div class="item">SAAS</div>
+          </div>
+        </div>
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">E-COMMERCE</div>
+            <div class="item">STREAMING</div>
+            <div class="item">GAME SERVERS</div>
+          </div>
+        </div>
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">ANALYTICS</div>
+            <div class="item">VIDEO  PROCESSING</div>
+            <div class="item">SOCIAL MEDIA</div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="d-block bg-white" *ngIf="portfolioProjects && portfolioProjects.length > 0">
+    <div class="container sectionPadding">
+      <div class="section-title">
+        <h2 class="caseStudyTitle">Our latest Node.js projects</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="caseStudies">
+        <div class="projectItem" *ngFor="let item of portfolioProjects">
+          <app-project-card [item]="item"></app-project-card>
+        </div>
+      </div>
+      <div class="text-center container bottom-message">
+        <a class="cta cta-effect m-auto" routerLink="/portfolio">
+          MORE PROJECTS
+          <span [inlineSVG]="'assets/images/front/r-arrow.svg'"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-block bg-grey nodeItemsInfo sectionPadding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Node.js delivers when you need it most</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="nodeBuildText items2">
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">SECURE</div>
+            <div class="item">FLEXIBLE</div>
+          </div>
+        </div>
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">RESPONSIVE </div>
+            <div class="item">SCALABLE</div>
+          </div>
+        </div>
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">SEO-OPTIMIZED</div>
+            <div class="item">MAINTAINABLE</div>
+          </div>
+        </div>
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">FAST</div>
+            <div class="item">HIGHLY USABLE</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-block bg-white nodeAws sectionPadding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Node.js Apps on AWS</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+        <div class="section-info">
+          <p>Your Node.js app needs a great hosting service.</p>
+          <p>We prefer AWS for deployments, but are also open to other options.</p>
+        </div>
+      </div>
+      <div class="row nodeAwsTextRow">
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/nodeDev/nodeAws1.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>Automated seamless deployments and integration (CI & CD)</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>With AWS, development and infrastructure systems are seamlessly connected through deployment pipelines, allowing automatic testing, build creation, and code update deployments.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/nodeDev/nodeAws2.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>Safe, zero-downtime production deployments</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>Your app’s latest features need to be delivered to end users quickly and easily. AWS provides fast and issue-free deployment. </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/nodeDev/nodeAws3.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>Auto-scaling hosting environments</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>AWS web environments are scalable and respond automatically to changes in traffic. This means hosting costs are optimised for actual traffic, but users still get the best experience.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/nodeDev/nodeAws4.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>Fault-tolerant and auto-recoverable
+              hosting environments</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>In the unlikely event of a crash, AWS environments automatically react and recover. Logs are saved for analysis and all personnel involved in development are notified about the issue.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/nodeDev/nodeAws5.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>24/7 automated monitoring and issue reporting</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>AWS servers are monitored 24/7, with real-time data streamed to storage and analysis systems. This helps development and product teams ensure quality service for your users.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <app-contact-form [bgClass]="'bg-grey'"></app-contact-form>
+
+</div>

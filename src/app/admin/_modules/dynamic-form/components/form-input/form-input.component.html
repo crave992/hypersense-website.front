@@ -1,0 +1,15 @@
+<div
+        class="dynamic-field form-input"
+        [ngClass]="group.get(config.name).touched && group.get(config.name).errors ? 'validation-error' : ''"
+        [formGroup]="group">
+    <label>{{ config.label }}</label>
+    <input
+            type="text"
+            [attr.placeholder]="config.placeholder"
+            [formControlName]="config.name"
+    >
+    <ng-container *ngFor="let item of config.validation;">
+        <p class="dynamic-field-error" *ngIf="group.get(config.name).touched && group.get(config.name).hasError(item.name)">{{item.message}}</p>
+    </ng-container>
+
+</div>

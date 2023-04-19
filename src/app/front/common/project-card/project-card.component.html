@@ -1,0 +1,14 @@
+<div class="pointer projectCard">
+    <a  routerLink="{{'/projects/' + item.slug}}" [state]="{ project: item }" (click)="clickProject()">
+        <div class="cardImage">
+            <img loading="lazy" *ngIf="imageAbsoluteUrl" src="{{imageAbsoluteUrl}}" alt="">
+        </div>
+        <div class="cardContainer">
+            <p class="title" [title]="item.title">{{item.title}}</p>
+            <p class="description">{{item.excerpt}}</p>
+            <p class="technology" *ngIf="item.industry">{{item.industry}}</p>
+        </div>
+    </a>
+</div>
+
+

@@ -1,0 +1,60 @@
+:host::ng-deep a:hover .cta-effect svg {
+  width: 3rem;
+  margin-left: 1rem;
+}
+
+:host::ng-deep {
+
+  .contactBTN {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+      p {
+        max-width: 51rem;
+        color: #646A83;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        letter-spacing: 0.1px;
+        line-height: 2.7rem;
+        text-align: center;
+        font-weight: 400;
+        margin: 0 auto 2.5rem auto;
+      }
+
+      a {
+        border: 1px solid #2E2E2E;
+        border-radius: 22px;
+        color: #2E2E2E;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0.1px;
+        line-height: 1.9rem;
+        font-weight: 400;
+        padding: 0;
+        min-width: 24.8rem;
+        min-height: 3.7rem;
+        justify-content: center;
+
+        span {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 1rem;
+
+          svg {
+            width: 2.6rem;
+            height: 0.8rem;
+            stroke: #2E2E2E;
+          }
+
+        }
+
+        img {
+          width: 2.6rem;
+          height: 0.8rem;
+          margin-left: 1.1rem;
+        }
+
+      }
+
+  }
+}

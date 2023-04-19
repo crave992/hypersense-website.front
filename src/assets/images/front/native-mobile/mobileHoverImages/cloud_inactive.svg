@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>cloud_inactive</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cloud_inactive" transform="translate(2.000000, 2.000000)">
+            <circle id="Oval-Copy-14" stroke="#74ABFC" stroke-width="2.68403909" fill="#FFFFFF" cx="35.5" cy="35.5" r="35.5"></circle>
+            <g id="Group-25" transform="translate(13.676230, 20.950820)" fill="#74ABFC">
+                <g id="Group-24" transform="translate(0.290984, 0.000000)">
+                    <ellipse id="Oval" cx="7.93591654" cy="20.9508197" rx="7.93591654" ry="8.14754098"></ellipse>
+                    <ellipse id="Oval-Copy-9" cx="11.9038748" cy="12.8032787" rx="4.95994784" ry="5.23770492"></ellipse>
+                    <ellipse id="Oval-Copy-7" cx="35.7116244" cy="20.9508197" rx="7.93591654" ry="8.14754098"></ellipse>
+                    <ellipse id="Oval-Copy-8" cx="24.7997392" cy="12.2213115" rx="11.9038748" ry="12.2213115"></ellipse>
+                    <polygon id="Rectangle" points="7.93591654 17.4590164 36.703614 17.4590164 36.703614 29.0983607 7.93591654 29.0983607"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

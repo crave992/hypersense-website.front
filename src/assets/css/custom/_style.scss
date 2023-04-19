@@ -1,0 +1,51 @@
+$main-color: #74ABFC;
+
+@import "functions";
+@import "toast";
+@import "items/allItems";
+@import "pages/loadAll";
+
+@import "home_hero";
+@import "section";
+@import "loading";
+
+@include medias($bodyFontSize);
+
+.pointer {
+  cursor: pointer;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+.tooltip-inner {
+  font-size: 1.4rem;
+}
+
+re-captcha {
+  min-height: 7.8rem;
+}
+.portfolio-slider {
+  background-color: white;
+
+  &.bg-grey {
+    background-color: #F9F9F9;
+  }
+
+  .project-image {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media only screen and (max-width: 991px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+  }
+}
+
+app-contact-us {
+  display: block;
+}

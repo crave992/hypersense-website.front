@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>fintech</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-515.000000, -1827.000000)" stroke="#1B1B1B">
+            <g id="fintech" transform="translate(515.000000, 1827.000000)">
+                <rect id="Rectangle" stroke-width="1.5" x="0.75" y="0.75" width="44.5" height="33.5" rx="16.75"></rect>
+                <path d="M23.25,30.25 L23.25,12.75 L16,12.75 C14.7573593,12.75 13.75,13.7573593 13.75,15 L13.75,28 C13.75,29.2426407 14.7573593,30.25 16,30.25 L23.25,30.25 Z" id="Rectangle" stroke-width="1.5"></path>
+                <rect id="Rectangle" fill="#D8D8D8" x="16.521898" y="17.010169" width="4" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-Copy-28" fill="#D8D8D8" x="26.0782441" y="16.9890922" width="4" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-Copy-23" fill="#D8D8D8" x="16.521898" y="21.010169" width="4" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-Copy-30" fill="#D8D8D8" x="26.0782441" y="20.9890922" width="4" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-Copy-37" fill="#D8D8D8" x="26.0759175" y="9.18247895" width="4" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-Copy-27" fill="#D8D8D8" x="16.521898" y="25.010169" width="4" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-Copy-31" fill="#D8D8D8" x="26.0782441" y="24.9890922" width="4" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-Copy-38" fill="#D8D8D8" x="26.0759175" y="13.182479" width="4" height="1" rx="0.5"></rect>
+                <path d="M32.7946584,5.76957134 L25.5446584,5.76957134 C24.3020177,5.76957134 23.2946584,6.77693065 23.2946584,8.01957134 L23.2946584,28.0195713 C23.2946584,29.262212 24.3020177,30.2695713 25.5446584,30.2695713 L30.5446584,30.2695713 C31.7872991,30.2695713 32.7946584,29.262212 32.7946584,28.0195713 L32.7946584,5.76957134 Z" id="Rectangle-Copy-7" stroke-width="1.5" transform="translate(28.044658, 18.019571) rotate(-180.000000) translate(-28.044658, -18.019571) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

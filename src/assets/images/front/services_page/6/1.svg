@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>defects</title>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-832.000000, -4138.000000)" stroke-width="1.5">
+            <g id="Group-6-Copy-5" transform="translate(832.000000, 3955.000000)">
+                <g id="Group-2" transform="translate(0.000000, 173.399996)">
+                    <g id="defects" transform="translate(0.000000, 9.600004)">
+                        <g id="Group-2-Copy-19" stroke="#4A4A4A">
+                            <rect id="Rectangle" x="0.75" y="0.75" width="44.5" height="33.5" rx="16.75"></rect>
+                        </g>
+                        <g id="Group-31" transform="translate(24.000000, 18.000000) rotate(-180.000000) translate(-24.000000, -18.000000) translate(12.000000, 8.000000)" stroke="#E56940">
+                            <rect id="Rectangle" x="6.75" y="0.75" width="10.5" height="15.5" rx="5.25"></rect>
+                            <polyline id="Path-35" stroke-linecap="round" stroke-linejoin="round" points="6 5 4 5 -2.72848411e-12 2"></polyline>
+                            <polyline id="Path-35-Copy" stroke-linecap="round" stroke-linejoin="round" points="6 12 4 12 -2.72848411e-12 9"></polyline>
+                            <polyline id="Path-35-Copy-2" stroke-linecap="round" stroke-linejoin="round" transform="translate(21.000000, 10.500000) scale(-1, 1) translate(-21.000000, -10.500000) " points="24 12 22 12 18 9"></polyline>
+                            <polyline id="Path-35-Copy-3" stroke-linecap="round" stroke-linejoin="round" transform="translate(21.000000, 3.500000) scale(-1, 1) translate(-21.000000, -3.500000) " points="24 5 22 5 18 2"></polyline>
+                            <polyline id="Path-36" stroke-linecap="round" stroke-linejoin="round" points="10 16 9 18 9 20"></polyline>
+                            <polyline id="Path-36" stroke-linecap="round" stroke-linejoin="round" transform="translate(14.500000, 18.000000) scale(-1, 1) translate(-14.500000, -18.000000) " points="15 16 14 18 14 20"></polyline>
+                            <path d="M14,11 C12.7409708,11.6295146 11.2590292,11.6295146 10,11 L10,11 L10,11" id="Path-2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M14,6 C12.7409708,6.62951461 11.2590292,6.62951461 10,6 L10,6 L10,6" id="Path-2-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

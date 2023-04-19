@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="73px" viewBox="0 0 264 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ornage2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="58.5546831%" x2="100%" y2="58.5546831%" id="linearGradient-1">
+            <stop stop-color="#FF8973" offset="0%"></stop>
+            <stop stop-color="#FF8A50" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="264" height="73" rx="16"></rect>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Node.js-Development-Services" transform="translate(-1121.000000, -7854.000000)">
+            <g id="Group-64" transform="translate(-16.000000, 6872.000000)">
+                <g id="ornage2" transform="translate(1137.000000, 982.000000)">
+                    <g id="Rectangle-Copy-60">
+                        <g id="Oval-Copy-11">
+                            <g id="Group-13">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <mask id="mask-3" fill="white">
+                                                    <use xlink:href="#path-2"></use>
+                                                </mask>
+                                                <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                                                <g mask="url(#mask-3)" fill="#FFFFFF">
+                                                    <g transform="translate(-43.000000, -17.000000)">
+                                                        <rect id="Rectangle-Copy-60" opacity="0.0938197545" transform="translate(301.288582, 41.711418) rotate(-90.000000) translate(-301.288582, -41.711418) " x="260.288582" y="0.711417767" width="82" height="82"></rect>
+                                                        <rect id="Rectangle-Copy-78" opacity="0.0965169271" transform="translate(101.988985, 76.000000) rotate(-90.000000) translate(-101.988985, -76.000000) " x="40.9889846" y="15.0110154" width="122" height="121.977969"></rect>
+                                                        <rect id="Rectangle-Copy-76" opacity="0.0938197545" transform="translate(287.146447, 55.853553) rotate(-90.000000) translate(-287.146447, -55.853553) " x="246.146447" y="14.8535534" width="82" height="82"></rect>
+                                                        <rect id="Rectangle-Copy-79" opacity="0.0965169271" transform="translate(80.988985, 97.036939) rotate(-90.000000) translate(-80.988985, -97.036939) " x="19.9889846" y="36.0479542" width="122" height="121.977969"></rect>
+                                                        <rect id="Rectangle-Copy-77" opacity="0.0938197545" transform="translate(273.711418, 69.288582) rotate(-90.000000) translate(-273.711418, -69.288582) " x="232.711418" y="28.2885822" width="82" height="82"></rect>
+                                                        <rect id="Rectangle-Copy-80" opacity="0.0965169271" transform="translate(60.988985, 117.022031) rotate(-90.000000) translate(-60.988985, -117.022031) " x="-0.0110153648" y="56.0330461" width="122" height="121.977969"></rect>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-26-Copy" transform="translate(70.000000, 25.000000)"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

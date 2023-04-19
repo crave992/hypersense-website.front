@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="528px" height="594px" viewBox="0 0 528 594" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Forms</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="93.0547601%" y1="22.673766%" x2="22.2030908%" y2="76.2545861%" id="linearGradient-1">
+            <stop stop-color="#74ABFC" offset="0%"></stop>
+            <stop stop-color="#0067FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Node.js-Development-Services" transform="translate(-215.000000, -8057.000000)">
+            <g id="Group-28" transform="translate(215.000000, 8057.000000)">
+                <g id="Forms">
+                    <ellipse id="Oval" stroke="#FFFFFF" stroke-width="55.5129075" cx="354.5" cy="421.5" rx="145.5" ry="144.5"></ellipse>
+                    <ellipse id="Oval-Copy-10" fill="url(#linearGradient-1)" cx="160" cy="159" rx="160" ry="159"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

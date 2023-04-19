@@ -1,0 +1,33 @@
+$bodyFontSize: (
+        300px: 9px,
+        500px: 10px,
+        2000px: 11px,
+        2132px: 12px,
+        2318px: 13px,
+        2503px: 14px,
+        2687px: 15px,
+        2872px: 16px,
+        3057px: 17px,
+        3241px: 18px,
+        3426px: 19px,
+        3611px: 20px,
+        3795px: 21px,
+        3980px: 22px
+);
+
+$font-header: Lato;
+$font-text: Lato;
+/* MENU */
+$font-menu: Lato;
+$hover-color: #555E6B;
+/* MENU */
+
+//@import '~bootstrap/scss/bootstrap';
+
+@import "font-awesome";
+@import "custom/style";
+@import "~cropperjs/src/css/cropper.css";
+
+
+
+

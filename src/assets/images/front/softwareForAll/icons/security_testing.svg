@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="35px" viewBox="0 0 46 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>security_testing</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Services" transform="translate(-515.000000, -3870.000000)" stroke="#1B1B1B" stroke-width="1.5">
+            <g id="security_testing" transform="translate(515.000000, 3870.000000)">
+                <path d="M22.6268129,6.90919305 C21.5111053,7.61630845 20.3657474,8.16619662 19.1913383,8.55766632 C18.6238223,8.7468383 18.0064576,8.91336764 17.339049,9.0576319 C15.8962662,9.36949782 14.8448543,10.6145085 14.7789389,12.08914 C14.6345588,15.3192044 15.0306342,18.1201396 15.9602918,20.4959313 C17.0396262,23.2542301 19.0150094,25.8908534 21.8980766,28.4037274 C22.353688,28.800837 23.02817,28.8150913 23.5001531,28.4375952 C26.1459317,26.3213733 28.0875642,23.6778388 29.3326584,20.4959313 C30.3919909,17.7887483 30.8313282,14.9876256 30.6518506,12.0849512 C30.5623099,10.6368182 29.5237329,9.42344664 28.1067617,9.11151774 C27.4321791,8.96301749 26.7637637,8.77838356 26.101612,8.55766632 C24.7370517,8.1028129 23.5785059,7.55454417 22.6268129,6.90919305 Z" id="Rectangle"></path>
+                <g id="Group-4-Copy-4">
+                    <g id="Group-2-Copy-3">
+                        <rect id="Rectangle" x="0.75" y="0.75" width="44.5" height="33.5" rx="16.75"></rect>
+                    </g>
+                </g>
+                <polyline id="Path-37-Copy" stroke-linecap="round" stroke-linejoin="round" points="19.0620273 17.5908154 21.5809426 20.1097307 27.6336885 14.0569848"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

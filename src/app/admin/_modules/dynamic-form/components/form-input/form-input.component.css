@@ -1,0 +1,34 @@
+.dynamic-field{
+  margin-bottom:10px;
+  width:100%;
+  float:left;
+}
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  padding: 10px 15px;
+  color: rgba(0, 0, 0, 0.7);
+}
+  input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+
+  label{
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom: 5px;
+    width:100%;
+    float:left;
+  }
+
+.validation-error input{
+  border:1px solid rgba(255,0,0,.5);
+}
+.validation-error .dynamic-field-error{
+  color:rgba(255,0,0,.5);
+}

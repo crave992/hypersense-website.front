@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="73px" viewBox="0 0 264 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>orange2</title>
+    <defs>
+        <linearGradient x1="0%" y1="58.5546831%" x2="100%" y2="58.5546831%" id="linearGradient-1">
+            <stop stop-color="#FF8973" offset="0%"></stop>
+            <stop stop-color="#FF8A50" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="264" height="73" rx="16"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="orange2">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <g id="Group-49" mask="url(#mask-3)" fill="#FFFFFF">
+                <g transform="translate(-43.011015, -16.288582)" id="Combined-Shape">
+                    <rect opacity="0.0938197545" transform="translate(301.299598, 41.000000) rotate(-90.000000) translate(-301.299598, -41.000000) " x="260.299598" y="0" width="82" height="82"></rect>
+                    <rect opacity="0.0965169271" transform="translate(102.000000, 75.288582) rotate(-90.000000) translate(-102.000000, -75.288582) " x="41" y="14.2995976" width="122" height="121.977969"></rect>
+                    <rect opacity="0.0938197545" transform="translate(287.157462, 55.142136) rotate(-90.000000) translate(-287.157462, -55.142136) " x="246.157462" y="14.1421356" width="82" height="82"></rect>
+                    <rect opacity="0.0965169271" transform="translate(81.000000, 96.325521) rotate(-90.000000) translate(-81.000000, -96.325521) " x="20" y="35.3365364" width="122" height="121.977969"></rect>
+                    <rect opacity="0.0938197545" transform="translate(273.722433, 68.577164) rotate(-90.000000) translate(-273.722433, -68.577164) " x="232.722433" y="27.5771645" width="82" height="82"></rect>
+                    <rect opacity="0.0965169271" transform="translate(61.000000, 116.310613) rotate(-90.000000) translate(-61.000000, -116.310613) " x="0" y="55.3216283" width="122" height="121.977969"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

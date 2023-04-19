@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="108px" viewBox="0 0 108 108" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Android</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="android_icon" transform="translate(1.000000, 1.000000)">
+            <g>
+                <g fill="#FFFFFF" stroke="#74ABFC" stroke-width="2">
+                    <circle cx="53" cy="53" r="53"></circle>
+                </g>
+                <path d="M72,41 L34,41 L34,72 C34,73.6568542 35.3431458,75 37,75 L42,75 L42,85.5 C42,87.4329966 43.5670034,89 45.5,89 C47.4329966,89 49,87.4329966 49,85.5 L49,75 L57,75 L57,85.5 C57,87.4329966 58.5670034,89 60.5,89 C62.4329966,89 64,87.4329966 64,85.5 L64,75 L69,75 C70.6568542,75 72,73.6568542 72,72 L72,41 Z"
+                      stroke="#74ABFC" stroke-width="2"></path>
+                <rect stroke="#74ABFC" stroke-width="2" x="76" y="41" width="7" height="25" rx="3.5"></rect>
+                <rect stroke="#74ABFC" stroke-width="2" x="23" y="41" width="7" height="25" rx="3.5"></rect>
+                <path d="M71.9558065,37 C71.2817271,29.3817238 62.982715,23 53,23 C43.017285,23 34.7182729,29.3817238 34.0441935,37 C38.1691777,37 38.3932191,37 41.4779699,37 C45.5565638,37 45.5565638,37 53,37 C61.006955,37 61.006955,37 65.514627,37 C68.3864373,37 68.6377345,37 71.9558065,37 Z"
+                       stroke="#74ABFC" stroke-width="2"></path>
+                <circle stroke="#74ABFC" stroke-width="2" cx="46.5" cy="30.5" r="2.5"></circle>
+                <circle stroke="#74ABFC" stroke-width="2" cx="59.5" cy="30.5" r="2.5"></circle>
+                <rect fill="#74ABFC"
+                      transform="translate(63.295965, 21.854812) rotate(34.000000) translate(-63.295965, -21.854812) "
+                      x="62.7959645" y="17.8548121" width="1" height="8" rx="0.5"></rect>
+                <rect fill="#74ABFC"
+                      transform="translate(42.704035, 21.854812) rotate(-34.000000) translate(-42.704035, -21.854812) "
+                      x="42.2040355" y="17.8548121" width="1" height="8" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

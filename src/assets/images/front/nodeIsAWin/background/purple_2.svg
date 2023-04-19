@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="73px" viewBox="0 0 264 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>purple 2</title>
+    <defs>
+        <linearGradient x1="0%" y1="58.5546831%" x2="98.8334037%" y2="58.5546831%" id="linearGradient-1">
+            <stop stop-color="#966BF0" offset="0%"></stop>
+            <stop stop-color="#7F51E0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="264" height="73" rx="16"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="purple-2">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <g id="Group-50" mask="url(#mask-3)" opacity="0.0685918899" stroke="#FFFFFF" stroke-linecap="round" stroke-width="42.2913209">
+                <g transform="translate(-108.075670, -90.138707)" id="Combined-Shape">
+                    <path d="M275.07567,182.138707 C296.976085,133.262738 322.862507,118.012669 374.802422,140.375688 C426.742337,162.738707 439.916795,115.815411 457.07567,85.1387068" transform="translate(366.075670, 133.638707) rotate(55.000000) translate(-366.075670, -133.638707) "></path>
+                    <path d="M13,163 C34.9004149,114.124031 60.786837,98.8739624 112.726752,121.236981 C164.666667,143.6 177.841124,96.6767039 195,66" transform="translate(104.000000, 114.500000) rotate(55.000000) translate(-104.000000, -114.500000) "></path>
+                    <path d="M263.07567,195.138707 C284.976085,146.262738 310.862507,131.012669 362.802422,153.375688 C414.742337,175.738707 427.916795,128.815411 445.07567,98.1387068" transform="translate(354.075670, 146.638707) rotate(55.000000) translate(-354.075670, -146.638707) "></path>
+                    <path d="M1,176 C22.9004149,127.124031 48.786837,111.873962 100.726752,134.236981 C152.666667,156.6 165.841124,109.676704 183,79" transform="translate(92.000000, 127.500000) rotate(55.000000) translate(-92.000000, -127.500000) "></path>
+                    <path d="M287.07567,170.138707 C308.976085,121.262738 334.862507,106.012669 386.802422,128.375688 C438.742337,150.738707 451.916795,103.815411 469.07567,73.1387068" transform="translate(378.075670, 121.638707) rotate(55.000000) translate(-378.075670, -121.638707) "></path>
+                    <path d="M25,151 C46.9004149,102.124031 72.786837,86.8739624 124.726752,109.236981 C176.666667,131.6 189.841124,84.6767039 207,54" transform="translate(116.000000, 102.500000) rotate(55.000000) translate(-116.000000, -102.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

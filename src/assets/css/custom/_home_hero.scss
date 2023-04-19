@@ -1,0 +1,63 @@
+$backgroundColor: #57565E;
+
+
+body {
+  background-color: $backgroundColor;
+}
+
+@mixin background-settings {
+  //background-position: top center;
+  //background-size: 100%;
+  //background-repeat: no-repeat;
+  content: " ";
+  display: block;
+  background-position: top center;
+  background-size: cover;
+  top: 0;
+  //bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 100vh;
+  z-index: -10;
+}
+
+.backgroundImagePortfolio::before {
+  @include background-settings();
+  @include background-image("/assets/images/front/heroImages/portfolio", 'jpg');
+}
+
+.backgroundImageHome::before {
+  @include background-settings();
+  @include background-image("/assets/images/front/heroImages/Hero_Image_Home", 'jpg');
+}
+
+.backgroundImageAbout::before {
+  @include background-settings();
+  @include background-image("/assets/images/front/heroImages/About", 'jpg');
+}
+
+.backgroundImageServices::before {
+  @include background-settings();
+  @include background-image("/assets/images/front/heroImages/Hero_services", 'jpg');
+}
+
+.backgroundImageSoftware::before {
+  @include background-settings();
+  @include background-image("/assets/images/front/heroImages/Hero_customenterprise", 'jpg');
+}
+
+.backgroundImageBlog::before {
+  @include background-settings();
+  @include background-image("/assets/images/front/heroImages/blog", 'jpg');
+}
+
+.backgroundImageNode::before {
+  @include background-settings();
+  @include background-image("/assets/images/front/heroImages/node_js", 'png');
+}
+
+.backgroundImageNative::before {
+  @include background-settings();
+  @include background-image("/assets/images/front/heroImages/mobile_app", 'png');
+}

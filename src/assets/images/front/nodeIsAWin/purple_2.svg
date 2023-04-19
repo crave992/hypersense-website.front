@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="73px" viewBox="0 0 264 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>purple 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="58.5546831%" x2="98.8334037%" y2="58.5546831%" id="linearGradient-1">
+            <stop stop-color="#966BF0" offset="0%"></stop>
+            <stop stop-color="#7F51E0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="264" height="73" rx="16"></rect>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Node.js-Development-Services" transform="translate(-819.000000, -7854.000000)">
+            <g id="Group-64" transform="translate(-16.000000, 6872.000000)">
+                <g id="purple-2" transform="translate(835.000000, 982.000000)">
+                    <g id="Rectangle-Copy-60">
+                        <g id="Oval-Copy-11">
+                            <g id="Group-13">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <mask id="mask-3" fill="white">
+                                                    <use xlink:href="#path-2"></use>
+                                                </mask>
+                                                <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                                                <path d="M167,92 C188.900415,43.124031 214.786837,27.8739624 266.726752,50.2369812 C318.666667,72.6 331.841124,25.6767039 349,-5" id="Path-3-Copy-5" stroke="#FFFFFF" stroke-width="42.2913209" opacity="0.0685918899" stroke-linecap="round" mask="url(#mask-3)" transform="translate(258.000000, 43.500000) rotate(55.000000) translate(-258.000000, -43.500000) "></path>
+                                                <path d="M-95.0756701,72.8612932 C-73.1752552,23.9853242 -47.2888331,8.73525561 4.65108169,31.0982744 C56.5909965,53.4612932 69.7654544,6.53799712 86.9243299,-24.1387068" id="Path-3-Copy-8" stroke="#FFFFFF" stroke-width="42.2913209" opacity="0.0685918899" stroke-linecap="round" mask="url(#mask-3)" transform="translate(-4.075670, 24.361293) rotate(55.000000) translate(4.075670, -24.361293) "></path>
+                                                <path d="M155,105 C176.900415,56.124031 202.786837,40.8739624 254.726752,63.2369812 C306.666667,85.6 319.841124,38.6767039 337,8" id="Path-3-Copy-6" stroke="#FFFFFF" stroke-width="42.2913209" opacity="0.0685918899" stroke-linecap="round" mask="url(#mask-3)" transform="translate(246.000000, 56.500000) rotate(55.000000) translate(-246.000000, -56.500000) "></path>
+                                                <path d="M-107.07567,85.8612932 C-85.1752552,36.9853242 -59.2888331,21.7352556 -7.34891831,44.0982744 C44.5909965,66.4612932 57.7654544,19.5379971 74.9243299,-11.1387068" id="Path-3-Copy-9" stroke="#FFFFFF" stroke-width="42.2913209" opacity="0.0685918899" stroke-linecap="round" mask="url(#mask-3)" transform="translate(-16.075670, 37.361293) rotate(55.000000) translate(16.075670, -37.361293) "></path>
+                                                <path d="M179,80 C200.900415,31.124031 226.786837,15.8739624 278.726752,38.2369812 C330.666667,60.6 343.841124,13.6767039 361,-17" id="Path-3-Copy-7" stroke="#FFFFFF" stroke-width="42.2913209" opacity="0.0685918899" stroke-linecap="round" mask="url(#mask-3)" transform="translate(270.000000, 31.500000) rotate(55.000000) translate(-270.000000, -31.500000) "></path>
+                                                <path d="M-83.0756701,60.8612932 C-61.1752552,11.9853242 -35.2888331,-3.26474439 16.6510817,19.0982744 C68.5909965,41.4612932 81.7654544,-5.46200288 98.9243299,-36.1387068" id="Path-3-Copy-10" stroke="#FFFFFF" stroke-width="42.2913209" opacity="0.0685918899" stroke-linecap="round" mask="url(#mask-3)" transform="translate(7.924330, 12.361293) rotate(55.000000) translate(-7.924330, -12.361293) "></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-26-Copy" transform="translate(73.000000, 25.000000)"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

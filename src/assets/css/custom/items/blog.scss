@@ -1,0 +1,221 @@
+.blogPage {
+
+  .section-title {
+    margin: 0;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 35vh;
+    min-height: 35rem;
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      padding-bottom: 2.4rem;
+      max-width: 100%;
+      color: #FFFFFF;
+      font-family: 'Mulish', sans-serif;
+      font-size: 3.4rem;
+      letter-spacing: 0;
+      line-height: 4.8rem
+    }
+    p {
+      color: #FFFFFF;
+      font-family: 'Roboto', sans-serif;
+      font-size: 2rem;
+      letter-spacing: 0.21px;
+      line-height: 3.3rem;
+      text-align: center;
+    }
+
+  }
+
+  .bg-round-mask {
+    @include background-image("/assets/images/front/bg-shape-gray", 'png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: transparent;
+    padding: 0;
+    height: 20rem;
+
+
+  }
+}
+
+.postItems {
+
+  a:hover .cta-effect svg {
+    width: 3rem;
+    margin-left: 1rem;
+  }
+
+  margin: 0;
+  justify-content: space-evenly;
+
+
+  .postItem {
+
+    &:nth-child(3n + 2) {
+      padding: 0 2rem;
+
+      @media only screen and (max-width: 768px) {
+        padding: 0;
+      }
+
+    }
+    .postItemInside {
+      width: 34.8rem;
+      box-shadow: 0 22px 44px 0 rgba(0,0,0,0.07);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      margin-bottom: 3.6rem;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      border-radius: 50px;
+      overflow: hidden;
+
+      @media only screen and (max-width: 768px) {
+        width: 34.8rem;
+      }
+
+      &:hover {
+        box-shadow: 0 2px 75px 0 rgba(255,76,76,0.26);
+      }
+
+      .blogItemImage {
+
+
+
+        width: 100%;
+        min-height: 19.6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+
+      .blogItemDescription {
+        height: 100%;
+        padding: 2rem 3.7rem 2.4rem 3.7rem;
+        display: flex;
+        flex-direction: column;
+
+        @media only screen and (max-width: 761px) {
+          padding: 1rem 2.7rem 2.4rem 2.7rem;
+        }
+
+        .category {
+          color: #FF8585;
+          font-family: 'Roboto', sans-serif;
+          font-size: 1.6rem;
+          letter-spacing: 0.1px;
+          line-height: 2.7rem;
+        }
+
+
+        .postTitleAndDescription {
+          margin-top: 1rem;
+          height: 19rem;
+          overflow: hidden;
+
+          .blogItemTitle {
+            color: #2E2E2E;
+            font-family: 'Mulish', sans-serif;
+            font-size: 1.7rem;
+            font-weight: bold;
+            line-height: 2.5rem;
+            height: 9rem;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+          }
+
+          .description {
+            margin-top: 2rem;
+            color: #646A83;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0.1px;
+            line-height: 25px;
+            overflow: hidden;
+
+          }
+        }
+
+        .readMore {
+          margin-top: 1rem;
+          text-align: center;
+        }
+      }
+    }
+
+    &.loading {
+
+      .postItemInside .blogItemDescription .postTitleAndDescription .blogItemTitle  {
+        display: block;
+      }
+    }
+  }
+
+  .noSearchResults {
+    margin-bottom: 13rem;
+    text-align: center;
+
+    a {
+      margin-right: 1.2rem;
+      margin-left: 1.2rem;
+      margin-bottom: 2rem;
+
+      &.cta {
+        color: #2E2E2E;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0.1px;
+        line-height: 1.4rem;
+        font-weight: 400;
+
+        span{
+          margin-left: 2rem;
+        }
+      }
+    }
+
+    .titleNoResults {
+      margin-bottom: 8rem;
+      h2 {
+        color: #2E2E2E;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.4rem;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 3.6rem;
+        text-align: center;
+      }
+    }
+
+    p {
+      color: #2E2E2E;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 3.6rem;
+      text-align: center;
+      margin-bottom: 1.4rem;
+    }
+  }
+
+}

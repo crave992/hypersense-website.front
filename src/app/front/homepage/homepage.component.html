@@ -1,0 +1,133 @@
+<div class="backgroundImageHome backgroundImage">
+  <app-front-menu></app-front-menu>
+  <!-- Hero Image -->
+  <app-hero-image [childrenHtml]="heroHtml"></app-hero-image>
+
+  <!-- Blue Badge -->
+  <div class="firstSection d-block bg-round-mask homepageText">
+    <div class="container">
+      <div class="d-flex message">
+        <div>
+          <h2>Introducing HyperSense</h2>
+          <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+          <p>Based in Romania, we are a full-service company providing custom software solutions, with over a hundred successful projects delivered to clients worldwide.</p>
+        </div>
+      </div>
+      <div class="blue-badge">
+        <div class="m-auto">
+          <picture>
+            <source srcset="
+                   ./assets/images/front/home/top_image.png 1x,
+                   ./assets/images/front/home/top_image@2x.png 2x,
+                   ./assets/images/front/home/top_image@3x.png 3x
+                  "
+                    type="image/png"
+            >
+            <img loading=lazy src="./assets/images/front/home/top_image.png"
+                 class="contactImage1"
+                 alt="icon"
+            >
+          </picture>
+          <p class="title">Experience counts</p>
+          <p>Celebrating over 15 years of</p>
+          <p>best-in-class software development.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tehnologies -->
+  <div class="d-block bg-white technologies">
+    <div class="container">
+      <div class="row items">
+        <div class="item "
+             *ngFor="let item of listTehnologiesBadges"
+
+        >
+          <a [routerLink]="item.url"
+             [state]="item.state"
+          >
+            <p [inlineSVG]="item.src"></p>
+            <p class="label-tehnologies">{{item.name}}</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-testimonials-home id="testimonials"></app-testimonials-home>
+
+  <!--Solutions -->
+  <app-build-solutions ></app-build-solutions>
+  <app-build-solutions
+          [bgClass]="'bg-grey'"
+          [title]="'We offer advanced technical skills'"
+          [titleDescription]="'From Node.js to Flutter, and everything in between.'"
+          [projects]="listSolutions"
+          [showFooter]="false"
+  >
+  </app-build-solutions>
+  <!-- Solutions -->
+
+  <!-- Services -->
+  <div class="servicesCards bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>We provide a wide range of services</h2>
+            <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" *ngFor="let item of listServices">
+          <div class="layer">
+            <div class="title">
+              <img loading=lazy [alt]="item.title" [src]="item.image" [srcset]="item.srcsetImage"/>
+              <h3>{{item.title}}</h3>
+            </div>
+            <div class="for-border position-relative description">
+              <div class="overlay"></div>
+              <div>
+                <p>{{item.description}}</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Industries -->
+  <div class="industries sectionPadding bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>We have experience across multiple industries</h2>
+            <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <ul class="items">
+            <li class="item" *ngFor="let item of listTopPriorities; let i = index">
+              <p [inlineSVG]="item.src"></p>
+              <p class="mobileText">{{item.name}}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <app-contact-form></app-contact-form>
+</div>
+
+
+

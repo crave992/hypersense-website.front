@@ -1,0 +1,78 @@
+<header class="mainMenu"
+        [ngClass]="{
+        'sticky' : sticky,
+        'blog': blog,
+        'fullWidth': fullWidth,
+        'project': project,
+        'contact': contact
+        }"
+        #stickyMenu>
+  <div class="container" [ngClass]="{'openContainer': !isMenuCollapsed}">
+    <nav class="navbar navbar-expand-lg"
+         [ngClass]="{'sticky' : sticky, 'mobileOpen': !isMenuCollapsed, 'blog': blog}"
+    >
+
+      <div class="insideMenu">
+        <a class="navbar-brand" routerLink="/">
+          <p class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 584.62 585">
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="Layer_1-2" data-name="Layer 1">
+                  <path id="logo_svg-a" data-name="logo svg-a" d="M526.8 465.65L409.47 335.29a4 4 0 00-2.22-1.26l-107.76-20.52a1 1 0 00-.74.15 1 1 0 00-.27 1.39q61.29 91.36 87.54 137.3c26.53 46.43 29.18 62.34 19.9 90.2-4.46 13.37-11.36 22.16-19.24 27l2.62-.9a293.07 293.07 0 00138-101.67 2 2 0 00-.5-1.33zM359.49 571.73C342.24 565.1 275.92 520 175.1 411.22Q75.25 303.49 18.33 194.44a1 1 0 00-.57-.49 1 1 0 00-.76.05 291.89 291.89 0 00-17 98.5C0 454 131 585 292.5 585a292.62 292.62 0 0080.08-11.1 31.82 31.82 0 01-13.09-2.17z" fill-rule="evenodd" fill="#97a7b5"/>
+                  <path fill-rule="evenodd" fill="#f66847" d="M584.26 313.41a291.38 291.38 0 01-12.37 65.93 1 1 0 01-.86.15.94.94 0 01-.52-.35l-31-39.73a1 1 0 01.17-1.41 1.07 1.07 0 01.32-.16q16.29-5.14 26.48-11.51a60.5 60.5 0 0015.9-14.13 1 1 0 011.41-.17 1 1 0 01.36.6zM340.61 250.71a1 1 0 01-1.17.79l-.81-.15q-31.51-6-42.81-7.27-3.68-.41-6.21-.94l-.28-.06a6 6 0 01-4.3-7.32l.22-.83a179.7 179.7 0 003.93-18.71q1.24-8.68 4.81-29a1 1 0 011.86-.31l.69 1.26a284.82 284.82 0 0019.17 30.7q10 13.73 24.68 31a1 1 0 01.22.84z"/>
+                  <path fill-rule="evenodd" fill="#f66847" d="M584.62 277.38a1 1 0 01-.76.42 1 1 0 01-.81-.33 19.78 19.78 0 00-15.29-6.86h-3.39c-8.06 0-22.17-.05-36.06-.36h-1.48c-8.17-.19-16.18-.49-22.75-.92q-10.9-.74-18.22-1.06a23 23 0 01-16.5-8.09q-9.84-11.58-19.67-25.34c-7.29-10.22-24.22-34.88-41.73-59.64l-1.91-2.7c-13.71-19.39-27.58-38.5-37.27-50.5-22.56-27.86-41.13-45.1-58.37-45.1s-29.19 26.53-34.49 39.79-13.27 49.13-17.25 78.31q-3.62 26.52-5 49.74l-.1 1.72a1 1 0 01-1.06.94 1 1 0 01-.76-.43q-33.66-49-67.32-90.44c-33.11-40.75-55.22-63.16-65.15-73.11l-.9-.89-.28-.29q-8.43-8.43-11.4-13.58l-.16-.29a1 1 0 01.22-1.24q7.88-6.84 17.18-13.68A291.17 291.17 0 01292.5 0C449 0 576.75 122.86 584.62 277.38z"/>
+                </g>
+              </g>
+            </svg>
+          </p>
+          <p class="text" ><span class="color">HyperSense</span> Software</p>
+        </a>
+
+        <button class="navbar-toggler navbar-light menuButton" type="button" title="Toggle navigation" (click)="collapse();">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngbCollapse]="isMenuCollapsed">
+
+        <ul class="navbar-nav ml-auto">
+          <li *ngFor="let item of appMenu" class="nav-item" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" ngbDropdown>
+
+            <a *ngIf="item.suboptions.length === 0" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="nav-link" routerLink={{item.link}} >
+              {{item.name}}
+            </a>
+
+            <div *ngIf="item.suboptions.length > 0" class="nav-link dropdown-toggle" [id]="'dropdown-menu'+item.id" >
+              {{item.name}}
+            </div>
+
+            <div *ngIf="item.suboptions.length > 0" class="hideMobile dropdown-menu dropdown-menu-center" ngbDropdownMenu>
+              <p class="iconDropdown" [inlineSVG]="'assets/images/icons/dropdownIcon.svg'"></p>
+              <div class="dropDownMenu">
+                <a  *ngFor="let itemO of item.suboptions" routerLinkActive="active" routerLink={{itemO.link}} ngbDropdownItem>
+                  <div class="menuItem">
+                    <p class="icon" *ngIf="itemO.icon" [inlineSVG]="itemO.icon"></p>
+                    <p class="text">{{itemO.name}}</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div *ngIf="item.suboptions.length > 0" class="mobileSubOptions">
+              <div class="menuItemsMobile">
+                <a class="menuItemMobile" *ngFor="let itemO of item.suboptions" routerLinkActive="active" routerLink={{itemO.link}}>
+                  <div class="menuItemTextMobile">
+                    <p class="icon" *ngIf="itemO.icon" [inlineSVG]="itemO.icon"></p>
+                    <p class="text">{{itemO.name}}</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+

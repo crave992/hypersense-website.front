@@ -1,0 +1,98 @@
+.portfolio-slider {
+
+  .owl-item {
+    padding: 5rem 3rem;
+
+    .project-item {
+      display: flex;
+      flex-wrap: wrap;
+
+      @media only screen and (max-width: 768px) {
+        flex-direction: column-reverse;
+      }
+
+      .project-text {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+
+        -webkit-box-flex: 0;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+
+        @media only screen and (max-width: 768px) {
+          -webkit-box-flex: 0;
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+
+        h3 {
+          font-size: 3.4rem;
+          color: #1b1b1b;
+          @media only screen and (max-width: 768px) {
+            font-size: 2.4rem;
+          }
+        }
+
+        blockquote {
+          font-size: 1.7rem;
+          line-height: 2.6rem;
+          color: #1b1b1b;
+          font-weight: 500;
+          padding: 2.6rem 0;
+
+          svg {
+            display: inline-block;
+            width: 2.4rem;
+          }
+
+        }
+
+      }
+
+      .project-image {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+
+        @media only screen and (max-width: 768px) {
+          -webkit-box-flex: 0;
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          margin-bottom: 4rem;
+        }
+      }
+    }
+
+  }
+
+
+  .owl-theme .owl-nav {
+    margin-top: 0;
+  }
+
+  .owl-nav {
+    .owl-prev {
+      position: absolute;
+      top: 50%;
+      left: 0;
+    }
+    .owl-next {
+      position: absolute;
+      top: 50%;
+      right: 0;
+    }
+  }
+
+
+  .owl-theme .owl-nav [class*=owl-] {
+    background: transparent;
+  }
+
+}

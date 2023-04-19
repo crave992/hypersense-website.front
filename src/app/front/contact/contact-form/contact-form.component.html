@@ -1,0 +1,165 @@
+<ng-template #image let-item="item">
+    <picture>
+        <source srcset="
+                                       ./assets/images/front/contact/contact_image.png 1x,
+                                       ./assets/images/front/contact/contact_image@2x.png 2x,
+                                       ./assets/images/front/contact/contact_image@3x.png 3x
+                                      "
+                type="image/png"
+        >
+        <img src="./assets/images/front/contact/contact_image.png"
+             class=""
+             alt="icon"
+        >
+    </picture>
+</ng-template>
+
+<div class="contactFormInside sectionPadding"
+     (dragover)="dragover($event)"
+     (dragexit)="dragleave($event)"
+     (drop)="drop($event)"
+     [class.dragOver]="dragOver"
+     [ngClass]="bgClass"
+     #successMessage
+>
+    <div class="container">
+        <div class="loadingDiv" [ngClass]="{'show': loading}">
+            <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-12" *ngIf="formSubmitted">
+                <app-message-sent (resetFormEvent)="resetForm()" ></app-message-sent>
+            </div>
+
+            <div class="col-12 col-lg-6" >
+                <div class="contact" *ngIf="!formSubmitted">
+                    <div class="text-section">
+                        <h2>Let’s talk!</h2>
+                        <p>
+                            We want to know how we can help your business.
+                            Send us your details using the form to the right,
+                            and we’ll get back to you within 24 hours.
+                            If you don’t like forms, you can always write us at
+                            <span class="d-block"><a href="mailto:office@hypersense-software.com" (click)="clickEmail()">office@hypersense-software.com</a>.</span>
+                        </p>
+                    </div>
+                    <span class="d-none d-lg-block">
+                                <ng-container [ngTemplateOutlet]="image">
+                                </ng-container>
+                            </span>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6" *ngIf="!formSubmitted">
+                <form [formGroup]="contactForm">
+                    <div class="form-container">
+
+                        <div class="contactElement" [class.inputWithError]="(nameCtrl.dirty || nameCtrl.touched) && nameCtrl.invalid">
+                            <label for="name">Full Name</label>
+                            <input
+                                    type="text"
+                                    class="form-control contact-input cInput"
+                                    required
+                                    id="name"
+                                    formControlName="name"
+                                    [class.errorInput]="(nameCtrl.dirty || nameCtrl.touched) && nameCtrl.invalid"
+                                    name="name"
+                                    placeholder="Fill with full name"
+                            >
+                            <div class="errortext animated fadeIn" *ngIf=" (nameCtrl.dirty || nameCtrl.touched) && nameCtrl.invalid">
+                                <div class="error">
+                                    This field is required!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contactElement" [class.inputWithError]="(emailCtrl.dirty || emailCtrl.touched) && emailCtrl.invalid">
+                            <label for="email">Email Address</label>
+                            <input type="email"
+                                   class="form-control contact-input cInput"
+                                   [class.errorInput]="(emailCtrl.dirty || emailCtrl.touched) && emailCtrl.invalid"
+                                   required
+                                   id="email"
+                                   email="true"
+                                   formControlName="email"
+                                   name="email"
+                                   placeholder="Fill with email address"
+                            >
+                            <div class="errortext animated fadeIn" *ngIf="(emailCtrl.dirty || emailCtrl.touched) && emailCtrl.invalid">
+                                <div class="error" *ngIf="emailCtrl.errors.required"> This field is required! </div>
+                                <div class="error" *ngIf="emailCtrl.errors.email"> This field is invalid! </div>
+                            </div>
+                        </div>
+
+                        <div class="contactElement">
+                            <label for="phoneNumber">Phone Number (Optional)</label>
+                            <input type="text"
+                                   class="form-control contact-input cInput"
+                                   id="phoneNumber"
+                                   formControlName="phoneNumber"
+                                   name="phoneNumber"
+                                   placeholder="Fill with phone number"
+                            >
+                        </div>
+                        <div class="contactElement" [class.inputWithError]="(messageCtrl.dirty || messageCtrl.touched) && messageCtrl.invalid">
+                            <label for="message">Write a message for us</label>
+                            <textarea id="message"
+                              formControlName="message"
+                              name="message"
+                              cols="30"
+                              rows="3"
+                              required
+                              [class.errorInput]="(messageCtrl.dirty || messageCtrl.touched) && messageCtrl.invalid"
+                              class="form-control contact-input"
+                              placeholder="How can we help?"
+                            >
+                            </textarea>
+                            <div class="errortext animated fadeIn" *ngIf="(messageCtrl.dirty || messageCtrl.touched) && messageCtrl.invalid">
+                                <div class="error">
+                                    This field is required!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fileUploadSection">
+                        <input type="file" class="d-none"  name="file" id="files" #fileInput (change)="onFileSelected($event)">
+                        <div class="upload"  (click)="fileInput.click()" *ngIf="!file">
+                            <div class="uploadIcon" [inlineSVG]="'assets/images/front/contact/uploadIcon.svg'">
+                            </div>
+                            <div class="dropText">
+                                <p><span class="colorBack">Select</span> or <span class="colorBack">drag</span> your file here</p>
+                                <p>(size limit: 10MB)</p>
+                            </div>
+                        </div>
+                        <div class="contactFile" *ngIf="file">
+                            <p class="fileName">{{file.name}}</p>
+                            <p class="fileSize">{{ (file.size / (1024*1024)).toFixed(2) }} MB</p>
+                            <i class="fa fa-close" (click)="removeFile()"></i>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="ahref cta black m-auto" (click)="sendMessage()">
+                            SEND MESSAGE
+                            <span [inlineSVG]="'assets/images/front/r-arrow_white.svg'"></span>
+                        </button>
+                    </div>
+                    <div class="infoMessage">
+                        <p>
+                            This site is protected by reCAPTCHA and the Google
+                            <a rel="noopener noreferrer" href="https://policies.google.com/privacy">Privacy Policy</a> and
+                            <a rel="noopener noreferrer" href="https://policies.google.com/terms">Terms of Service</a> apply.
+                        </p>
+                    </div>
+                    <span class="d-block d-lg-none imageBottom">
+                        <ng-container [ngTemplateOutlet]="image">
+                        </ng-container>
+                    </span>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

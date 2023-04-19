@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="24px" viewBox="0 0 26 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Warning</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-15" transform="translate(-21.000000, -45.000000)">
+            <g id="Warning" transform="translate(18.000000, 42.000000)">
+                <path d="M19.4411661,5.80696785 L28.4212091,20.9607904 C29.5474335,22.861294 28.9197562,25.3149418 27.0192526,26.4411661 C26.4019447,26.8069782 25.6975996,27 24.980043,27 L7.01995699,27 C4.81081799,27 3.01995699,25.209139 3.01995699,23 C3.01995699,22.2824434 3.21297877,21.5780983 3.57879085,20.9607904 L12.5588339,5.80696785 C13.6850582,3.90646427 16.138706,3.27878694 18.0392096,4.40501128 C18.6167757,4.74727272 19.0989047,5.22940168 19.4411661,5.80696785 Z" id="Triangle" fill="#FFC778"></path>
+                <rect id="Rectangle" fill="#FFFFFF" x="14" y="9" width="4" height="10" rx="2"></rect>
+                <rect id="Rectangle-Copy-25" fill="#FFFFFF" x="14" y="20" width="4" height="4" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

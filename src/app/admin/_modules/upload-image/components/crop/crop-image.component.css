@@ -1,0 +1,14 @@
+:host {
+
+}
+
+:host .img-container{
+    width: auto;
+    max-height:60vh;
+}
+
+:host .img-preview{
+    display: none;
+}
+
+

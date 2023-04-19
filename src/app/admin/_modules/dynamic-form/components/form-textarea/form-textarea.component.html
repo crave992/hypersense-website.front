@@ -1,0 +1,16 @@
+<div
+        class="dynamic-field form-textarea {{config.name}}"
+        [ngClass]="group.get(config.name).touched && group.get(config.name).errors ? 'validation-error' : ''"
+        [formGroup]="group">
+    <label>{{ config.label }}</label>
+    <textarea
+            type="text"
+            [attr.placeholder]="config.placeholder"
+            [formControlName]="config.name"
+    ></textarea>
+    <span class="pull-right char" *ngIf="config.counter"><em>{{ counter() }} characters </em></span>
+
+    <ng-container *ngFor="let item of config.validation;">
+        <p class="dynamic-field-error" *ngIf="group.get(config.name).touched && group.get(config.name).hasError(item.name)">{{item.message}}</p>
+    </ng-container>
+</div>

@@ -1,0 +1,15 @@
+<ngb-toast
+  *ngFor="let toast of toastService.toasts"
+  [autohide]="toast.autohide"
+  [delay]="toast.delay || 2000"
+  (hide)="toastService.remove(toast)"
+>
+  <div class="containerToast" [className]="toast.classname">
+    <div class="toastImage"></div>
+    <div class="toastText">
+      <div class="toastTitle">{{toast.headertext}}</div>
+      <div class="toastMessage"><span>{{toast.textOrTpl}}</span></div>
+    </div>
+    <div class="toastClose" (click)="toastService.remove(toast)"></div>
+  </div>
+</ngb-toast>

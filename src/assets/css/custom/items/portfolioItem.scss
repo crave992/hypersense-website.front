@@ -1,0 +1,430 @@
+.portfolioItemPage {
+
+  .site {
+    background-color: white;
+  }
+  .container-fluid {
+    background-color: white;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container {
+    background-color: #FCFCFF;
+    width: calc(75% - 7.5px);
+
+    @media only screen and (max-width: 1202px) {
+      width: calc(79% - 7.5px);
+    }
+
+    @media only screen and (max-width: 767px) {
+      width: calc(100% - 7.5px);
+    }
+
+  }
+  .containerPortfolio {
+    margin: 4.7rem auto 0 auto;
+
+    .postDate {
+      color: #F2A886;
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 2rem;
+    }
+
+    h1 {
+      color: #4A4A4A;
+      font-size: 4.1rem;
+      font-weight: 600;
+      line-height: 4.8rem;
+      margin: 1.5rem 0;
+    }
+
+  }
+
+  .postImage {
+
+    margin: 3rem -15px;
+    .portfolioItemImage {
+      width: 100%;
+      min-height: 40rem;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+  }
+
+  .containerPortfolioBar {
+    border-radius: 50.5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 22px 44px 0 rgba(0,0,0,0.07);
+    min-height: 9.1rem;
+    align-items: center;
+    display: flex;
+    margin: 0 -15px 3.5rem -25px;
+    @media only screen and (max-width: 500px) {
+      margin: 0 -10px 3.5rem -10px;
+    }
+    .shareSection {
+
+      ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 0;
+        .text {
+          color: #1B1B1B;
+          font-size: 1.4rem;
+          font-weight: 600;
+          letter-spacing: 0.39px;
+          margin-right: 3rem;
+          display: flex;
+          align-items: center;
+        }
+
+        .icon {
+          font-size: 2.4rem;
+          font-weight: 600;
+          letter-spacing: 0.39px;
+          margin-right: 3rem;
+          cursor: pointer;
+        }
+      }
+
+
+    }
+  }
+
+
+  .ql-align-left {
+    text-align: left;
+  }
+  .ql-align-center {
+    text-align: center;
+  }
+  .ql-align-right {
+    text-align: right;
+  }
+  .ql-align-justify {
+    text-align: justify;
+  }
+
+  .contentPortfolioRight {
+    img {
+      margin-bottom: 3.5rem;
+    }
+
+    .ql-video {
+      margin: 3.5rem auto 0 auto;
+      width: 100%;
+      height: 23vw;
+
+      @media only screen and (max-width: 1400px) {
+        width: 100%;
+        height: 22.7vw;
+      }
+
+      @media only screen and (max-width: 991px) {
+        width: 100%;
+        height: 19.3vw;
+      }
+
+      @media only screen and (max-width: 767px) {
+        width: 100%;
+        height: 51.5vw;
+      }
+
+    }
+
+  }
+
+  .categorySection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .categoryIndustry {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      color: #F66847;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 3.4rem;
+    }
+    .categoryList {
+      display: flex;
+      flex-wrap: wrap;
+      .categoryItem {
+        color: #F66847;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        letter-spacing: 0;
+        line-height: 3.4rem;
+      }
+    }
+  }
+
+  .titleSection {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    h1 {
+      color: #2E2E2E;
+      font-family: 'Mulish', sans-serif;
+      font-size: 3.8rem;
+      font-weight: bold;
+      letter-spacing: 0.15px;
+      line-height: 4.9rem;
+
+    }
+
+  }
+  .containerProjectBar {
+    position: absolute;
+    top: 0;
+    left: -9rem;
+
+    $inlineShareSection: 991px;
+
+    @media only screen and (max-width: $inlineShareSection) {
+      top: auto;
+      left: auto;
+      position: relative;
+    }
+
+    .shareSection {
+      .ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        @media only screen and (max-width: $inlineShareSection) {
+          flex-direction: row;
+        }
+        .text {
+          @media only screen and (max-width: $inlineShareSection) {
+            flex: 1 1 100%;
+          }
+          p {
+            color: #2E2E2E;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.6rem;
+            letter-spacing: 0.1px;
+            line-height: 3.4rem;
+            align-items: center;
+          }
+        }
+
+        .icon {
+          color: #74ABFC;
+          font-size: 2.4rem;
+          font-weight: 600;
+          letter-spacing: 0.39px;
+          cursor: pointer;
+          width: 4.8rem;
+          height: 4.8rem;
+          background-color: rgba(216, 216, 216, 0.3);
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 1.8rem;
+
+          @media only screen and (max-width: $inlineShareSection) {
+            width: 3.4rem;
+            height: 3.4rem;
+            margin-right: 1.5rem;
+          }
+          a {
+            display: flex;
+            justify-content: center;
+            &:hover{
+              text-decoration: none;
+            }
+
+            .fa {
+              @media only screen and (max-width: $inlineShareSection) {
+                font-size: 1.9rem;
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .containerPortfolioTest {
+    padding-top: 5rem;
+
+    @media only screen and (max-width: 767px) {
+      padding-top: 2rem;
+    }
+  }
+
+}
+.contentPortfolioItem {
+
+  color:#4C4C4C;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 3.6rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h5 {
+    font-size: 2.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h6 {
+    font-size: 2.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: #f5694d;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    color: #2E2E2E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.11px;
+    line-height: 3.7rem;
+
+    .ql-size-small {
+      font-size:1.4rem;
+    }
+    .ql-size-large {
+      font-size:2.8rem;
+    }
+    .ql-size-huge {
+      font-size:4rem;
+    }
+    em {
+      font-style: italic;
+    }
+    strong{
+      font-weight: 900;
+    }
+
+
+    &.ql-indent-1 {
+      text-indent: 2.4rem;
+    }
+    &.ql-indent-2 {
+      text-indent: 4.8rem;
+    }
+    &.ql-indent-3 {
+      text-indent: 7.2rem;
+    }
+
+    sup {
+      top: -0.25em;
+    }
+    sub {
+      bottom: -0.25em;
+    }
+  }
+
+  pre {
+    border-top: 0.6rem solid #EDEDF5;
+    border-bottom: 0.6rem solid #EDEDF5;
+    border-left: 1.8rem solid #EDEDF5;
+    border-right: 1.8rem solid #EDEDF5;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    border-radius: 2.5rem;
+    padding: 2rem 3.5rem;
+    font-family: monospace, monospace;
+    font-size: 1.6rem;
+    margin: 2rem auto;
+    width: calc(50% - 7rem);
+  }
+
+  ol {
+    list-style: decimal;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin: 3.5rem auto;
+    padding-left: 2.4rem;
+  }
+
+  ul {
+    list-style: disc;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin: 3.5rem auto;
+    padding-left: 2.4rem;
+  }
+
+  iframe {
+
+  }
+
+  blockquote {
+    &:before {
+      content:'“';
+      margin-left: 15px;
+    }
+    &:after {
+      content:'”';
+      margin-right: 15px;
+    }
+    font-size: 2.4rem;
+    padding: 6rem 4rem;
+    text-align: center;
+    background-color: #FDF0EE;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 600;
+  }
+
+}
+
+
+.lineEnd {
+  width: 100%;
+  height: 1px;
+  background-color: #97A7B5;
+}
+
+.relatedProjects {
+  color: #2E2E2E;
+  font-family: 'Mulish', sans-serif;
+  font-size: 2.6rem;
+  font-weight: bold;
+  letter-spacing: 0.27px;
+  line-height: 3.3rem;
+  text-align: center;
+  padding-top: 5rem;
+}

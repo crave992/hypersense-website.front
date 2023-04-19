@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="63px" viewBox="0 0 72 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nodeAws3</title>
+    <defs>
+        <linearGradient x1="54.4357048%" y1="87.917118%" x2="39.0494361%" y2="-62.3251223%" id="linearGradient-1">
+            <stop stop-color="#FF6D6D" offset="0%"></stop>
+            <stop stop-color="#FFC0C0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="All-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Node.js-Development-Services" transform="translate(-426.000000, -6453.000000)">
+            <g id="Group-8" transform="translate(215.000000, 5931.000000)">
+                <g id="Group-27" transform="translate(0.000000, 523.000000)">
+                    <g id="Group-12" transform="translate(79.000000, 0.000000)">
+                        <g id="nodeAws3" transform="translate(131.999992, 0.000000)">
+                            <circle id="Oval" fill="#4A4A4A" opacity="0.299548921" cx="24.3999985" cy="5.19999969" r="1.19999993"></circle>
+                            <circle id="Oval" fill="#4A4A4A" opacity="0.299548921" cx="30.7999982" cy="5.19999969" r="1.19999993"></circle>
+                            <circle id="Oval" fill="#4A4A4A" opacity="0.299548921" cx="37.1999978" cy="5.19999969" r="1.19999993"></circle>
+                            <g id="Group-77-Copy" transform="translate(35.399996, 30.500000) scale(-1, 1) translate(-35.399996, -30.500000) translate(0.399996, 0.000000)">
+                                <g id="Group-39">
+                                    <rect id="Rectangle-Copy-85" fill="#4A4A4A" opacity="0.299548921" x="31.9999981" y="42.3999975" width="13.5999992" height="2.39999986" rx="1.19999993"></rect>
+                                    <rect id="Rectangle-Copy-89" fill="#4A4A4A" opacity="0.299548921" transform="translate(37.999998, 15.599999) scale(-1, 1) translate(-37.999998, -15.599999) " x="31.1999981" y="14.3999991" width="13.5999992" height="2.39999986" rx="1.19999993"></rect>
+                                    <rect id="Rectangle-Copy-91" fill="url(#linearGradient-1)" transform="translate(10.799999, 25.199998) scale(-1, 1) translate(-10.799999, -25.199998) " x="5.59999967" y="14.3999991" width="10.3999994" height="21.5999987" rx="5.19999969"></rect>
+                                    <rect id="Rectangle-Copy-87" fill="#4A4A4A" opacity="0.299548921" x="31.9999981" y="47.9999971" width="22.3999987" height="2.39999986" rx="1.19999993"></rect>
+                                    <rect id="Rectangle-Copy-90" fill="#4A4A4A" opacity="0.299548921" transform="translate(33.599998, 21.199999) scale(-1, 1) translate(-33.599998, -21.199999) " x="22.3999987" y="19.9999988" width="22.3999987" height="2.39999986" rx="1.19999993"></rect>
+                                    <path d="M59.1913556,32.784147 C59.1913556,37.8617432 59.1942359,46.8114708 59.1999965,59.6333298 C59.1999965,60.2776619 58.6744177,60.7999964 58.0260835,60.7999964 C44.6773164,60.7999964 34.665741,60.7999964 27.9913575,60.7999964" id="Rectangle-Copy-70" stroke="#4A4A4A" stroke-width="1.99999988" stroke-linecap="round" transform="translate(43.595677, 46.792072) rotate(-180.000000) translate(-43.595677, -46.792072) "></path>
+                                    <path d="M26.3999984,0.0141298817 L44.7999983,0.00329697183 C47.8927902,-0.00181989673 50.4014712,2.50390882 50.403292,5.59670269 C50.4032927,5.59780168 50.403293,5.59890068 50.399997,5.59999967 L50.399997,36.8141277 C50.4015668,39.9069221 47.8943615,42.4141274 44.8015671,42.4141274 C44.8010438,42.4141274 44.8005204,42.4141273 44.7999975,42.4125574 L5.59999945,42.4015675 C2.50781869,42.3991303 0.00157020694,39.8921791 0,36.7999978 L0,15.214129 L0,15.214129" id="Rectangle-Copy-81" stroke="#4A4A4A" stroke-width="1.99999988" stroke-linecap="round" transform="translate(25.199998, 21.207064) rotate(-180.000000) translate(-25.199998, -21.207064) "></path>
+                                </g>
+                                <path d="M63.9738067,15.1995716 L63.9738067,39.1995716 C63.9738067,51.12892 56.3390839,60.7995689 46.9211761,60.7995689 L27.9999983,60.7995689" id="Rectangle" stroke="#4A4A4A" stroke-width="1.99999988"></path>
+                                <path d="M68.1354573,23.1492707 L61.5011431,23.7149561 C60.6174876,23.7149561 59.9011432,22.9986117 59.9011432,22.1149562 L60.4668286,15.480642" id="Rectangle" stroke="#4A4A4A" stroke-width="1.99999988" stroke-linecap="round" transform="translate(64.018300, 19.597799) rotate(-225.000000) translate(-64.018300, -19.597799) "></path>
+                                <g id="Group-78" transform="translate(26.450609, 31.878025) rotate(-45.000000) translate(-26.450609, -31.878025) translate(16.450609, 25.378025)" stroke="#4A4A4A" stroke-linecap="round" stroke-width="1.99999988">
+                                    <line x1="15.1666947" y1="6.26761862" x2="-1.63330432" y2="6.26761862" id="Path-4" transform="translate(6.766695, 6.267619) rotate(-45.000000) translate(-6.766695, -6.267619) "></line>
+                                    <line x1="21.1549194" y1="5.70193323" x2="5.95492032" y2="5.70193323" id="Path-4" transform="translate(13.554920, 5.701933) rotate(-315.000000) translate(-13.554920, -5.701933) "></line>
+                                </g>
+                            </g>
+                            <line x1="19.9999988" y1="9.59999943" x2="70.3999958" y2="9.59999943" id="Path-2" stroke="#4A4A4A" stroke-width="1.99999988"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

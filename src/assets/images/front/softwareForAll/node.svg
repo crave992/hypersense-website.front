@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="25px" viewBox="0 0 33 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Node.js</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[mobile]-Menu_White" transform="translate(-31.000000, -211.000000)">
+            <g id="Node.js" transform="translate(31.000000, 211.000000)">
+                <rect id="Rectangle" stroke="#555E6B" stroke-width="1.04999998" x="0.524999991" y="0.524999991" width="31.1499995" height="23.4499996" rx="4.19999993"></rect>
+                <path d="M0.699999988,7.69999987 L31.8499995,7.69999987" id="Path-9" stroke="#555E6B" stroke-width="1.04999998"></path>
+                <circle id="Oval" fill="#555E6B" cx="4.19999993" cy="4.54999992" r="1.04999998"></circle>
+                <circle id="Oval-Copy-5" fill="#555E6B" cx="8.39999986" cy="4.54999992" r="1.04999998"></circle>
+                <circle id="Oval-Copy-6" fill="#555E6B" cx="12.5999998" cy="4.54999992" r="1.04999998"></circle>
+                <rect id="Rectangle" fill="#555E6B" x="2.79999995" y="13.2999998" width="7.69999987" height="1.04999998" rx="0.524999991"></rect>
+                <path d="M13.1249998,13.2999998 L16.0999998,13.2999998 L16.0999998,13.2999998 L16.0999998,14.3499998 L13.1249998,14.3499998 C12.8350503,14.3499998 12.5999998,14.1149493 12.5999998,13.8249998 C12.5999998,13.5350503 12.8350503,13.2999998 13.1249998,13.2999998 Z" id="Rectangle-Copy-3" fill="#555E6B"></path>
+                <rect id="Rectangle-Copy-5" fill="#555E6B" x="2.79999995" y="16.0999997" width="13.2999998" height="1.04999998" rx="0.524999991"></rect>
+                <path d="M15.9249997,23.9749996 L27.9999995,23.9749996 C30.0296459,23.9749996 31.6749995,22.3296461 31.6749995,20.2999997 L31.6749995,11.7249998 L19.5999997,11.7249998 C17.5703532,11.7249998 15.9249997,13.3703533 15.9249997,15.3999997 L15.9249997,23.9749996 Z" id="Rectangle-Copy-6" stroke="#555E6B" stroke-width="1.04999998"></path>
+                <rect id="Rectangle-Copy-25" fill="#555E6B" x="21.3556732" y="17.9858201" width="3.49999994" height="1.04999998" rx="0.524999991"></rect>
+                <path d="M27.3087455,19.1790492 L24.9754122,19.1790492 C24.7176793,19.1790492 24.5087455,18.9701155 24.5087455,18.7123826 L24.5087455,16.3790493" id="Rectangle" stroke="#555E6B" stroke-width="1.04999998" stroke-linecap="round" transform="translate(25.908746, 17.779049) rotate(-167.000000) translate(-25.908746, -17.779049) "></path>
+                <rect id="Rectangle-Copy-24" fill="#555E6B" transform="translate(20.697606, 19.088260) rotate(-27.000000) translate(-20.697606, -19.088260) " x="18.9476061" y="18.56326" width="3.49999994" height="1.04999998" rx="0.524999991"></rect>
+                <rect id="Rectangle-Copy-26" fill="#555E6B" transform="translate(25.535314, 17.919017) rotate(-27.000000) translate(-25.535314, -17.919017) " x="23.7853142" y="17.3940174" width="3.49999994" height="1.04999998" rx="0.524999991"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

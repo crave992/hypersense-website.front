@@ -1,0 +1,96 @@
+<div class="backgroundImageServices backgroundImage servicesPage">
+
+  <app-front-menu></app-front-menu>
+  <!-- Hero Image -->
+  <app-hero-image [childrenHtml]="heroHtml" [hiddenTopClients]='true'></app-hero-image>
+
+  <!--Main content-->
+  <div class="bg-round-mask services flex sectionTopPadding">
+    <div class="container">
+      <div class="section-title row">
+          <div class="col-12">
+            <h2>Solutions for all platforms</h2>
+            <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+          </div>
+      </div>
+    </div>
+
+    <div class="d-block bg-grey technologies">
+      <div class="container">
+        <div class="row items">
+          <div class="item" *ngFor="let item of listTehnologiesBadges">
+            <a [routerLink]="item.url"
+               [state]="item.state"
+            >
+              <p [inlineSVG]="item.src"></p>
+              <h3 class="label-tehnologies">{{item.name}}</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-block bg-white software">
+    <div class="container">
+      <div class="items">
+        <div class="item" *ngFor="let item of softwareForAll;let i=index;" [id]="item.id">
+            <div class="softwareImg">
+              <picture>
+                <source [srcset]="item.mainImageSmallSrcSet"  media="(max-width: 1099px)" type="image/jpg">
+                <source [srcset]="item.mainImageSrcSet"  media="(min-width: 1100px)" type="image/jpg">
+                <img src="{{item.mainImage}}" alt="icon">
+              </picture>
+            </div>
+            <div class="softwareText">
+              <div class="rowInfoText">
+                <h2>{{item.title}}</h2>
+                <p>{{item.content}}</p>
+              </div>
+              <div class="rowInfo">
+                <div class="firstRow">
+                  <div class="itemInfo" *ngFor="let tech of item.techsFirstRow">
+                    <div class="insideInfo">
+                      <p class="icon" [inlineSVG]="tech.icon"></p>
+                      <p class="text" [ngClass]="tech.class">{{tech.text}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="centerSectionText"></div>
+                <div class="secondRow">
+                  <div class="itemInfo" *ngFor="let tech of item.techsSecondRow">
+                    <div class="insideInfo">
+                      <p class="icon" [inlineSVG]="tech.icon"></p>
+                      <p class="text" [ngClass]="tech.class">{{tech.text}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- our partners -->
+  <div class="d-block bg-grey sectionPadding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>We build durable solutions</h2>
+            <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+          </div>
+        </div>
+      </div>
+      <div class="row servicesItems">
+        <div class="col-12 col-lg-4 servicesItem" *ngFor="let item of solutionsForOurPartners">
+          <div class="servicesItemInside">
+            <img alt="" [src]="item.icon" />
+            <p class="title">{{item.title}}</p>
+            <p>{{item.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

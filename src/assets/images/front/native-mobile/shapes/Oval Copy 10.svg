@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="318px" viewBox="0 0 320 318" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Oval Copy 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="93.0547601%" y1="22.673766%" x2="22.2030908%" y2="76.2545861%" id="linearGradient-1">
+            <stop stop-color="#74ABFC" offset="0%"></stop>
+            <stop stop-color="#0067FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-AboutComponent-Us" transform="translate(-213.000000, -5016.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-17" transform="translate(-46.000000, 4735.000000)">
+                <ellipse id="Oval-Copy-10" cx="419" cy="440" rx="160" ry="159"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

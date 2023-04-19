@@ -1,0 +1,366 @@
+<div class="backgroundImageNative backgroundImage native-mobile-software">
+
+  <app-front-menu></app-front-menu>
+  <!-- Hero Image -->
+  <app-hero-image [childrenHtml]="heroHtml"></app-hero-image>
+  <div class="firstSection d-block bg-round-mask homepageText">
+    <div class="container">
+      <div class="d-flex message">
+        <div>
+          <h2>Introducing Native Apps</h2>
+          <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+          <p>Native apps are applications developed for a specific platform, allowing them to take better advantage of platform-unique features. We design native app solutions for any and all platforms.</p>
+        </div>
+      </div>
+      <div class="blue-badge">
+        <div class="m-auto">
+          <picture>
+            <source srcset="
+                   ./assets/images/front/home/top_image.png 1x,
+                   ./assets/images/front/home/top_image@2x.png 2x,
+                   ./assets/images/front/home/top_image@3x.png 3x
+                  "
+                    type="image/png"
+            >
+            <img src="./assets/images/front/home/top_image.png"
+                 class="contactImage1"
+                 alt="icon"
+            >
+          </picture>
+          <p class="title">Experience counts</p>
+          <p>We've been developing native apps since 2008, when Apple's App Store was first launched.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-block bg-grey technologies">
+    <div class="container">
+      <div class="row items">
+        <div class="item" *ngFor="let item of listTehnologiesBadges">
+          <a [routerLink]="item.url"
+             [state]="item.state"
+          >
+            <p [inlineSVG]="item.src"></p>
+            <p class="label-tehnologies">{{item.name}}</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Solutions -->
+  <div class="container-fluid d-block bg-white  position-relative techSection sectionPadding">
+    <div class="container p-0">
+      <div class="section-title row">
+        <div class="col-12">
+          <h2>How native apps help your business</h2>
+          <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+        </div>
+      </div>
+      <div class="row solutions">
+        <div class="col-12 col-md-6" *ngFor="let item of nativeMobile">
+          <div class="mobileApp" [class.pr-0]="item.class" [class]="item.className">
+            <div class="cardNativeMobile" >
+              <div class="text">
+                <h3>{{item.title}}</h3>
+                <p>{{item.subtitle}}</p>
+              </div>
+              <div class="image">
+                <img class="" src="{{item.image}}" srcset="{{item.imageSrcSet}}" alt="" [class.p-0]="item.class" />
+              </div>
+            </div>
+            <div class="backgroundImg"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="d-block bg-grey nodeAws sectionPadding">
+    <div class="container">
+      <div class="section-title">
+        <h2>End-to-end native app development</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+        <div class="section-info">
+          <p>We’ll build your native app from scratch, letting you focus on your business</p>
+        </div>
+      </div>
+      <div class="row nodeAwsTextRow">
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/native-mobile/native1.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>Any size fits us</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>We’ll build native app projects large and small, from MVPs and prototypes to complex, full-scale mobile solutions.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/native-mobile/native2.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>Elegant, seamless design</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>Our in-house designers craft a custom interface for every app, focusing on creating meaningful experiences that delight users. We make sure every detail is perfect, from animations to transitions.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/native-mobile/native3.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>The latest tech</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>We use cutting-edge programming languages like SWIFT and Kotlin for native app development. Staying current ensures your app will have superior performance, security, and reliability.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 nodeAwsTextItem">
+          <div class="nodeAwsImage">
+            <span [inlineSVG]="'./assets/images/front/native-mobile/native4.svg'"></span>
+          </div>
+          <div class="nodeAwsTitle">
+            <h3>Cross-domain collaboration</h3>
+          </div>
+          <div class="nodeAwsDescription">
+            <p>All our developers and designers work under the same roof, allowing each to benefit from our collective knowledge and skill sets. The end result is a better app for your business.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-block bg-white">
+    <div class="container sectionPadding buildingWith">
+      <div class="section-title">
+        <h2>Powerful backends</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="sectionInfo">
+        <p>Great native mobile apps require high-performing and secure backends. We develop ours with the latest enterprise-ready Node.js frameworks, like the IBM-backed Loopback.</p>
+      </div>
+      <div class="sectionImages">
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/loopback-sm.png 1x,
+                   ./assets/images/front/building-w/loopback-sm@2x.png 2x,
+                   ./assets/images/front/building-w/loopback-sm@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/loopback-sm.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/node.png 1x,
+                   ./assets/images/front/building-w/node@2x.png 2x,
+                   ./assets/images/front/building-w/node@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/node.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/amp-logo.png 1x,
+                   ./assets/images/front/building-w/amp-logo@2x.png 2x,
+                   ./assets/images/front/building-w/amp-logo@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/amp-logo.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/nginx_logo.png 1x,
+                   ./assets/images/front/building-w/nginx_logo@2x.png 2x,
+                   ./assets/images/front/building-w/nginx_logo@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/nginx_logo.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/aws.png 1x,
+                   ./assets/images/front/building-w/aws@2x.png 2x,
+                   ./assets/images/front/building-w/aws@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/aws.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/mysql.png 1x,
+                   ./assets/images/front/building-w/mysql@2x.png 2x,
+                   ./assets/images/front/building-w/mysql@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/mysql.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/elastic-elasticsearch-logo-png-transparent.png 1x,
+                   ./assets/images/front/building-w/elastic-elasticsearch-logo-png-transparent@2x.png 2x,
+                   ./assets/images/front/building-w/elastic-elasticsearch-logo-png-transparent@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/elastic-elasticsearch-logo-png-transparent.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/mongo-logo.png 1x,
+                   ./assets/images/front/building-w/mongo-logo@2x.png 2x,
+                   ./assets/images/front/building-w/mongo-logo@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/mongo-logo.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/express.png 1x,
+                   ./assets/images/front/building-w/express@2x.png 2x,
+                   ./assets/images/front/building-w/express@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/express.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+        <picture>
+          <source srcset="
+                   ./assets/images/front/building-w/angular.png 1x,
+                   ./assets/images/front/building-w/angular@2x.png 2x,
+                   ./assets/images/front/building-w/angular@3x.png 3x
+                  "
+                  type="image/png"
+          >
+          <img src="./assets/images/front/building-w/angular.png"
+               class="item"
+               alt="icon"
+          >
+        </picture>
+      </div>
+    </div>
+  </div>
+
+  <!-- TEHNOLOGIES-->
+  <div class="d-block bg-grey technologiesNative sectionPadding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Tools we develop with</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="row d-flex">
+        <div class="col-md-6">
+          <img src="assets/images/front/softwareForAll/Tech1.png"
+               srcset="
+                        assets/images/front/softwareForAll/Tech1.png,
+                        assets/images/front/softwareForAll/Tech1@2x.png,
+                        assets/images/front/softwareForAll/Tech1@3x.png"
+               alt=""
+          >
+        </div>
+        <div class="col-md-6">
+          <img src="assets/images/front/softwareForAll/Tech2.png"
+               srcset="
+                        assets/images/front/softwareForAll/Tech2.png,
+                        assets/images/front/softwareForAll/Tech2@2x.png,
+                        assets/images/front/softwareForAll/Tech2@3x.png"
+               alt=""
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Solutions -->
+  <app-build-solutions
+          [bgClass]="'bg-white'"
+          [title]="'Our latest native apps'"
+          [projects]="listSolutions"
+  >
+  </app-build-solutions>
+
+  <div class="d-block bg-grey nodeItemsInfo sectionPadding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Native apps work for your business</h2>
+        <img [src]="'./assets/images/line.svg'"  alt="line" class="line"/>
+      </div>
+      <div class="nodeBuildText items4">
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">TRAVEL</div>
+            <div class="item">FITNESS</div>
+            <div class="item">E-COMMERCE</div>
+            <div class="item">SOCIAL NETWORKS</div>
+          </div>
+        </div>
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">HEALTHCARE</div>
+            <div class="item">VIDEO</div>
+            <div class="item">VOIP</div>
+            <div class="item">TRANSPORTATION</div>
+          </div>
+        </div>
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">EDUCATION</div>
+            <div class="item">IMAGE PROCESSING</div>
+            <div class="item">ENTERPRISE</div>
+            <div class="item">TAXI</div>
+          </div>
+        </div>
+        <div class="colItems">
+          <div class="insideItem">
+            <div class="item">SECURITY</div>
+            <div class="item">GAMES</div>
+            <div class="item">DATING</div>
+            <div class="item">AUGMENTED REALITY</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-contact-form></app-contact-form>
+
+</div>

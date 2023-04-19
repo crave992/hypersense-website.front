@@ -1,0 +1,42 @@
+.dynamic-field{
+    margin-bottom:10px;
+    width:100%;
+    float:left;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    padding: 10px 15px;
+    color: rgba(0, 0, 0, 0.7);
+    text-indent: .01px;
+    text-overflow: '';
+    overflow: hidden;
+    border-radius: 0;
+    background: #fff;
+}
+  select:focus {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+label{
+    font-size:14px;
+    font-weight:bold;
+    margin-top: 5px;
+    width:100%;
+    float:left;
+}
+:host::ng-deep mat-select{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+:host::ng-deep .mat-select-value{
+    padding: 1rem;
+}
+:host::ng-deep .mat-form-field-appearance-legacy .mat-form-field-infix{
+    padding:0;
+}

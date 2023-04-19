@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>about3</title>
+    <defs>
+        <linearGradient x1="16.53625%" y1="0%" x2="52.7980511%" y2="87.1446747%" id="linearGradient-1-about4">
+            <stop stop-color="#9BC8FE" offset="0%"></stop>
+            <stop stop-color="#74ABFC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="All-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-About-Us" transform="translate(-433.000000, -5151.000000)">
+            <g id="Group-30-Copy" transform="translate(214.000000, 5152.000000)">
+                <g id="Group-7" transform="translate(69.000000, 0.000000)">
+                    <g id="about3" transform="translate(151.000000, 0.000000)">
+                        <circle id="Oval" stroke="#4A4A4A" stroke-width="2" cx="30.5" cy="30.5" r="30.5"></circle>
+                        <path d="M44.25,44.25 C51.8439153,36.6560847 51.8439153,24.3439153 44.25,16.75 C36.6560847,9.15608469 24.3439153,9.15608469 16.75,16.75 C9.15608469,24.3439153 9.15608469,36.6560847 16.75,44.25 C24.3439153,51.8439153 36.6560847,51.8439153 44.25,44.25 Z" id="Oval" stroke="#4A4A4A" stroke-width="2"></path>
+                        <path d="M41.75,41.75 C47.9632034,35.5367966 47.9632034,25.4632034 41.75,19.25 C35.5367966,13.0367966 25.4632034,13.0367966 19.25,19.25 C13.0367966,25.4632034 13.0367966,35.5367966 19.25,41.75 C25.4632034,47.9632034 35.5367966,47.9632034 41.75,41.75 Z" id="Combined-Shape" fill="url(#linearGradient-1-about4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

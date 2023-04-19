@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="81px" viewBox="0 0 90 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Recover</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HS_Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[desktop]-Node.js-Development-Services" transform="translate(-227.000000, -9711.000000)">
+            <g id="Recover" transform="translate(227.000000, 9712.000000)">
+                <rect id="Rectangle" fill="#C9C9C9" x="20" y="62" width="9" height="9" rx="4.5"></rect>
+                <rect id="Rectangle" fill="#C9C9C9" x="33" y="54" width="9" height="17" rx="4.5"></rect>
+                <rect id="Rectangle" fill="#C9C9C9" x="46" y="58" width="9" height="13" rx="4.5"></rect>
+                <rect id="Rectangle" fill="#C9C9C9" x="59" y="51" width="9" height="20" rx="4.5"></rect>
+                <rect id="Rectangle" fill="#C9C9C9" x="72" y="47" width="9" height="24" rx="4.5"></rect>
+                <rect id="Rectangle" stroke="#4A4A4A" stroke-width="2.5" x="21.25" y="56.25" width="6.5" height="13.5" rx="3.25"></rect>
+                <rect id="Rectangle" stroke="#4A4A4A" stroke-width="2.5" x="34.25" y="43.25" width="6.5" height="26.5" rx="3.25"></rect>
+                <rect id="Rectangle" stroke="#4A4A4A" stroke-width="2.5" x="47.25" y="49.25" width="6.5" height="20.5" rx="3.25"></rect>
+                <rect id="Rectangle" stroke="#4A4A4A" stroke-width="2.5" x="60.25" y="38.25" width="6.5" height="31.5" rx="3.25"></rect>
+                <rect id="Rectangle" stroke="#4A4A4A" stroke-width="2.5" x="73.25" y="31.25" width="6.5" height="38.5" rx="3.25"></rect>
+                <g id="Group-79-Copy" stroke="#4A4A4A" stroke-width="2.5">
+                    <path d="M29.8354165,0.865333011 C29.8354165,4.00703942 29.8354165,9.29251973 29.8354165,16.7217739 C29.8354185,22.7969073 24.9105499,27.721776 18.8354165,27.721776 C18.7947782,27.721776 18.7541401,27.7215508 18.7135043,27.7211004 C14.2117804,27.671205 10.7134698,27.6462574 8.21857235,27.6462574" id="Rectangle" stroke-linecap="round" transform="translate(19.026994, 14.365333) rotate(-180.000000) translate(-19.026994, -14.365333) "></path>
+                    <path d="M13.3918843,26.1606309 L5.09899111,26.8677376 C3.99442161,26.8677376 3.09899111,25.9723071 3.09899111,24.8677376 L3.80609789,16.5748444" id="Rectangle" stroke-linecap="round" transform="translate(8.245438, 21.721291) rotate(-45.000000) translate(-8.245438, -21.721291) "></path>
+                    <path d="M23.4847601,6.43952602 C23.4847601,9.58123243 23.4847601,14.8667127 23.4847601,22.2959669 C23.4847621,28.3711003 18.5598935,33.295969 12.4847601,33.295969 C12.4441217,33.295969 12.4034837,33.2957438 12.3628479,33.2952934 C7.86112399,33.245398 4.36281336,33.2204504 1.86791595,33.2204504" id="Rectangle" stroke-linecap="round" transform="translate(12.676338, 19.939526) rotate(-360.000000) translate(-12.676338, -19.939526) "></path>
+                    <path d="M28.6043413,17.0229078 L20.3114481,17.7300146 C19.2068786,17.7300146 18.3114481,16.8345841 18.3114481,15.7300146 L19.0185549,7.43712139" id="Rectangle" stroke-linecap="round" transform="translate(23.457895, 12.583568) rotate(-225.000000) translate(-23.457895, -12.583568) "></path>
+                    <g id="Group-77-Copy-2" transform="translate(12.000000, 22.000000)">
+                        <g id="Group-39" transform="translate(0.048593, 0.197818)">
+                            <path d="M74.5,-3.63087338e-12 C75.3284271,-3.63087338e-12 76,0.671572875 76,1.5 L76,54.5 C76,55.3284271 75.3284271,56 74.5,56 L1.5,56 C0.671572875,56 1.93301573e-16,55.3284271 9.18485099e-17,54.5 L-0.00107373153,17.0318357 C1.16072601,17.042471 2.38499265,17.0545718 3.67172617,17.0681381 L3.67172617,17.0681381 L3.81932294,17.0689161 C11.5513102,17.0689161 17.8193242,10.800902 17.8193229,3.06891482 C17.8193229,1.65063215 17.8193229,0.297806948 17.8193229,-0.989560792 L74.5,-3.63087338e-12 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
